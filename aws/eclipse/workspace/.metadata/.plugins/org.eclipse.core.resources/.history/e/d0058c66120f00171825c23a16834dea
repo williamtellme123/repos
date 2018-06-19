@@ -1,0 +1,61 @@
+//package example;
+
+import java.io.BufferedInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.nio.charset.Charset;
+
+import com.amazonaws.services.lambda.runtime.Context;
+import com.amazonaws.services.lambda.runtime.RequestHandler;
+
+import org.apache.http.HttpException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpPost;
+import static org.toilelibre.libe.curl.Curl.curl;
+import static org.toilelibre.libe.curl.Curl.$;
+
+public class Hello implements RequestHandler<String, String> {
+		public String handleRequest(String input, Context context) {
+	
+		
+		HttpPost mypost = new HttpPost("https://hooks.slack.com/services/T4FKBC1N3/B4LPEMV0B/qkmXuVZXfyFEcXWWW1AaDA9");
+		mypost.setHeader("Content-type", "application/json");
+		
+		
+		String ApiUrl = "https://hooks.slack.com/services/T4FKBC1N3/B4LPEMV0B/qkmXuVZXfyFEcXWWW1AaDA9"; 
+	    HttpClient httpclient = HttpClientBuilder.create().build();
+	    try {
+	        HttpPost httpPost = new HttpPost(ApiUrl);
+	        httpPost.addHeader("Authorization", "Bearer " + AccessToken);
+	        httpPost.setEntity(new StringEntity(jobj.toJSONString()));
+	        //sets a request header so the page receving the request
+	        //will know what to do with it
+	        httpPost.setHeader("Content-type", "application/json");
+	        HttpResponse response = httpclient.execute(httpPost);
+	        System.out.println("\nSending 'GET' request to URL : " + ApiUrl);
+	        HttpEntity entity = response.getEntity();
+	        BufferedReader rd = new BufferedReader(
+	                new InputStreamReader(entity.getContent()));
+	        String line;
+	        while ((line = rd.readLine()) != null) {
+	            System.out.println("line" + line);
+		
+		
+//    	try {"curl -X POST -H \'Content-type: application/json\' --data \'{\"text\":\"Big Sloppy Joe for dinner!\"}\' " + _host, _maxResLength);
+		
+//		curl -X POST -H 'Content-type: application/json' --data '{"text":"Big, Sloppy Joe for dinner!"}' 
+//			System.out.println(invokeCurlPost("https://hooks.slack.com/services/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", 3, 10, 0, Charset.defaultCharset()));
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}	
+	
+    	String output = "Hello, " + input + "!";
+    	return output;
+	
+	
+	}
+
+ }
+
+

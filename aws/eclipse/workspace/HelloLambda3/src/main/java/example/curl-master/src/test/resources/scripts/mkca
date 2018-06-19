@@ -1,0 +1,6 @@
+#!/bin/sh
+. ./vars
+
+mkdir -p ../ca/
+openssl genrsa -des3 -passout pass:$ca_pass -out ../ca/fakeCa.key 1024
+openssl req -new -x509 -passin pass:$ca_pass -key ../ca/fakeCa.key -out ../ca/fakeCa.crt -subj "$subject" -days 36000

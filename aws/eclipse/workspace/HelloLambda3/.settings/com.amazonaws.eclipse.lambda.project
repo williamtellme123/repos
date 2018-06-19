@@ -1,0 +1,7 @@
+#Lambda Function Project Metadata
+#Wed Mar 22 09:10:42 CDT 2017
+lastInvokeShowLiveLog=false
+lastDeploymentFunctionName=HelloLambda3
+lastDeploymentBucketName=billysbucket
+lastDeploymentEndpoint=https\://lambda.us-west-2.amazonaws.com/
+lastInvokeInput="Tuffy Boulanger"

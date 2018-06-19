@@ -1,0 +1,7 @@
+#Lambda Function Project Metadata
+#Wed Mar 22 07:52:23 CDT 2017
+lastInvokeShowLiveLog=false
+lastDeploymentFunctionName=myLambdaTest2Bonzo
+lastDeploymentBucketName=billysbucket
+lastDeploymentEndpoint=https\://lambda.us-west-2.amazonaws.com/
+lastInvokeInput={"input"\: "Yo mon"}

@@ -1,0 +1,11 @@
+.classpath
+.project
+.settings/
+target/
+bin/
+.idea
+*.iml
+*.versionsBackup
+*.releaseBackup
+release.properties
+
