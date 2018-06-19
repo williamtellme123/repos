@@ -1,0 +1,14 @@
+2015-09-19T14:18:29,INFO,EventManagerStartedEvent,
+2015-09-19T14:18:29,INFO,LicenseActivatedEvent,expirationDate=unset|expirationType=floating-eval|serialNumber=G04E0-MFK43-M8E1H-0ZARK-AV25A|allowedVersions=vf.gf.dmn-6+vf.gf.dmn-7|available=60
+2015-09-19T14:18:29,INFO,LicenseActivatedEvent,expirationDate=unset|expirationType=floating-eval|serialNumber=G04E0-MFK43-M8E1H-0ZARK-AV25A|allowedVersions=vf.gf.dmn-6+vf.gf.dmn-7|available=60
+2015-09-19T14:18:29,INFO,UpdatedLicenseStateEvent,enforcement=soft|licenseType=local|expirationDate=permanent|used=0|available=60|addons=vf.gf.evaluation
+2015-09-19T14:18:30,INFO,ComponentStateChangeEvent,instanceIdType=self|instanceId=self|timestamp=2015-09-19T14:18:29|state=on
+2015-09-19T14:18:30,INFO,UpdatedLicenseStateEvent,enforcement=soft|licenseType=local|expirationDate=2015-11-18T14:18:30|used=8|available=60|addons=vf.gf.evaluation
+2015-09-19T14:18:36,INFO,ComponentStateChangeEvent,instanceIdType=self|instanceId=self|timestamp=2015-09-19T14:18:36|state=off
+2015-09-19T14:20:10,INFO,EventManagerStartedEvent,
+2015-09-19T14:20:10,INFO,LicenseActivatedEvent,expirationDate=unset|expirationType=floating-eval|serialNumber=G04E0-MFK43-M8E1H-0ZARK-AV25A|allowedVersions=vf.gf.dmn-7+vf.gf.dmn-6|available=60
+2015-09-19T14:20:10,INFO,LicenseActivatedEvent,expirationDate=unset|expirationType=floating-eval|serialNumber=G04E0-MFK43-M8E1H-0ZARK-AV25A|allowedVersions=vf.gf.dmn-6+vf.gf.dmn-7|available=60
+2015-09-19T14:20:10,INFO,UpdatedLicenseStateEvent,enforcement=soft|licenseType=local|expirationDate=permanent|used=0|available=60|addons=vf.gf.evaluation
+2015-09-19T14:20:11,INFO,ComponentStateChangeEvent,instanceIdType=self|instanceId=self|timestamp=2015-09-19T14:20:10|state=on
+2015-09-19T14:20:11,INFO,UpdatedLicenseStateEvent,enforcement=soft|licenseType=local|expirationDate=2015-11-18T14:20:11|used=8|available=60|addons=vf.gf.evaluation
+2015-09-19T14:20:16,INFO,ComponentStateChangeEvent,instanceIdType=self|instanceId=self|timestamp=2015-09-19T14:20:16|state=off
