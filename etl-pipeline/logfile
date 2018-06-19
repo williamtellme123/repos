@@ -1,0 +1,165 @@
+LOG:  database system was shut down at 2016-04-11 18:42:27 CDT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  schema "etl_stage" already exists
+STATEMENT:  create schema etl_stage
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  show search_path
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select * from information_schema.tables
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  create schema etl_stage
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  create schema etl_stage
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select * from information_schema.tables
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select * from information_schema.tables
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select * from information_schema.tables
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select * from information_schema.tables
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  syntax error at or near "interactive" at character 23
+STATEMENT:  set ON_ERROR_ROLLBACK interactive
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  show search_path
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select * from information_schema.tables
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  create schema etl_stage
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set ON_ERROR_ROLLBACK=interactive
+ERROR:  syntax error at or near "interactive" at character 23
+STATEMENT:  set ON_ERROR_ROLLBACK interactive;
+ERROR:  unrecognized configuration parameter "on_error_rollback"
+STATEMENT:  set ON_ERROR_ROLLBACK=interactive;
+ERROR:  column "etl_stage" does not exist at character 62
+STATEMENT:  select * from information_schema.tables where table_schema = etl_stage;
+ERROR:  table "people" does not exist
+STATEMENT:  drop table people
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  create table people
+	    (
+	        tid integer primary key,
+	        name character varying(40),
+	        date_in date
+	    )
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  set search_path to 'etl_stage'
+ERROR:  current transaction is aborted, commands ignored until end of transaction block
+STATEMENT:  select 1
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down

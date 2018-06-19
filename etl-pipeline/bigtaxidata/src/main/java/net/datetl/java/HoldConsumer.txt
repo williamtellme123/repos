@@ -1,0 +1,99 @@
+package net.datetl.java;
+
+/**
+ Thanks to Alexis Seigneurin www.ipponusa.com
+ https://github.com/apache/spark/blob/master/docs/streaming-programming-guide.md
+ SimpleJavaStringProducer
+     1. Create/Set props object
+             i.      bootstrap.servers, localhost:9092
+                        key             value
+             ii.     key.deserializer, org.apache.kafka.common.serialization.StringDeserializer
+             key             value
+             ii.     value.deserializer, org.apache.kafka.common.serialization.StringDeserializer
+                            key             value
+     2. Create consumer object with props object
+                 KafkaConsumer<String, String> myCons =
+                 new KafkaConsumer<>(props)
+
+     3. Read all messages
+                  while(true)
+                    ConsumerRecords<String, String> newRecords = myCons.poll(100)
+                    for(ConsumerRecord<String, String> thisRecord : newRecords)
+
+                    System.out.println(this.record.value();
+                 myCons.close();
+
+
+         KafkaConsumer.poll(100)
+        (100 is a timeout in ms).
+        Returns  ConsumerRecords object:
+            List of ConsumerRecord objects.
+            Each ConsumerRecord message key/value deserialized
+
+
+        KafkaConsumer by default manages offsets
+        To manage offset in code set enable.auto.commit= false and use seek method when initializing the KafkaConsumer
+
+        Here the consumer queries Kafka for highest offset/each partition (waits for new messages)
+
+        If producer started before consumer, messages would have been silently ignored
+
+        Producer can decide which partition to write to with param ProducerRecord constructor
+            Valid partition number then that partition used to send record
+            If no partition but key is present then partition chosen using a hash of key
+            If neither key nor partition is present a partition will be assigned in a round-robin fashion
+
+        All consumers subscribed to mytopic and in same group receive subset of messages
+        If create 2 threads, each with a KafkaConsumer, each consumer would most likely receive the messages of one partition.
+ */
+
+import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.apache.kafka.clients.consumer.ConsumerRecords;
+import org.apache.kafka.clients.consumer.KafkaConsumer;
+
+import java.util.Arrays;
+import java.util.Properties;
+
+
+public class SimpleJavaStringConsumer {
+
+    public static void main(String[] args) {
+
+        System.out.println("----------------------------------------------------------------------------");
+        System.out.println("---------------------------------------1. Start Simple Consumer");
+        Properties props = new Properties();
+
+        System.out.println("----------------------------------------------------------------------------");
+        System.out.println("---------------------------------------2. Configure Properties");
+        System.out.println("---------------------------------------    a. bootstrap.servers is host:port Kafka server");
+        System.out.println("---------------------------------------    b. deserializers");
+        System.out.println("---------------------------------------    c. Each consumer belongs to group" + "\n" +
+                    "                                                      Each group member rec's subset of messages." + "\n" +
+                    "                                                      sharing the load.");
+        props.put("bootstrap.servers", "localhost:9092");
+        props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
+        props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
+        props.put("group.id", "mygroup");
+
+        System.out.println("---------------------------------------3. Create Consumer");
+        KafkaConsumer<String, String> consumer = new KafkaConsumer<>(props);
+
+        System.out.println("---------------------------------------4. Subscribe to topic");
+        //     consumer.subscribe(Arrays.asList("mytopic"));
+        consumer.subscribe("mytopic");
+
+        System.out.println("---------------------------------------5. Consumer Polls" + "\n" +
+                "                                                      Poll queries topic, with Timeout in ms" + "\n" +
+                "                                                      Returns list of ConsumerRecords (each with key/value which has been deserialized using prop above");
+
+        boolean running = true;
+        while (running) {
+            ConsumerRecords<String, String> records = consumer.poll(100);
+            for (ConsumerRecord<String, String> record : records) {
+                System.out.println(record.value());
+            }
+        }
+
+        consumer.close();
+    }
+}

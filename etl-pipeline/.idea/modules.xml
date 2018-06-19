@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bigtaxidata/bigtaxidata.iml" filepath="$PROJECT_DIR$/bigtaxidata/bigtaxidata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/etl-parent.iml" filepath="$PROJECT_DIR$/etl-parent.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+
+
+https://support.instaclustr.com/hc/en-us/articles/213663858-Spark-Streaming-Kafka-and-Cassandra-Tutorial
+Spark Streaming, Kafka and Cassandra Tutorial
+
+Packages in Scala
+https://gist.github.com/parambirs/a224ce3a3c2dd5fb85d0
