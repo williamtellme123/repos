@@ -1,0 +1,79 @@
+a. A group of observations forms a _data set_.
+v. Now that we know what data to collect, how can we identify our law?
+    a. Data as a data frame
+    b. Natural laws appear as patterns in data. You can discover the patterns by
+        i. Inspecting raw data
+        ii. Visualizing the data
+            a. `library(mosaic)`
+            b. `xyplot()`
+        iii. Running a function estimation algorithm on the data
+            a. `lm()`
+            b. `est <- goal(formula, data)` - Project Mosaic
+            c. `fun <- makeFun(est)`
+            d. `plotFun(fun, add = TRUE)`
+vi. Our data suggests the pattern $V = 9.8 \cdot T$.
+    Investigation ot really over. You can induce a pattern from data,
+    but you cannot use the data to prove that the pattern is true. To see why not, consider what could go wrong.
+    a. The pattern could be due to random chance
+    b. The pattern could be due to confounding
+    c. The pattern could have an unexpected form at unobserved points
+    d. Induction might fail
+        i. This last problem might seem the most trivial, but it gives the scientific method it's familiar shape.
+            It is known as _the problem of induction_. Scientists avoid it by never relying on
+            induction for proof (In theory, scientists do not prove anything.
+            They leave that to the mathmeticians).
+vii. Now that our data has lead us to a hypothesis, we can test it with "the scientific method."
+    a. Formulate the hypothesis: $V = 9.8 \cdot T$
+    b. Deduce a testable prediction that must be true if the hypothesis is true: $V = 98$ _when_ $T = 10$.
+    c. Collect data that would test the hypothesis.
+    d. Reject the hypothesis if the data refutes the prediction
+    e. Consider the hypothesis "not yet disproven" if the data corroborates the prediction
+    f. Whenever necessary, rely on a well tested, not yet disproven hypothesis to make decisions
+    g. Remain skeptical about all hypotheses
+        i. Note scientists do not believe that any hypothesis or any formulation of a law is absolutely correct.
+        ii. A law is a useful approximation of how the world works. The approximation is accurate enough to be correct, but could possibly be improved upon.
+        iii. science progresses by replacing hypotheses with more accurate hypotheses. Consider the history of physics:
+            a. Aristotellian
+            b. Newtonian Mechanics
+            c. Einsteinian Relativity
+            d. Quantum Weirdness
+            e. String theory?
+vii. In our case, any data we collect will verify our hypothesis.
+     Our law was discovered by Galileo 500 years ago, and every experiment
+     since then has found that it is approximately true.
+
+Vocabulary
+Science uses many terms that we use in everyday speech; however, these terms have a
+specific meaning in the field of science.
+Natural law - a rule that describes a part of the natural world,
+like E = Mc*2 or *F* = *MA. Natural laws help scientists understand, control, and
+make predictions about natural processes.
+You can write down a natural law as a function between variables.
+Natural laws deal with variables, but they operate on values that appear in the same observation.
+Variable - a quantity, quality, or property that can be measured
+Value - the apparent state of a variable when you measure it. The value of a variable
+may change from measurement to measurement.
+Unit of Analysis - the “unit” of a natural law. The unit explains when the natural
+law holds and when the natural law does not.
+For example, F = M**A implies that the force (F) that you impart on an object at a
+pecific moment of time will be related to the mass (M) and the acceleration (A) of the
+same object at the same moment of time. Hence, the unit of analysis of the law is a single
+object at a single moment of time.
+Observation - a set of values that are measured on multiple variables under similar conditions.
+You can think of an observation as a snapshot of the world. An observation shows what a
+group of variables looked like together on a specific occasion.
+Observational Unit - the “unit” of an observation. The unit of an observation explains
+how the values in the observation are similar. For example, if the values f1, m1, and a1
+were all measured on Object 1, then the values would form an observation whose unit is a single object.
+If f1, m1, and a1 were all measured on Object 1 at the same time, then the values would
+form an observation whose unit is a single object at a single moment of time. The unit of an observation should express all of the ways the observations are similar.
+Observations provide evidence about natural laws when they share the same unit as the law.
+If a law exists between variables, it will exist between the values of those variables
+whenever the values appear in an observation with the correct units.
+Data - a collection of observations, which you can also think of as a collection of values,
+each associated with a variable and an observation.
+This definition of data requires a data set to contain both values and relationships. As a
+result, many types of unstructured data (e.g. a pile of emails to text mine) will not
+meet the definition of data. This is on purpose. You cannot use the techniques covered
+in this book on unstructured data until the data has been reorganized around values and the
+relationships between those values.

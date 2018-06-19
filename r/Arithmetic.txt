@@ -1,0 +1,392 @@
+-- =============================================================================
+-- ARITHMETIC IN R
+-- =============================================================================
+-- http://ww2.coastal.edu/kingw/statistics/R-tutorials/objects.html
+-- -----------------------------------------------------------------------------
+      1. SEQUENCES
+      2. ARITHMETIC
+      3. DTAES
+      4. MAPPING (Vectorized arithmetic)
+      5. SORT, RANKING, ORDERING VECTORS
+      6. BOOLEAN
+
+-- -----------------------------------------------------------------------------
+--    1. SEQUENCES
+-- -----------------------------------------------------------------------------
+      > 1:10
+       [1]  1  2  3  4  5  6  7  8  9 10
+
+      > 10:1
+       [1] 10  9  8  7  6  5  4  3  2  1
+
+      > seq(2,23,5)
+      [1]  2  7 12 17 22
+
+      > seq(from=100,to=85, by=-3 )
+      [1] 100  97  94  91  88  85
+
+      > seq(to=10, by=2, from=1) -> my.seq
+
+      > my.seq / 3
+      [1] 0.3333333 1.0000000 1.6666667 2.3333333 3.0000000
+
+      > class(my.seq)
+      [1] "numeric"
+
+      > is.vector(my.seq)
+      [1] TRUE
+
+      > my.seq
+      [1] 1 3 5 7 9
+
+      > my.seq / 3 -> my.seq
+
+      > my.seq
+      [1] 0.3333333 1.0000000 1.6666667 2.3333333 3.0000000
+
+      -- -----------------------------------------------------------------------
+      -- 1a. REPEAT
+      > rep(x=1, times=10)
+      [1] 1 1 1 1 1 1 1 1 1 1
+      > rep(1,10)
+      [1] 1 1 1 1 1 1 1 1 1 1
+
+      > my.seq = 1:5
+
+      > rep(my.seq, times=3)
+      [1] 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5
+
+      > rep(my.seq, times=c(3,2,4,0,1))    # 2nd vector gives frequency of first vector
+      [1] 1 1 1 2 2 3 3 3 3 5
+
+      -- vector heights 5 men 5 women
+      > height = c(70, 72, 67, 66, 75, 64, 66, 68, 63, 65)
+
+      > gender = rep(c("male","female"),c(5,5))
+      > gender
+       [1] "male"   "male"   "male"   "male"   "male"   "female" "female" "female"
+       [9] "female" "female"
+
+      -- -----------------------------------------------------------------------
+      -- 1b. MATH FUNCTIONS
+      > by(FUN=mean, IND=gender, data=height)
+      gender: female
+      [1] 65.2
+      ------------------------------------------------------------
+      gender: male
+      [1] 70
+
+
+      -- -----------------------------------------------------------------------
+      -- 1c. STATISTIC FUNCTIONS
+      > t.test(height ~ gender)
+              Welch Two Sample t-test
+      data:  height by gender
+      t = -2.588, df = 6.039, p-value = 0.04108
+      95 percent confidence interval:
+       -9.3311782 -0.2688218
+      sample estimates:
+      mean in group female   mean in group male
+                      65.2                 70.0
+
+      -- -----------------------------------------------------------------------
+      -- 1d. FREQ DISTRIBUTION
+      > myX = 12:4
+      > myFreq = c(3,2,0,3,3,5,3,0,1)
+      > rep(X, freq) -> all.in.one
+      > all.in.one
+       [1] 12 12 12 11 11  9  9  9  8  8  8  7  7  7  7  7  6  6  6  4
+      > mean(all.in.one)
+      [1] 8.3
+
+      > sum(X * freq) / sum(freq)
+      [1] 8.3
+
+      > myX = 5:3
+      > myX
+      [1] 5 4 3
+
+      > myFreq = c(3,4,3)
+      > myFreq
+      [1] 3 4 3
+
+      > myX * myFreq
+      [1] 15 16  9
+
+      > sum(myX)
+      [1] 12
+
+      > sum(myFreq)
+      [1] 10
+
+      > sum(myFreq * myFreq)
+      [1] 34
+
+      > sum(myX * myFreq)
+      [1] 40
+
+      > sum(myX * myFreq) / sum(myFreq)
+      [1] 4
+
+-- -----------------------------------------------------------------------------
+--    2. ARITHMETIC
+-- -----------------------------------------------------------------------------
+      > 18+12
+      [1] 30
+
+      > 18 / 12
+      [1] 1.5
+
+      > 18 %% 12
+      [1] 6
+
+      > 18 %/% 12
+      [1] 1
+
+      > 2^3
+      [1] 8
+
+      > 18 / 0
+      [1] Inf
+
+      > 0/0
+      [1] NaN
+
+
+      log(10)
+      [1] 2.302585
+
+      > exp(2.302585)
+      [1] 10
+
+
+
+      > log10(100)
+      [1] 2
+
+      > sqrt(88)
+      [1] 9.380832
+
+      > factorial(3)
+      [1] 6
+
+      > factorial(8)
+      [1] 40320
+
+      -- -----------------------------------------------------------------------
+      -- CHOOSE
+      > choose(n , k)
+      -- For all real numbers n and integers k
+      -- function computes the combination nCk =       n!
+                                                  -------------
+                                                  (k! * (n-k)!)
+
+      -- Where k ≥ 1              --   see above
+      -- Where k = 0              --   1
+      -- Where k < 0              --  -1
+
+      > choose(12,8)
+      [1] 495
+      -- a. Combinations. Out of n choices, how many different ways can you choose exactly k of them
+      --    for 15 vegetable choices any three on one sandwich how many combos
+      > choose (15 , 3)
+      [1] 455
+
+      -- b. can also be used for combinations of binary coefficients
+
+      -- b. another example
+      -- how many keys needed on keypad for 5 number code >= 1 000 000 of burglary
+
+      -- -----------------------------------------------------------------------
+      -- OTHER
+
+      > log(10)                              # natural log (base e)
+      [1] 2.302585
+
+      > exp(2.302585)                        # antilog, e raised to a power
+      [1] 10
+
+      > log10(100)                           # base 10 logs; log(100, base=10) is the same
+      [1] 2
+
+      > sqrt(88)                             # square root
+      [1] 9.380832
+
+      > factorial(8)                         # factorial
+      [1] 40320
+
+      > choose(12,8)                         # combinations (binomial coefficients)
+      [1] 495
+
+      > round(log(10), digits=3)
+      > round(log(10), 3)
+      [1] 2.303
+
+      > signif(log(10), digits=3)
+      [1] 2.3
+
+      > runif(5)                             # 5 random uniform numbers btw 0-1
+      [1] 0.3088106 0.6893187 0.5312068 0.2848143 0.4390779
+
+      > rnorm(5)
+      [1]  0.39655158 -0.90683680  0.70820865 -0.06417678  0.25064385
+
+      > abs(18 / -12)
+      [1] 1.5
+
+-- -----------------------------------------------------------------------------
+--    3. DATES
+-- -----------------------------------------------------------------------------
+      > date()
+      [1] "Wed Jul 28 12:48:18 2010"
+      > difftime("2008-07-05","1992-08-15")
+      Time difference of 5803 days
+
+-- -----------------------------------------------------------------------------
+--    4. MAPPING (Vectorized arithmetic)
+-- -----------------------------------------------------------------------------
+      > height.inches = c(68,65,70,71,69)
+      > height.cm = height.inches * 2.54
+      > height.cm
+      [1] 172.72 165.10 177.80 180.34 175.26
+
+      > log(height.inches)
+      [1] 4.219508 4.174387 4.248495 4.262680 4.234107
+
+      When V1 operates on V2 vector
+      V1e1 works on V2e1
+      V1e2 works on V2e2  .....
+      > correction = c(1,0,0,-1,-2)
+      > height.inches + correction
+      [1] 69 65 70 70 67
+
+      > max(height.inches)                   # maximum value
+      [1] 71
+
+      > min(height.inches)                   # minimum value
+      [1] 65
+      > sum(height.inches)                   # sum
+      [1] 343
+
+      > mean(height.inches)                  # arithmetic mean
+      [1] 68.6
+
+      > median(height.inches)                # median
+      [1] 69
+
+      > range(height.inches)                 # range (actually min and max in one)
+      [1] 65 71
+
+      > var(height.inches)                   # sample variance
+      [1] 5.3
+
+      > sd(height.inches)                    # sample standard deviation
+      [1] 2.302173
+
+      > length(height.inches)                # number of values in the vector
+      [1] 5
+
+      > sum(height.inches^2) - sum(height.inches)^2 / length(height.inches)
+      [1] 21.2
+
+-- -----------------------------------------------------------------------------
+--    5. SORT, RANKING, ORDERING VECTORS
+-- -----------------------------------------------------------------------------
+      > sort(height.inches)                       # Increasing order is the default.
+      [1] 65 68 69 70 71
+      > sort(height.inches, decreasing=TRUE)      # Or just sort(height.inches, T).
+      [1] 71 70 69 68 65
+
+      To find the ranks that correspond to values in a vector, use the rank( ) function...
+
+      > height.inches
+      [1] 68 65 70 71 69
+
+      > rank(height.inches)                       # Rank 1 is the minimum value.
+      [1] 2 1 4 5 3
+
+      -- default (no arg) ascending
+      > sort(height.inches)
+      [1] 65 68 69 70 71
+
+      > sort(height.inches, TRUE)
+      [1] 71 70 69 68 65
+
+      > sort(height.inches, decreasing=TRUE)
+      [1] 71 70 69 68 65
+
+      -- order
+      -- after sort return indices vector elements
+      > a <- c(4.1, 3.2, 6.1, 3.1)
+
+      > order(a)
+      [1] 4 2 1 3
+
+      > order(height.inches)
+      [1] 2 1 5 3 4
+
+      > order(height.inches) -> myOrd
+      > myOrd
+      [1] 2 1 5 3 4
+
+      > height.inches[myOrd]
+      [1] 65 68 69 70 71
+
+      -- EXAMPLE
+      x <- c(24, 22, 20, 15, 65)
+      order(x)
+      x[order(x)]
+      rank(x) #
+
+      > A <- c(1, 4, 3, 6)
+      > A
+      [1] 1 4 3 6
+
+      > sort(A)
+      [1] 1 3 4 6
+
+      > A.sorted <- sort(A)
+      > A.sorted
+      [1] 1 3 4 6
+
+      >   order(A) == match(A.sorted, A)
+      [1] TRUE TRUE TRUE TRUE
+
+      > rank(A) == match(A, A.sorted)
+      [1] TRUE TRUE TRUE TRUE
+
+
+-- -----------------------------------------------------------------------------
+--    6. BOOLEAN
+-- -----------------------------------------------------------------------------
+      > height.inches
+      [1] 68 65 70 71 69
+
+      > height.inches >= 70
+      [1] FALSE FALSE  TRUE  TRUE FALSE
+
+      > height.inches == 70
+      [1] FALSE FALSE  TRUE FALSE FALSE
+
+      > height.inches != 70
+      [1]  TRUE  TRUE FALSE  TRUE  TRUE
+
+      > which(height.inches >= 70)
+      [1] 3 4
+
+      > all(height.inches <= 72)
+      [1] TRUE
+
+      > any(height.inches <= 65)
+
+      [1] TRUE
+      > which(height.inches <= 65)
+      [1] 2
+
+
+      TRUEs add as ones, and FALSEs add as zeros
+      > sum(height.inches >= 70)
+      [1] 2
+
+      > sum(height.inches <= 69)
+      [1] 3

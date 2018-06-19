@@ -1,0 +1,172 @@
+-- ----------------------------------------------
+-- GIT
+-- ----------------------------------------------
+-- git-scm.com/book/en/Getting-Started-About-Version-Control
+    git config --global user.name="billy"
+    git config --global user.name="williamtellme123@aim.com"\
+
+    git config --list
+    user.name=billy
+    user.email=williamtellme123@aim.com
+    core.excludesfile=/Users/billy/.gitignore_global
+    difftool.sourcetree.cmd=opendiff "$LOCAL" "$REMOTE"
+    difftool.sourcetree.path=
+    mergetool.sourcetree.cmd=/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh "$LOCAL" "$REMOTE" -ancestor "$BASE" -merge "$MERGED"
+    mergetool.sourcetree.trustexitcode=true
+
+
+-- ----------------------------------------------
+-- NEW REPOS
+-- ----------------------------------------------
+    1. go to gitHub
+    2. create new repo
+    3. add new key if needed
+    4. cd repos
+    5. git clone git@github.com:williamtellme123/R.git
+    6. Edit README.md
+    7. git add README.md
+    8. git status -s
+    9. git commit -m 'Added TOC'
+    10. git log
+    11. git remote add origin  git@github.com:williamtellme123/R.git
+    12. git push origin master
+
+-- ----------------------------------------------
+-- BASIC GIT COMMANDS
+-- ----------------------------------------------
+    See slides
+
+
+-- ----------------------------------------------
+-- BRANCH
+-- ----------------------------------------------
+    git checkout -b thisBranch          /* check out open source
+    git branch                          /* which branch are you on now
+    git checkout master                 /* return to master
+
+    GIT GUI
+
+    Click on Compare & Pull Request
+
+
+-- ----------------------------------------------
+-- MARKDOWN
+-- ----------------------------------------------
+        ## Table of Contents
+        ### Week 2 : Git
+        * Configure
+        * Create a Clsss Repo
+        * Basic Git Commands
+        * Branch
+        * Markdown
+
+        ### Week 2 : Obtaining R Packages
+
+-- ----------------------------------------------
+-- OBTAINING R PACKAGES
+-- ----------------------------------------------
+    > install.packages("slidify")           -- from CRAN
+    -- in this case my R was newer so no lib yet
+
+    -- -------------------------------------------------------------------------
+    > a <- available.packages()
+    > head(rownames(a),3)
+    [1] "A3"     "abbyyR" "abc"           /# first few
+    -- ----------------------------------------------
+    -- PACKAGE: SLIDIFY
+    -- ----------------------------------------------
+    --    http://ramnathv.github.io/slidify/start.html
+        > install.packages("slidify")           -- from CRAN
+              Warning in install.packages :
+                package ‘slidify’ is not available (for R version 3.2.2)
+
+        > version
+              platform       x86_64-apple-darwin13.4.0
+              arch           x86_64
+              os             darwin13.4.0
+              system         x86_64, darwin13.4.0
+              status
+              major          3
+              minor          2.2
+              year           2015
+              month          08
+              day            14
+              svn rev        69053
+              language       R
+              version.string R version 3.2.2 (2015-08-14)
+              nickname       Fire Safety
+        -- ------------------------------------------------------------------------
+        > require(devtools)
+            Loading required package: devtools
+
+        > install_github("slidify", "ramnathv")
+                Downloading GitHub repo ramnathv/slidify@master
+                Installing slidify
+                Installing 6 packages: formatR, highr, knitr, markdown, stringi, yaml
+
+                  There is a binary version available (and will be installed)
+                  but the source version is later:
+                      binary source
+                knitr 1.10.5   1.11
+
+                '/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file  \
+                  --no-environ --no-save --no-restore CMD INSTALL  \
+                  '/private/var/folders/lr/njfjwsyd6qqd3_3fbjfz4qk80000gn/T/RtmpjMnhuk/devtools16f29e69b46/ramnathv-slidify-1dd41a3'  \
+                  --library='/Library/Frameworks/R.framework/Versions/3.2/Resources/library'  \
+                  --install-tests
+
+                * installing *source* package ‘slidify’ ...
+                ** R
+                ** inst
+                ** tests
+                ** preparing package for lazy loading
+                ** help
+                *** installing help indices
+                ** building package indices
+                ** testing if installed package can be loaded
+                * DONE (slidify)
+                Warning message:
+                Username parameter is deprecated. Please use ramnathv/slidify
+
+        > install_github("slidifyLibraries", "ramnathv")
+                Downloading GitHub repo ramnathv/slidifyLibraries@master
+                Installing slidifyLibraries
+                '/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file  \
+                  --no-environ --no-save --no-restore CMD INSTALL  \
+                  '/private/var/folders/lr/njfjwsyd6qqd3_3fbjfz4qk80000gn/T/RtmpjMnhuk/devtools16f34536f9e/ramnathv-slidifyLibraries-dbd065f'  \
+                  --library='/Library/Frameworks/R.framework/Versions/3.2/Resources/library'  \
+                  --install-tests
+
+                * installing *source* package ‘slidifyLibraries’ ...
+                ** R
+                ** inst
+                ** preparing package for lazy loading
+                ** help
+                No man pages found in package  ‘slidifyLibraries’
+                *** installing help indices
+                ** building package indices
+                ** testing if installed package can be loaded
+                * DONE (slidifyLibraries)
+                Warning message:
+                Username parameter is deprecated. Please use ramnathv/slidifyLibraries
+        > library(slidify)
+
+    -- ----------------------------------------------
+    -- PACKAGE: GGPLOT2  &  DEVTOOLS
+    -- ----------------------------------------------
+        > install.packages(c("ggplot2", "devtools"))
+        > library(ggplot2)
+        > search()
+
+    -- ----------------------------------------------
+    -- PACKAGES FROM BIOCONDUCTOR
+    -- ----------------------------------------------
+        > source("http://bioconductor.org/biocLite.R")
+        > biocLite()
+        > biocLite(c("GenomicFeatures", "AnnotationDbi"))
+
+-- ----------------------------------------------
+-- LOAD PACKAGES
+-- ----------------------------------------------
+    > library(ggplot2)
+    > search()

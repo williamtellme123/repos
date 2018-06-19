@@ -1,0 +1,32 @@
+-- GETTING HELP
+https://www.youtube.com/watch?v=ZFaWxxzouCY&list=PLjTlxb-wKvXNSDfcKPFH2gzHGyjpeCZmJ&index=3
+
+http://bit.ly/UFaadn
+
+
+http://CrossValidated forum
+-- help file
+> ?norm
+
+> help.search("rnorm")
+
+> args("rnorm")
+
+> function (n, mean=0, sd = 1)
+NULL
+
+> rnorm
+function (n, mean = 0, sd = 1)
+.Call(C_rnorm, n, mean, sd)
+<bytecode: 0x1081a8310>
+<environment: namespace:stats>
+
+-- example bootstrap code
+B <- 1000
+n <- length(gmVol)
+resamples <- matrix(sample(gmVol,n * B, replace = TRUE), B, n)
+medians <- apply(resamples, 1, median)
+sd(medians
+quantile(medians, c(.025, .975))
+    2.5%       97.5%
+582.6384    595.3553

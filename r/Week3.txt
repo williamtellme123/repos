@@ -1,0 +1,60 @@
+
+
+-- ----------------------------------------------
+-- TYPES OF DATA SCIENCE QUESTIONS
+-- ----------------------------------------------
+      ordered by complexity
+      http://datascientistinsights.com/2013/01/29/six-types-of-analyses-every-data-scientist-should-know/
+      Jerry Smith
+-- ----------------------------------------------
+Descriptive
+      Least amount of effort
+      Quantitatively describe main features of collection of data
+      Typically first analysis done on a data set
+      Commonly applied to large volumes of data (census data)
+      Description and interpretation processes are different steps
+      Univariate and Bivariate are two types of statistical descriptive analyses (census)
+-- ----------------------------------------------
+Exploratory
+      Find previously unknown relationships / connections
+      Define future studies/questions
+      Not definitive
+      Correlation does not imply causation
+-- ----------------------------------------------
+Inferential
+      Test theories about the nature of the world in general
+      Use small sample to say something about a bigger population
+      Commonly the goal of statistical models
+      Estimate quantity and uncertainty about your estimate
+      Inference depends heavily on both the population and the sampling scheme
+-- ----------------------------------------------
+Predictive
+      Prediction does not mean that the independent variables cause
+      if x predict y does not mean y predicts x
+      Accuracy depends heavily on measuring the right variables
+      Although there are better and worse prediction models, More data and a simple model works really well
+      Prediction is very hard, especially about the future references
+-- ----------------------------------------------
+Casual
+      What happens to X when you change Y
+      Implementation usually requires randomized studies
+      There are approaches to inferring causation in non-randomized studies but difficult
+      Causal models are said to be the “gold standard” for data analysis
+-- ----------------------------------------------
+Mechanistic
+      Most Effort
+      Understand exact changes in variables that lead to changes in other variables for individual objects
+      Incredibly hard to infer, except in simple situations
+      Usually modeled by a deterministic set of equations (physical/engineering science)
+      Generally the random component of the data is measurement error
+      If the equations are known but the parameters are not, they may be inferred with data analysis
+      What changes in design lead to changes in function of pavement
+
+In statistics, a confounding variable (also confounding factor, a confound, or confounder)
+is an extraneous variable in a statistical model that correlates (directly or inversely)
+with both the dependent variable and the independent variable.
+
+-- ----------------------------------------------
+-- WHAT IS DATA
+-- ----------------------------------------------
+Data are the values of qualitative or quantitative variables belonging to a set of items (things)
