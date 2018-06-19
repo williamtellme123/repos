@@ -1,0 +1,15 @@
+
+
+
+15/07/09 16:31:20 INFO storage.MemoryStore: MemoryStore started with capacity 265.1 MB
+
+15/07/09 16:31:20 INFO yarn.Client: Requesting a new application from cluster with 1 NodeManagers
+15/07/09 16:31:20 INFO yarn.Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+15/07/09 16:31:20 INFO yarn.Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+15/07/09 16:31:20 INFO yarn.Client: Setting up container launch context for our AM
+15/07/09 16:31:20 INFO yarn.Client: Preparing resources for our AM container
+15/07/09 16:31:21 ERROR spark.SparkContext: Error initializing SparkContext.
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.SafeModeException): Cannot create directory /user/billy/.sparkStaging/application_1436477466876_0001. Name node is in safe mode.
+
+
+➜  ~  hadoop dfsadmin -safemode leave

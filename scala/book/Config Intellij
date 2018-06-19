@@ -1,0 +1,72 @@
+
+
+CONFIGURE INTELLIJ FOR SPARK
+http://danielnee.com/2015/01/setting-up-intellij-for-spark/
+mkdir book3
+cd book3
+mkdir -p src/main/scala
+mkdir -p src/test/scala
+mkdir project
+cd project
+create file plugins.sbt
+  addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.6.0")
+  <eof>
+
+create file build.sbt
+  name := "book3"
+  version := "1.0"
+  scalaVersion := "2.11"
+  libraryDependencies += "org.apache.spark" %% "spark-core" % "1.4"
+  libraryDependencies ++= Seq(
+    "org.apache.hadoop" % "hadoop-client" % "2.7.0"
+  )
+  <eof>
+
+project%sbt update
+project%sbt gen-idea
+
+Re-open your project in IntelliJ.
+You should now be setup and ready to write Spark Applications
+
+
+http://mariuszprzydatek.com/2015/05/
+Here’s what you need to do:
+Start a new SBT project in IntelliJ
+Add the “hadoop-client” dependency
+(Important: You must use the same version of the client, as is the version of the Hadoop server you’ll be writing files to)
+libraryDependencies ++= Seq(
+  "org.apache.hadoop" % "hadoop-client" % "2.7.0"
+)
+Check in Hadoop configuration the value of “fs.default.name” property (/etc/hadoop/core-site.xml). This will be the URI you need in order to point the app code at your Hadoop Cluster
+Write few lines of code
+<configuration>
+<property>
+    <name>hadoop.tmp.dir</name>
+    <value>/usr/local/Cellar/hadoop/hdfs/tmp</value>
+    <description>A base for other temporary directories.</description>
+  </property>
+ <property>
+   <name>fs.default.name</name>
+   <value>hdfs://localhost:9000</value>
+   </property>
+</configuration>
+
+import org.apache.hadoop.conf.Configuration
+import org.apache.hadoop.fs.{FileSystem, Path}
+
+object Hdfs extends App {
+
+  def write(uri: String, filePath: String, data: Array[Byte]) = {
+    System.setProperty("HADOOP_USER_NAME", "Mariusz")
+    val path = new Path(filePath)
+    val conf = new Configuration()
+    conf.set("fs.defaultFS", uri)
+    val fs = FileSystem.get(conf)
+    val os = fs.create(path)
+    os.write(data)
+    fs.close()
+  }
+}
+Use the code written above
+1
+Hdfs.write("hdfs://0.0.0.0:19000", "test.txt", "Hello World".getBy
