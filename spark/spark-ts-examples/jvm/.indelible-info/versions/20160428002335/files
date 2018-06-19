@@ -1,0 +1,26 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">.DS_Store</name>
+        <modified>1458067423000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">.idea</name>
+        <modified>1455231266000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">pom.xml</name>
+        <modified>1455230558000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">spark-ts-examples.iml</name>
+        <modified>1455230717000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">src</name>
+        <modified>1458067423000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">target</name>
+        <modified>1455230721000</modified>
+    </directory>
+</files>

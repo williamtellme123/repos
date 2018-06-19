@@ -1,0 +1,54 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">arpack_combined_all-0.1.jar</name>
+        <modified>1435346443000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">breeze-macros_2.11-0.11.2.jar</name>
+        <modified>1435346658000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">breeze_2.11-0.11.2.jar</name>
+        <modified>1435346662000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">commons-math3-3.2.jar</name>
+        <modified>1455142324000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">core-1.1.2.jar</name>
+        <modified>1435346442000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">jtransforms-2.4.0.jar</name>
+        <modified>1435346658000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">junit-4.8.2.jar</name>
+        <modified>1432747850000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">opencsv-2.3.jar</name>
+        <modified>1435346658000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">scala-library-2.11.4.jar</name>
+        <modified>1435346285000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">scala-reflect-2.11.4.jar</name>
+        <modified>1435350717000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">slf4j-api-1.7.5.jar</name>
+        <modified>1431445207000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">spire-macros_2.11-0.7.4.jar</name>
+        <modified>1435346658000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">spire_2.11-0.7.4.jar</name>
+        <modified>1435346660000</modified>
+    </file>
+</files>

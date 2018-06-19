@@ -1,0 +1,46 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">compiler.xml</name>
+        <modified>1461457349000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">copyright</name>
+        <modified>1461457327000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">dictionaries</name>
+        <modified>1461457349000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">encodings.xml</name>
+        <modified>1461457327000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">libraries</name>
+        <modified>1461457350000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">misc.xml</name>
+        <modified>1461457349000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">modules.xml</name>
+        <modified>1461457349000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">sbt.xml</name>
+        <modified>1461457328000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">scala_compiler.xml</name>
+        <modified>1461457349000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">vcs.xml</name>
+        <modified>1461457349000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">workspace.xml</name>
+        <modified>1461457598000</modified>
+    </file>
+</files>

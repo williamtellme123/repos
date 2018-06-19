@@ -1,0 +1,42 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">call_signs2</name>
+        <modified>1459368293000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">callsign.json</name>
+        <modified>1459368293000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">callsign_tbl</name>
+        <modified>1459368293000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">callsign_tbl_sorted</name>
+        <modified>1459368293000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">callsigns</name>
+        <modified>1459368293000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">derby.log</name>
+        <modified>1459368293000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">linesofpairs.txt</name>
+        <modified>1459368293000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">linestotextpartitions.txt</name>
+        <modified>1459368293000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">nyc-boroughs.geojson</name>
+        <modified>1459368293000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">TransformationsActions.numbers</name>
+        <modified>1459368293000</modified>
+    </file>
+</files>

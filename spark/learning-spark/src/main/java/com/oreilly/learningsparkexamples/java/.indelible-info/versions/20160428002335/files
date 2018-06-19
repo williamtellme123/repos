@@ -1,0 +1,122 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicAvg.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicAvgMapPartitions.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicAvgWithKryo.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicFlatMap.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicJoinCsv.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicLoadJson.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicLoadSequenceFile.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicLoadWholeCsv.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicMap.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicMapPartitions.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicMapThenFilter.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicMapToDouble.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicQueryCassandra.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicSaveSequenceFile.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicSum.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">CallLog.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ChapterSixExample.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">HappyPerson.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">IntersectByKey.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">KafkaInput.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">KeyValueMapFilter.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LoadHive.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LoadJsonWithSparkSQL.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">logs</name>
+        <modified>1450025060000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">MLlib.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">PerKeyAvg.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RemoveOutliers.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">SparkSQLTwitter.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">StreamingLogInput.java</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">WordCount.java</name>
+        <modified>1450025060000</modified>
+    </file>
+</files>

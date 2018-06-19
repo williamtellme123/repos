@@ -1,0 +1,62 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">billy-project-billy-project_2.10-compile-internal.xml</name>
+        <modified>1458423976000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">billy-project-billy-project_2.10-compile.xml</name>
+        <modified>1458423975000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">billy-project-billy-project_2.10-docs.xml</name>
+        <modified>1458423976000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">billy-project-billy-project_2.10-optional.xml</name>
+        <modified>1458423976000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">billy-project-billy-project_2.10-plugin.xml</name>
+        <modified>1458423976000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">billy-project-billy-project_2.10-pom.xml</name>
+        <modified>1458423976000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">billy-project-billy-project_2.10-provided.xml</name>
+        <modified>1458423976000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">billy-project-billy-project_2.10-runtime-internal.xml</name>
+        <modified>1458423976000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">billy-project-billy-project_2.10-runtime.xml</name>
+        <modified>1458423976000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">billy-project-billy-project_2.10-scala-tool.xml</name>
+        <modified>1458423976000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">billy-project-billy-project_2.10-sources.xml</name>
+        <modified>1458423976000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">billy-project-billy-project_2.10-test-internal.xml</name>
+        <modified>1458423976000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">billy-project-billy-project_2.10-test.xml</name>
+        <modified>1458423976000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ivy-report.css</name>
+        <modified>1458423975000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ivy-report.xsl</name>
+        <modified>1458423975000</modified>
+    </file>
+</files>

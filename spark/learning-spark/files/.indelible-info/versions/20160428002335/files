@@ -1,0 +1,58 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">call_signs2.txt</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">callsign_tbl</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">callsign_tbl_sorted</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">callsigns</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">cqlsh_setup</name>
+        <modified>1450025060000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">fake_logs</name>
+        <modified>1450025060000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">favourite_animals.csv</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">flumeconf.cfg</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ham.txt</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">happypandas</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">int_string.csv</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">pandainfo.json</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">spam.txt</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">testweet.json</name>
+        <modified>1450025060000</modified>
+    </file>
+</files>

@@ -1,0 +1,54 @@
+<files>
+    <directory>
+        <name enc="t" charSet="UTF-8">%24global</name>
+        <modified>1458423976000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">compile</name>
+        <modified>1458423976000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">compileIncremental</name>
+        <modified>1458423976000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">copyResources</name>
+        <modified>1458423976000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">dependencyClasspath</name>
+        <modified>1458423976000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">externalDependencyClasspath</name>
+        <modified>1458423976000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">incCompileSetup</name>
+        <modified>1458423976000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">internalDependencyClasspath</name>
+        <modified>1458423976000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">mainClass</name>
+        <modified>1458423976000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">managedClasspath</name>
+        <modified>1458423976000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">packageBin</name>
+        <modified>1458423976000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">unmanagedClasspath</name>
+        <modified>1458423972000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">unmanagedJars</name>
+        <modified>1458423971000</modified>
+    </directory>
+</files>

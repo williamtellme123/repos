@@ -1,0 +1,26 @@
+<files>
+    <directory>
+        <name enc="t" charSet="UTF-8">archive-tmp</name>
+        <modified>1459358169000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ch02-intro-1.0.2-jar-with-dependencies.jar</name>
+        <modified>1459358169000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ch02-intro-1.0.2.jar</name>
+        <modified>1459358169000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">classes</name>
+        <modified>1459358169000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">classes.1010788033.timestamp</name>
+        <modified>1459358165000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">maven-archiver</name>
+        <modified>1459358169000</modified>
+    </directory>
+</files>

@@ -1,0 +1,22 @@
+<files>
+    <directory>
+        <name enc="t" charSet="UTF-8">archive-tmp</name>
+        <modified>1459358249000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ch08-geotime-1.0.2-jar-with-dependencies.jar</name>
+        <modified>1459358250000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ch08-geotime-1.0.2.jar</name>
+        <modified>1459358249000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">classes</name>
+        <modified>1459358247000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">maven-archiver</name>
+        <modified>1459358249000</modified>
+    </directory>
+</files>

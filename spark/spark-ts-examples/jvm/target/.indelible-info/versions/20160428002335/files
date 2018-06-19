@@ -1,0 +1,22 @@
+<files>
+    <directory>
+        <name enc="t" charSet="UTF-8">classes</name>
+        <modified>1455230606000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">classes.timestamp</name>
+        <modified>1455230596000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">generated-sources</name>
+        <modified>1455230721000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">maven-archiver</name>
+        <modified>1455230607000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">spark-ts-examples-0.0.1-SNAPSHOT.jar</name>
+        <modified>1455230607000</modified>
+    </file>
+</files>

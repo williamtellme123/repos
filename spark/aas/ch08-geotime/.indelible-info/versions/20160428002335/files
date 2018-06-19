@@ -1,0 +1,30 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">.DS_Store</name>
+        <modified>1460150866000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">derby.log</name>
+        <modified>1458512227000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">metastore_db</name>
+        <modified>1458512227000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">pom.xml</name>
+        <modified>1459286315000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">src</name>
+        <modified>1458070478000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">superpom.xml</name>
+        <modified>1459279627000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">target</name>
+        <modified>1459358249000</modified>
+    </directory>
+</files>

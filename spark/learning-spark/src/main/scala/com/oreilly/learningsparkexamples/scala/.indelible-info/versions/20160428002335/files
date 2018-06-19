@@ -1,0 +1,166 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicAvg.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicAvgFromFile.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicAvgFromFiles.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicAvgMapPartitions.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicAvgWithKryo.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicFilterUnionCombo.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicIntersectByKey.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicLoadNums.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicLoadSequenceFile.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicLoadTextFromFTP.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicMap.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicMapNoCache.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicMapPartitions.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicMapThenFilter.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicParseCsv.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicParseJson.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicParseJsonWithJackson.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicParseWholeFileCsv.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicQueryCassandra.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicSaveProtoBuf.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicSaveSequenceFile.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicStreamingExample.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicSum.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ChapterSixExample.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">FlumeInput.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">KafkaInput.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LoadHive.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LoadJsonWithElephantBird.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LoadJsonWithSparkSQL.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LoadKeyValueTextInput.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LoadSimpleJdbc.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">logs</name>
+        <modified>1450025060000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">MLlib.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MLlibPipeline.disabled_until_111</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">PerKeyAvg.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">PipeExample.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RemoveOutliers.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">SparkSQLTwitter.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">StreamingLogInput.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">WordCount.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">WriteSimpleDB.scala</name>
+        <modified>1450025060000</modified>
+    </file>
+</files>

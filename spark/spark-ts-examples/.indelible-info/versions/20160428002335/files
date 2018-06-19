@@ -1,0 +1,38 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">.DS_Store</name>
+        <modified>1458067423000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">.git</name>
+        <modified>1458067775000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">.gitignore</name>
+        <modified>1455141616000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">.idea</name>
+        <modified>1458067852000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">data</name>
+        <modified>1455141616000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">jvm</name>
+        <modified>1458067423000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">lib</name>
+        <modified>1455142325000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">LICENSE</name>
+        <modified>1455141616000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">README.md</name>
+        <modified>1455141616000</modified>
+    </file>
+</files>

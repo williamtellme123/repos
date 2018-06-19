@@ -1,0 +1,38 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">.DS_Store</name>
+        <modified>1461457277000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">.git</name>
+        <modified>1461457370000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">.gitignore</name>
+        <modified>1461454963000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">.idea</name>
+        <modified>1461457598000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">pom.xml</name>
+        <modified>1461454963000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">README.md</name>
+        <modified>1461454963000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">spark-rdd-dataframe-dataset.iml</name>
+        <modified>1461457349000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">src</name>
+        <modified>1461454963000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">target</name>
+        <modified>1461455080000</modified>
+    </directory>
+</files>

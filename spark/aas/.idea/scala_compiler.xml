@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="spark-book-parent,ch08-geotime,ch10-genomics,ch09-risk,ch04-rdf,aas,ch05-kmeans,common,ch06-lsa,ch03-recommender,ch07-graph,ch02-intro">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+    </profile>
+  </component>
+</project>

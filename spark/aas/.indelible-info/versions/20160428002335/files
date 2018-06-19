@@ -1,0 +1,178 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">.DS_Store</name>
+        <modified>1460150866000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">.git</name>
+        <modified>1459428964000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">.gitignore</name>
+        <modified>1458070212000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">.idea</name>
+        <modified>1459279978000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">.travis.yml</name>
+        <modified>1458070212000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">2.11.8</name>
+        <modified>1458493876000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">aas.iml</name>
+        <modified>1458507601000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">ch02-intro</name>
+        <modified>1459358165000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ch02-intro.iml</name>
+        <modified>1458507601000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">ch03-recommender</name>
+        <modified>1459358169000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ch03-recommender.iml</name>
+        <modified>1458507601000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">ch04-rdf</name>
+        <modified>1459358174000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ch04-rdf.iml</name>
+        <modified>1458507601000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">ch05-kmeans</name>
+        <modified>1459358178000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ch05-kmeans.iml</name>
+        <modified>1458507601000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">ch06-lsa</name>
+        <modified>1459358183000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ch06-lsa.iml</name>
+        <modified>1458507601000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">ch07-graph</name>
+        <modified>1459358198000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ch07-graph.iml</name>
+        <modified>1458507601000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">ch08-geotime</name>
+        <modified>1459358247000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ch08-geotime.iml</name>
+        <modified>1458507601000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">ch09-risk</name>
+        <modified>1459358204000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ch09-risk.iml</name>
+        <modified>1458507601000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">ch10-genomics</name>
+        <modified>1459358215000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ch10-genomics.iml</name>
+        <modified>1458507601000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ch10-genomics.iml+copy</name>
+        <modified>1458077468000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">ch11-neuro</name>
+        <modified>1458070212000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">common</name>
+        <modified>1459358153000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">common.iml</name>
+        <modified>1458507601000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">lib</name>
+        <modified>1459296166000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">LICENSE</name>
+        <modified>1458070212000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">out</name>
+        <modified>1459272523000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">output</name>
+        <modified>1459368293000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">pom.xml</name>
+        <modified>1459357604000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">README.md</name>
+        <modified>1458070212000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">simapp</name>
+        <modified>1458497623000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">simplesparkproject</name>
+        <modified>1458070212000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">spark-book-parent.iml</name>
+        <modified>1458501709000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">spark-book-parent.iml.original</name>
+        <modified>1458501335000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">taxi2.csv</name>
+        <modified>1458524914000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">taxidata.csv</name>
+        <modified>1458525484000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">taxidata.csvremove</name>
+        <modified>1458525435000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">taxidata100.csv</name>
+        <modified>1458151320000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">taxidatahold.csv</name>
+        <modified>1458525117000</modified>
+    </file>
+</files>

@@ -1,0 +1,274 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%2412.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%2413.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%2414.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%242%24%24anonfun%243%24%24anonfun%24apply%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%242%24%24anonfun%243.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%242.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%244.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%245.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%246.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%247.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%248.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%249%24%24anonfun%2410.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%249%24%24anonfun%2411.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%249.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%24com%24cloudera%24datascience%24lsa%24ParseWikipedia%24%24comb%241%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%24com%24cloudera%24datascience%24lsa%24ParseWikipedia%24%24comb%241%242%24%24anonfun%24apply%243.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%24com%24cloudera%24datascience%24lsa%24ParseWikipedia%24%24comb%241%242.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%24com%24cloudera%24datascience%24lsa%24ParseWikipedia%24%24merge%241%241%24%24anonfun%24apply%242.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%24com%24cloudera%24datascience%24lsa%24ParseWikipedia%24%24merge%241%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%24documentFrequencies%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%24documentFrequencies%242.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%24inverseDocumentFrequencies%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%24plainTextToLemmas%241%24%24anonfun%24apply%244.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%24plainTextToLemmas%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%24readFile%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%24saveDocFreqs%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%24saveDocFreqs%242.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24%24anonfun%24trimLeastFrequent%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia%24.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ParseWikipedia.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%2410.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%2411.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%2412.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%2413.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%2414.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%244.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%245.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%246%24%24anonfun%24apply%245.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%246.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%247.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24main%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24main%242%24%24anonfun%24apply%243.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24main%242%24%24anonfun%24apply%244.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24main%242.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24multiplyByDiagonalMatrix%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24multiplyByDiagonalMatrix%242%24%24anonfun%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24multiplyByDiagonalMatrix%242.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24printIdWeights%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24row%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24row%242.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24row%243.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24rowsNormalized%241%24%24anonfun%242.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24rowsNormalized%241%24%24anonfun%24apply%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24rowsNormalized%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24rowsNormalized%242%24%24anonfun%243.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24rowsNormalized%242%24%24anonfun%24apply%242.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24rowsNormalized%242.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24topDocsForDoc%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24topDocsInTopConcepts%241%24%24anonfun%249.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24topDocsInTopConcepts%241%24%24anonfun%24apply%247.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24topDocsInTopConcepts%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24topTermsForTerm%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24topTermsInTopConcepts%241%24%24anonfun%248.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24topTermsInTopConcepts%241%24%24anonfun%24apply%246.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24%24anonfun%24topTermsInTopConcepts%241.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA%24.class</name>
+        <modified>1459358189000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunLSA.class</name>
+        <modified>1459358189000</modified>
+    </file>
+</files>

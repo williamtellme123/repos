@@ -1,0 +1,14 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">GeoJson.scala</name>
+        <modified>1459357974000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RichGeometry.scala</name>
+        <modified>1459358106000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RunGeoTime.scala</name>
+        <modified>1459368516000</modified>
+    </file>
+</files>

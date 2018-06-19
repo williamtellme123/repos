@@ -1,0 +1,47 @@
+{
+  "log": {
+    "address": "address here",
+    "band": "40m",
+    "callsign": "KK6JLK",
+    "city": "SUNNYVALE",
+    "contactlat": "37.384733",
+    "contactlong": "-122.032164",
+    "county": "Santa Clara ",
+    "dxcc ":"277",
+    "fullname ":"Rabbit",
+    "id": 57779,
+    "mode": "FM",
+    "mylat": "37.751952821",
+    "mylong": "-122.4208688735"
+  } {
+    "address": "address tere",
+    "band": "22",
+    "callsign": "KK7333",
+    "city": "VALE",
+    "contactlat": "37.384733",
+    "contactlong": "-122.032164",
+    "county": "Beuford",
+    "dxcc ":"444","
+    fullname ":"Teddy Kennedy",
+    "id": 57569,
+    "mode": "FM",
+    "mylat": "37.751952821",
+    "mylong": "-122.4208688735"
+  }
+  {
+    "address": "address everywhere",
+    "band": "33m",
+    "callsign": "KK7888",
+    "city": "GREENFIELD",
+    "contactlat": "37.751952821",
+    "contactlong": "-122.4208688735"
+    "county": "Franklyn",
+    "dxcc ":" 291 ","
+    fullname ":"Ted 2",
+    "id": 57239,
+    "mode": "FM",
+    "mylat": "37.751952821",
+    "mylong": "-122.4208688735"
+  }
+}
+{

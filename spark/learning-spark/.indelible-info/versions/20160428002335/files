@@ -1,0 +1,74 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">.DS_Store</name>
+        <modified>1455916731000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">.git</name>
+        <modified>1457374948000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">.gitignore</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">.travis.yml</name>
+        <modified>1450025060000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">bin</name>
+        <modified>1450025060000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">build-project</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">build.sbt</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DESCRIPTION</name>
+        <modified>1450025060000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">files</name>
+        <modified>1450025060000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">LICENSE.md</name>
+        <modified>1450025060000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">mini-complete-example</name>
+        <modified>1450025060000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">pom.xml</name>
+        <modified>1450025060000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">project</name>
+        <modified>1450025060000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">README.md</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">run-all-examples</name>
+        <modified>1450025060000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">sbt</name>
+        <modified>1450025060000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">setup-project</name>
+        <modified>1450025060000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">src</name>
+        <modified>1450025060000</modified>
+    </directory>
+</files>

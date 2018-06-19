@@ -1,0 +1,46 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">.name</name>
+        <modified>1455141889000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">compiler.xml</name>
+        <modified>1455141889000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">copyright</name>
+        <modified>1455141889000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">dictionaries</name>
+        <modified>1455142331000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">encodings.xml</name>
+        <modified>1455141889000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">misc.xml</name>
+        <modified>1455142331000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">modules.xml</name>
+        <modified>1455141889000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">sbt.xml</name>
+        <modified>1455142331000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">spark-ts-examples.iml</name>
+        <modified>1455230082000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">vcs.xml</name>
+        <modified>1455142331000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">workspace.xml</name>
+        <modified>1458067852000</modified>
+    </file>
+</files>

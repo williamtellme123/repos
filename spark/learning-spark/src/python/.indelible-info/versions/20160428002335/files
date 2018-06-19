@@ -1,0 +1,86 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">AvgMapPartitions.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicAvg.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicFilterMap.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicKeyValueMapFilter.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicMap.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicMapPartitions.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicSum.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ChapterSixExample.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">IntersectByKey.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LoadCsv.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LoadHive.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LoadJson.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MakeHiveTable.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MakeParquetFile.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MLlib.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">PerKeyAvg.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">QueryParquetFile.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">QueryParuetFile.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RemoveOutliers.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">SparkSQLTwitter.py</name>
+        <modified>1450025060000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">WordCount.py</name>
+        <modified>1450025060000</modified>
+    </file>
+</files>
