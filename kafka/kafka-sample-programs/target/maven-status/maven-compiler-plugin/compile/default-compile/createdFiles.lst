@@ -1,0 +1,6 @@
+com/mapr/examples/Consumer.class
+confluent/examples/RunLoop.class
+com/mapr/examples/Producer.class
+confluent/examples/ConsumerLoop.class
+com/mapr/examples/Run.class
+confluent/examples/RunLoop$1.class
