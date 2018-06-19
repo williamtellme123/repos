@@ -1,0 +1,58 @@
+.list {
+	background-color: transparent !important;
+}
+
+body div.list-header {
+	background-color: #eee;
+	border-radius: 4px 4px 4px 4px;
+	margin-bottom: 8px;
+}
+
+.be-core-list-header-container {
+	box-sizing: border-box;
+	left: -2px;
+	margin: 4px 0;
+	position: relative;
+	width: 100%;
+}
+
+.open-card-composer {
+	background-color: transparent !important;
+	border-radius: 4px 4px 4px 4px;
+	color: #fff !important;
+	margin-top: 8px;
+
+	&:hover {
+		background-color: transparent !important;
+		color: #fff !important;
+	}
+}
+
+.card-composer .cc-controls {
+	background-color: #eee !important;
+}
+
+
+.list-cards {
+	margin: 0 4px 0 0 !important;
+	padding: 0 4px 0 0 !important;
+}
+
+
+.list-card {
+	border-bottom: 0 !important;
+}
+
+.list-card.placeholder {
+	background: rgba(0,0,0,0.2) !important;
+	border-bottom: 0 !important;
+}
+
+.u-fancy-scrollbar::-webkit-scrollbar-track-piece {
+    background: rgba(0,0,0,0.2) !important;
+}
+
+.u-fancy-scrollbar::-webkit-scrollbar-thumb:horizontal, .u-fancy-scrollbar::-webkit-scrollbar-thumb:vertical {
+    background: rgba(255,255,255,1) !important;
+/*     background: rgba(0,0,0,1) !important; */
+}
