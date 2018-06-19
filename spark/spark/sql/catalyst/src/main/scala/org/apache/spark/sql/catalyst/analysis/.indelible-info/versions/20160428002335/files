@@ -1,0 +1,46 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">Analyzer.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">Catalog.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">CheckAnalysis.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DecimalPrecision.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DistinctAggregationRewriter.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">FunctionRegistry.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">HiveTypeCoercion.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MultiInstanceRelation.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">package.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">TypeCheckResult.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">unresolved.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

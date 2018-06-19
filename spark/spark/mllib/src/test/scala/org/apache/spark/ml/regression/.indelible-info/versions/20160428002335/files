@@ -1,0 +1,26 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">AFTSurvivalRegressionSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DecisionTreeRegressorSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">GBTRegressorSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">IsotonicRegressionSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LinearRegressionSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RandomForestRegressorSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

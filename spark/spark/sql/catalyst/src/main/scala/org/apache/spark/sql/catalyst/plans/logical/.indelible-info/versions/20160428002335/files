@@ -1,0 +1,34 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">basicOperators.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">commands.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LocalRelation.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LogicalPlan.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">object.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">partitioning.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ScriptTransformation.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">Statistics.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

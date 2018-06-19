@@ -1,0 +1,46 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaHdfsLR.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaLogQuery.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaPageRank.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaSparkPi.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaStatusTrackerDemo.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaTC.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaWordCount.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">ml</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">mllib</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">sql</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">streaming</name>
+        <modified>1456006155000</modified>
+    </directory>
+</files>

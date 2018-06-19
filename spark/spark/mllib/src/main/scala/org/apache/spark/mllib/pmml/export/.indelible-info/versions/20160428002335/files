@@ -1,0 +1,22 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">BinaryClassificationPMMLModelExport.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">GeneralizedLinearPMMLModelExport.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">KMeansPMMLModelExport.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">PMMLModelExport.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">PMMLModelExportFactory.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

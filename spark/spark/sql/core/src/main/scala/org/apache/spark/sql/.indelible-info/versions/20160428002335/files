@@ -1,0 +1,122 @@
+<files>
+    <directory>
+        <name enc="t" charSet="UTF-8">api</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">Column.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ContinuousQuery.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ContinuousQueryException.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ContinuousQueryManager.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DataFrame.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DataFrameHolder.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DataFrameNaFunctions.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DataFrameReader.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DataFrameStatFunctions.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DataFrameWriter.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">Dataset.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DatasetHolder.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">execution</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ExperimentalMethods.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">expressions</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">functions.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">GroupedData.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">GroupedDataset.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">jdbc</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">package.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">SinkStatus.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">sources</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">SourceStatus.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">SQLConf.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">SQLContext.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">SQLImplicits.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">test</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">UDFRegistration.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">util</name>
+        <modified>1456006155000</modified>
+    </directory>
+</files>

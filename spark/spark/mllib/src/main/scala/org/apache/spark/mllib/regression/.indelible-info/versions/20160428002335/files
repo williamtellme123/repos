@@ -1,0 +1,42 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">GeneralizedLinearAlgorithm.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">impl</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">IsotonicRegression.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LabeledPoint.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">Lasso.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LinearRegression.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RegressionModel.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RidgeRegression.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">StreamingLinearAlgorithm.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">StreamingLinearRegressionWithSGD.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

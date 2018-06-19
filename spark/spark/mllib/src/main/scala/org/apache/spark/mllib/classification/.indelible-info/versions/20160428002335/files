@@ -1,0 +1,26 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">ClassificationModel.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">impl</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">LogisticRegression.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">NaiveBayes.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">StreamingLogisticRegressionWithSGD.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">SVM.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

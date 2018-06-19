@@ -1,0 +1,26 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">SchedulerExtensionService.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">YarnClientSchedulerBackend.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">YarnClusterScheduler.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">YarnClusterSchedulerBackend.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">YarnScheduler.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">YarnSchedulerBackend.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+</files>

@@ -1,0 +1,22 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">BaseSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">CommandBuilderUtilsSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LauncherServerSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">SparkSubmitCommandBuilderSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">SparkSubmitOptionParserSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

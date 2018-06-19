@@ -1,0 +1,114 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">ConstantInputDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DStreamCheckpointData.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">FileInputDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">FilteredDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">FlatMappedDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">FlatMapValuedDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ForEachDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">GlommedDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">InputDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MapPartitionedDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MappedDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MapValuedDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MapWithStateDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">package-info.java</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">package.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">PairDStreamFunctions.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">PluggableInputDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">QueueInputDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RawInputDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ReceiverInputDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ReducedWindowedDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ShuffledDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">SocketInputDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">StateDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">TransformedDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">UnionDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">WindowedDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+</files>

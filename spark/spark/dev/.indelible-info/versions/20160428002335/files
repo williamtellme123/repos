@@ -1,0 +1,106 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">.gitignore</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">audit-release</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">change-scala-version.sh</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">change-version-to-2.10.sh</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">change-version-to-2.11.sh</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">check-license</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">create-release</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">deps</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">github_jira_sync.py</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">lint-java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">lint-python</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">lint-r</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">lint-r.R</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">lint-scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">merge_spark_pr.py</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">mima</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">README.md</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">requirements.txt</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">run-tests</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">run-tests-jenkins</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">run-tests-jenkins.py</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">run-tests.py</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">scalastyle</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">sparktestsupport</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">test-dependencies.sh</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">tests</name>
+        <modified>1456006155000</modified>
+    </directory>
+</files>

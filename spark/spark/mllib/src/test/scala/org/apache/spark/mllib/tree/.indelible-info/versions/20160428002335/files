@@ -1,0 +1,26 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">DecisionTreeSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">EnsembleTestHelper.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">GradientBoostedTreesSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">impl</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ImpuritySuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RandomForestSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

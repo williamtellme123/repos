@@ -1,0 +1,22 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaBisectingKMeansSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaGaussianMixtureSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaKMeansSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaLDASuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaStreamingKMeansSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

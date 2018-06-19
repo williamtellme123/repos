@@ -1,0 +1,22 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">CSVInferSchema.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">CSVOptions.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">CSVParser.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">CSVRelation.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DefaultSource.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

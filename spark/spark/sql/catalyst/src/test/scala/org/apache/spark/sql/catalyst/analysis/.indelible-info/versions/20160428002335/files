@@ -1,0 +1,34 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">AnalysisErrorSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">AnalysisSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">AnalysisTest.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DecimalPrecisionSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ExpressionTypeCheckingSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">HiveTypeCoercionSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ResolveNaturalJoinSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">TestRelations.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

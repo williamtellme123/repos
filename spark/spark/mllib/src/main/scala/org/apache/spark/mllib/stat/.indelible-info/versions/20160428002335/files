@@ -1,0 +1,30 @@
+<files>
+    <directory>
+        <name enc="t" charSet="UTF-8">correlation</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">distribution</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">KernelDensity.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MultivariateOnlineSummarizer.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MultivariateStatisticalSummary.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">Statistics.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">test</name>
+        <modified>1456006155000</modified>
+    </directory>
+</files>

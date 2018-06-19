@@ -1,0 +1,54 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">BatchedWriteAheadLog.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">FileBasedWriteAheadLog.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">FileBasedWriteAheadLogRandomReader.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">FileBasedWriteAheadLogReader.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">FileBasedWriteAheadLogSegment.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">FileBasedWriteAheadLogWriter.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">HdfsUtils.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RateLimitedOutputStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RawTextHelper.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RawTextSender.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RecurringTimer.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">StateMap.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">WriteAheadLogUtils.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+</files>

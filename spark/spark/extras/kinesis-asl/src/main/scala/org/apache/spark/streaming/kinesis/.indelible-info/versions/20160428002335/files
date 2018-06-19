@@ -1,0 +1,30 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">KinesisBackedBlockRDD.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">KinesisCheckpointer.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">KinesisInputDStream.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">KinesisReceiver.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">KinesisRecordProcessor.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">KinesisTestUtils.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">KinesisUtils.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

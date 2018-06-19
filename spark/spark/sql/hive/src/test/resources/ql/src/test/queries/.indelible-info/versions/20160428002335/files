@@ -1,0 +1,22 @@
+<files>
+    <directory>
+        <name enc="t" charSet="UTF-8">clientcompare</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">clientnegative</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">clientpositive</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">negative</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">positive</name>
+        <modified>1456006156000</modified>
+    </directory>
+</files>

@@ -1,0 +1,54 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaDStreamLike.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaInputDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaMapWithStateDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaPairDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaPairInputDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaPairReceiverInputDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaReceiverInputDStream.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaStreamingContext.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaStreamingListener.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaStreamingListenerWrapper.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">package-info.java</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">package.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+</files>

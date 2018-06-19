@@ -1,0 +1,22 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaIsotonicRegressionSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaLassoSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaLinearRegressionSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaRidgeRegressionSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaStreamingLinearRegressionSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

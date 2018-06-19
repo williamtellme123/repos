@@ -1,0 +1,38 @@
+<files>
+    <directory>
+        <name enc="t" charSet="UTF-8">data</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">golden</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">hive-contrib-0.13.1.jar</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">hive-hcatalog-core-0.13.1.jar</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">log4j.properties</name>
+        <modified>1456006156000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">ql</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">regression-test-SPARK-8489</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">sample.json</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">TestUDTF.jar</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

@@ -1,0 +1,22 @@
+<files>
+    <directory>
+        <name enc="t" charSet="UTF-8">aggregate</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">execution</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaDataFrameSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaMetastoreDataSourcesSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">test</name>
+        <modified>1456006155000</modified>
+    </directory>
+</files>

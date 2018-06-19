@@ -1,0 +1,34 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">CoarseMesosSchedulerBackend.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MesosClusterPersistenceEngine.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MesosClusterScheduler.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MesosClusterSchedulerSource.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MesosSchedulerBackend.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MesosSchedulerBackendUtil.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MesosSchedulerUtils.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MesosTaskLaunchData.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

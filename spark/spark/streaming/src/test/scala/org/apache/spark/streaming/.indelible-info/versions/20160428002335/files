@@ -1,0 +1,102 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">BasicOperationsSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">CheckpointSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DStreamClosureSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DStreamScopeSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">DurationSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">FailureSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">InputStreamsSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MapWithStateSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MasterFailureTest.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">rdd</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ReceivedBlockHandlerSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ReceivedBlockTrackerSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">receiver</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ReceiverInputDStreamSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ReceiverSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">scheduler</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">StateMapSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">StreamingContextSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">StreamingListenerSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">TestSuiteBase.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">TimeSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">ui</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">UISeleniumSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">util</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">WindowOperationsSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+</files>

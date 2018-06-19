@@ -1,0 +1,30 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">docker.properties.template</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">fairscheduler.xml.template</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">log4j.properties.template</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">metrics.properties.template</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">slaves.template</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">spark-defaults.conf.template</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">spark-env.sh.template</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

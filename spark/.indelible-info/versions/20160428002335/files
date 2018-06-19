@@ -1,0 +1,30 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">.DS_Store</name>
+        <modified>1460150876000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">.idea</name>
+        <modified>1459368516000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">aas</name>
+        <modified>1459357604000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">learning-spark</name>
+        <modified>1455916731000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">lib</name>
+        <modified>1459296033000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">spark</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">spark-ts-examples</name>
+        <modified>1455143407000</modified>
+    </directory>
+</files>

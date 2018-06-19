@@ -1,0 +1,18 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaDecisionTreeRegressorSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaGBTRegressorSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaLinearRegressionSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">JavaRandomForestRegressorSuite.java</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

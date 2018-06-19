@@ -1,0 +1,18 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">BinaryClassificationEvaluator.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">Evaluator.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MulticlassClassificationEvaluator.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RegressionEvaluator.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

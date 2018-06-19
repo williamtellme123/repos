@@ -1,0 +1,194 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">+Billy+README.MD</name>
+        <modified>1456007619000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">.git</name>
+        <modified>1456006487000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">.gitattributes</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">.github</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">.gitignore</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">.rat-excludes</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">assembly</name>
+        <modified>1456006425000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">bin</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">build</name>
+        <modified>1456006484000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">checkstyle-suppressions.xml</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">checkstyle.xml</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">common</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">conf</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">CONTRIBUTING.md</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">core</name>
+        <modified>1456006425000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">data</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">dev</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">docker</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">docker-integration-tests</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">docs</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">examples</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">external</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">extras</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">graphx</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">launcher</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">LICENSE</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">licenses</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">make-distribution.sh</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">mllib</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">network</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">NOTICE</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">pom.xml</name>
+        <modified>1456006426000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">project</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">pylintrc</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">python</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">R</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">README.md</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">repl</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">sbin</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">sbt</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">scalastyle-config.xml</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">sql</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">streaming</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">tags</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">tools</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">tox.ini</name>
+        <modified>1456006156000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">unsafe</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">yarn</name>
+        <modified>1456006426000</modified>
+    </directory>
+</files>

@@ -1,0 +1,22 @@
+<files>
+    <directory>
+        <name enc="t" charSet="UTF-8">java8-tests</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">kinesis-asl</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">kinesis-asl-assembly</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">README.md</name>
+        <modified>1456006155000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">spark-ganglia-lgpl</name>
+        <modified>1456006426000</modified>
+    </directory>
+</files>

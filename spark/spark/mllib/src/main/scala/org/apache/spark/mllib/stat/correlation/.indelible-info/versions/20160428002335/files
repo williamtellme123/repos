@@ -1,0 +1,14 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">Correlation.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">PearsonCorrelation.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">SpearmanCorrelation.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

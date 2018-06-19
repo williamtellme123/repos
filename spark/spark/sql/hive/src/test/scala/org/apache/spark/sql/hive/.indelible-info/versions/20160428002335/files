@@ -1,0 +1,110 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">CachedTableSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ClasspathDependenciesSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">client</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ErrorPositionSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">execution</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ExpressionSQLBuilderSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">HiveDataFrameAnalyticsSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">HiveDataFrameJoinSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">HiveDataFrameSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">HiveInspectorSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">HiveMetastoreCatalogSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">HiveParquetSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">HiveQlSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">HiveSparkSubmitSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">InsertIntoHiveTableSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ListTablesSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">LogicalPlanToSQLSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MetastoreDataSourcesSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">MultiDatabaseSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">orc</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">ParquetHiveCompatibilitySuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">parquetSuites.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">QueryPartitionSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">SerializationSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">SQLBuilderTest.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">StatisticsSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">UDFSuite.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+</files>

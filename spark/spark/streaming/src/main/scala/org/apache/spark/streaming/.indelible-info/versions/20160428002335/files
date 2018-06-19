@@ -1,0 +1,74 @@
+<files>
+    <directory>
+        <name enc="t" charSet="UTF-8">api</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">Checkpoint.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">ContextWaiter.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">dstream</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">DStreamGraph.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">Duration.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">Interval.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">package.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">rdd</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">receiver</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">scheduler</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">State.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">StateSpec.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">StreamingContext.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">StreamingSource.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">Time.scala</name>
+        <modified>1456006156000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">ui</name>
+        <modified>1456006156000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">util</name>
+        <modified>1456006156000</modified>
+    </directory>
+</files>

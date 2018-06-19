@@ -1,0 +1,22 @@
+<files>
+    <directory>
+        <name enc="t" charSet="UTF-8">orc_partitioned</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">parquet_partitioned</name>
+        <modified>1456006155000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">people.json</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">people1.json</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">text-test.txt</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

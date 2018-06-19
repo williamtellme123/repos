@@ -1,0 +1,42 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">.name</name>
+        <modified>1457823123000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">compiler.xml</name>
+        <modified>1457823123000</modified>
+    </file>
+    <directory>
+        <name enc="t" charSet="UTF-8">copyright</name>
+        <modified>1457823123000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">dictionaries</name>
+        <modified>1457826031000</modified>
+    </directory>
+    <file>
+        <name enc="t" charSet="UTF-8">encodings.xml</name>
+        <modified>1457823123000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">misc.xml</name>
+        <modified>1457832231000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">modules.xml</name>
+        <modified>1459368257000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">sbt.xml</name>
+        <modified>1457823215000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">sparklearn.iml</name>
+        <modified>1459368331000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">workspace.xml</name>
+        <modified>1459368516000</modified>
+    </file>
+</files>

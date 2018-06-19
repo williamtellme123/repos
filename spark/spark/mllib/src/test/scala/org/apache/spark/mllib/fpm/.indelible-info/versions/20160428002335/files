@@ -1,0 +1,18 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">AssociationRulesSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">FPGrowthSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">FPTreeSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">PrefixSpanSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>

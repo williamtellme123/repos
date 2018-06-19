@@ -1,0 +1,42 @@
+<files>
+    <directory>
+        <name enc="t" charSet="UTF-8">akka</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">flume</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">flume-assembly</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">flume-sink</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">kafka</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">kafka-assembly</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">mqtt</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">mqtt-assembly</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">twitter</name>
+        <modified>1456006426000</modified>
+    </directory>
+    <directory>
+        <name enc="t" charSet="UTF-8">zeromq</name>
+        <modified>1456006426000</modified>
+    </directory>
+</files>

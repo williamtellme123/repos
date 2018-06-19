@@ -1,0 +1,18 @@
+<files>
+    <file>
+        <name enc="t" charSet="UTF-8">BlockMatrixSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">CoordinateMatrixSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">IndexedRowMatrixSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+    <file>
+        <name enc="t" charSet="UTF-8">RowMatrixSuite.scala</name>
+        <modified>1456006155000</modified>
+    </file>
+</files>
