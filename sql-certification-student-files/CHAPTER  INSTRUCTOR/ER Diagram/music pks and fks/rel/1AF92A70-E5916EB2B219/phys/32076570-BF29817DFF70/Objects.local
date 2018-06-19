@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="FA20E29A-A291-A11B-3EBF-1B1D9F452CFA" name="SYSTEM" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="A152185D-B7BF-5D25-5FC7-19315B23FE9C" name="MUSIC" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="6F4EC9A5-DCCD-BD88-1D45-9D2234A211DA" name="SONGS" seqName="seg_0"/>
+   <object objectType="Table" objectID="7933CA88-779A-08AE-C169-3BA6F52BB4C1" name="ARTISTS" seqName="seg_0"/>
+   <object objectType="Table" objectID="BD581C4E-8699-27DA-0770-D30BCE4E970E" name="ALBUMS" seqName="seg_0"/>
+   <object objectType="Table" objectID="D37594B2-AED0-92D9-957A-FE47E35BD402" name="BANDS" seqName="seg_0"/>
+   <object objectType="Table" objectID="EAD029AF-0117-4CE3-97C3-1E62646E28E8" name="TRACKS" seqName="seg_0"/>
+   <object objectType="Segment" objectID="4C576B14-8F98-5070-CD1C-1D1A1E9F254D" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="33E60BDC-017D-3638-3697-3A67BFADA179" name="Storage6" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

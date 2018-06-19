@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<client-settings class="java.util.HashMap" xmlns="http://xmlns.oracle.com/jdeveloper/110000/client-preferences">
+   <Item>
+      <Key>editors-options</Key>
+      <Value class="oracle.ide.editor.EditorsOptions">
+         <editorsData/>
+         <lruFiles>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.dbtools.worksheet.extension.WorksheetAddin</editor>
+               <explicit>false</explicit>
+               <nodeURL path="../../../../../../../oracleclass/TakeHomeQuiz.sql"/>
+               <projectURL/>
+               <workspaceURL protocol="sqldev.temp" path="/Databases.jws"/>
+            </Item>
+         </lruFiles>
+         <recentFilesShowAll>false</recentFilesShowAll>
+      </Value>
+   </Item>
+</client-settings>

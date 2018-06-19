@@ -1,0 +1,124 @@
+;;; 
+Import: Release 11.2.0.2.0 - Production on Tue May 19 13:03:47 2015
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - Production
+Master table "SYSTEM"."SYS_IMPORT_SCHEMA_01" successfully loaded/unloaded
+Starting "SYSTEM"."SYS_IMPORT_SCHEMA_01":  system/******** schemas=a, books, cruises,music,texas directory=dpump_dir1 dumpfile=allschemasNoHP.dmp logfile=expdp_allschemasNoHP.log 
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+ORA-39083: Object type TABLE:"BOOKS"."INVOICES_EXTERNAL" failed to create with error:
+ORA-06564: object INVOICES does not exist
+Failing sql is:
+CREATE TABLE "BOOKS"."INVOICES_EXTERNAL" ("INVOICE_ID" CHAR(6 BYTE), "INVOICE_DATE" CHAR(13 BYTE), "INVOICE_AMT" CHAR(9 BYTE), "ACCOUNT_NUMBER" CHAR(11 BYTE)) ORGANIZATION EXTERNAL ( TYPE ORACLE_LOADER DEFAULT DIRECTORY "INVOICES" ACCESS PARAMETERS ( records delimited BY newline skip 2 fields 
+      ( invoice_id CHAR(6), invoice_date CHAR(13), 
+      invoice_amt C
+ORA-39083: Object type TABLE:"MUSIC"."ARTISTS" failed to create with error:
+ORA-06564: object TMP does not exist
+Failing sql is:
+CREATE TABLE "MUSIC"."ARTISTS" ("AID" NUMBER, "NAME" VARCHAR2(175 BYTE), "BIRTH_CITY" VARCHAR2(175 BYTE), "CITY_RESIDENCE" VARCHAR2(175 BYTE), "BIRTH_YEAR" NUMBER) ORGANIZATION EXTERNAL ( TYPE ORACLE_LOADER DEFAULT DIRECTORY "TMP" ACCESS PARAMETERS ( RECORDS DELIMITED BY NEWLINE
+    FIELDS TERMINATED BY ","
+    OPTIONALLY ENCLOSED BY '"'
+    MISSING FIELD VALUES ARE NULL
+    REJ
+ORA-39083: Object type TABLE:"MUSIC"."SONGS" failed to create with error:
+ORA-06564: object TMP does not exist
+Failing sql is:
+CREATE TABLE "MUSIC"."SONGS" ("SONG_ID" NUMBER, "ARTIST_ID" NUMBER, "TITLE" VARCHAR2(175 BYTE), "WRITTEN_BY" VARCHAR2(175 BYTE), "GENRE" VARCHAR2(175 BYTE), "YEAR_RELEASED" NUMBER, "LENGTH_SECONDS" NUMBER) ORGANIZATION EXTERNAL ( TYPE ORACLE_LOADER DEFAULT DIRECTORY "TMP" ACCESS PARAMETERS ( RECORDS DELIMITED BY NEWLINE
+    FIELDS TERMINATED BY ","
+    OPTIONALLY ENCLOSED BY '"'
+ORA-39083: Object type TABLE:"MUSIC"."ALBUMS" failed to create with error:
+ORA-06564: object TMP does not exist
+Failing sql is:
+CREATE TABLE "MUSIC"."ALBUMS" ("ALBUM_ID" NUMBER, "TITLE" VARCHAR2(175 BYTE), "YEAR_RELEASED" VARCHAR2(175 BYTE), "LABEL" VARCHAR2(175 BYTE)) ORGANIZATION EXTERNAL ( TYPE ORACLE_LOADER DEFAULT DIRECTORY "TMP" ACCESS PARAMETERS ( RECORDS DELIMITED BY NEWLINE
+    FIELDS TERMINATED BY ","
+    OPTIONALLY ENCLOSED BY '"'
+    MISSING FIELD VALUES ARE NULL
+    REJECT ROWS WITH ALL NULL 
+ORA-39083: Object type TABLE:"MUSIC"."TRACKS" failed to create with error:
+ORA-06564: object TMP does not exist
+Failing sql is:
+CREATE TABLE "MUSIC"."TRACKS" ("TRACK_ID" NUMBER, "ALBUM_ID" NUMBER, "SONG_ID" NUMBER, "SEQUENCE_NUMBER" NUMBER) ORGANIZATION EXTERNAL ( TYPE ORACLE_LOADER DEFAULT DIRECTORY "TMP" ACCESS PARAMETERS ( RECORDS DELIMITED BY NEWLINE
+    FIELDS TERMINATED BY ","
+    OPTIONALLY ENCLOSED BY '"'
+    MISSING FIELD VALUES ARE NULL
+    REJECT ROWS WITH ALL NULL FIELDS
+      ( track_id,
+    
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "BOOKS"."INVOICES_CLEANED"                  1.045 MB   39585 rows
+. . imported "BOOKS"."INVOICES_RAW"                      1.665 MB   39585 rows
+. . imported "BOOKS"."INVOICES_REVISED"                  1.280 MB   39585 rows
+. . imported "BOOKS"."DEMO_PRODUCT_INFO"                 24.87 KB      10 rows
+. . imported "BOOKS"."AUTHOR"                            6.109 KB      14 rows
+. . imported "BOOKS"."BOOKAUTHOR"                        5.796 KB      20 rows
+. . imported "BOOKS"."BOOKS"                             8.437 KB      14 rows
+. . imported "BOOKS"."CUSTOMERS"                         8.953 KB      20 rows
+. . imported "BOOKS"."DEMO_CUSTOMERS"                    10.11 KB       7 rows
+. . imported "BOOKS"."DEMO_ORDERS"                       6.906 KB      10 rows
+. . imported "BOOKS"."DEMO_ORDER_ITEMS"                  7.679 KB      49 rows
+. . imported "BOOKS"."DEMO_STATES"                       6.242 KB      51 rows
+. . imported "BOOKS"."DEMO_USERS"                        7.929 KB       2 rows
+. . imported "BOOKS"."DEPT"                              5.929 KB       4 rows
+. . imported "BOOKS"."EMP"                               8.562 KB      14 rows
+. . imported "BOOKS"."ORDERITEMS"                        7.117 KB      32 rows
+. . imported "BOOKS"."ORDERS"                            9.140 KB      21 rows
+. . imported "BOOKS"."PROMOTION"                         5.992 KB       4 rows
+. . imported "BOOKS"."PUBLISHER"                         6.492 KB       5 rows
+. . imported "CRUISES"."ADDRESSES"                       9.265 KB      12 rows
+. . imported "CRUISES"."BOOK_CONTENTS"                   5.992 KB       6 rows
+. . imported "CRUISES"."BRANCH_OFFICE_ACCOUNTS"          6.343 KB       4 rows
+. . imported "CRUISES"."CONTACT_EMAILS"                  6.804 KB       3 rows
+. . imported "CRUISES"."CRUISE_CUSTOMERS"                5.953 KB       6 rows
+. . imported "CRUISES"."CRUISE_TYPES"                    5.953 KB       5 rows
+. . imported "CRUISES"."DECKS"                           6.125 KB      13 rows
+. . imported "CRUISES"."DISTRIBUTORS"                      6.5 KB       8 rows
+. . imported "CRUISES"."EMPLOYEES"                       8.078 KB       7 rows
+. . imported "CRUISES"."EMPLOYEE_CHART"                  6.062 KB       9 rows
+. . imported "CRUISES"."FURNISHINGS"                     6.281 KB       3 rows
+. . imported "CRUISES"."GRADING"                         6.375 KB       5 rows
+. . imported "CRUISES"."INVOICES"                        7.789 KB       7 rows
+. . imported "CRUISES"."ONLINE_SUBSCRIBERS"              7.226 KB       3 rows
+. . imported "CRUISES"."ONTARIO_ORDERS"                  5.937 KB       3 rows
+. . imported "CRUISES"."ORDER_ADDRESSES"                 6.148 KB      11 rows
+. . imported "CRUISES"."PAY_HISTORY"                     6.804 KB       6 rows
+. . imported "CRUISES"."PORTS"                           7.421 KB      13 rows
+. . imported "CRUISES"."POSITIONS"                       7.367 KB       9 rows
+. . imported "CRUISES"."PROJECTS"                        7.429 KB       8 rows
+. . imported "CRUISES"."PROVISIONS"                      7.101 KB      12 rows
+. . imported "CRUISES"."SCORES"                          5.851 KB       3 rows
+. . imported "CRUISES"."SHIPS"                           6.898 KB       8 rows
+. . imported "CRUISES"."SHIP_CABINS"                     9.687 KB      29 rows
+. . imported "CRUISES"."SHIP_CABIN_GRID"                 6.320 KB       5 rows
+. . imported "CRUISES"."STORE_INVENTORY"                 6.367 KB       6 rows
+. . imported "CRUISES"."VENDORS"                         6.312 KB       2 rows
+. . imported "CRUISES"."WORK_HISTORY"                    7.164 KB       3 rows
+. . imported "CRUISES"."WO_INV"                          6.351 KB       3 rows
+. . imported "CRUISES"."WWA_INVOICES"                    6.296 KB       2 rows
+. . imported "A"."ADDRESSES"                                 0 KB       0 rows
+. . imported "A"."CALCULATION_DICTIONARY"                    0 KB       0 rows
+. . imported "A"."CARNEGIE_CLASS"                            0 KB       0 rows
+. . imported "A"."GROUPS"                                    0 KB       0 rows
+. . imported "A"."SCHOOLS"                                   0 KB       0 rows
+. . imported "CRUISES"."CRUISES"                             0 KB       0 rows
+. . imported "CRUISES"."CRUISE_ORDERS"                       0 KB       0 rows
+. . imported "CRUISES"."ERRORS"                              0 KB       0 rows
+. . imported "CRUISES"."PORT_INVENTORY"                      0 KB       0 rows
+. . imported "CRUISES"."SALARY_CHART"                        0 KB       0 rows
+. . imported "CRUISES"."SHIP_CABIN_STATISTICS"               0 KB       0 rows
+. . imported "CRUISES"."SHIP_INVENTORY"                      0 KB       0 rows
+. . imported "TEXAS"."POPULATION"                            0 KB       0 rows
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Job "SYSTEM"."SYS_IMPORT_SCHEMA_01" completed with 5 error(s) at 13:04:07

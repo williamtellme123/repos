@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="FE197360-0C27-ECC5-CD1E-9EECA97B529F" directorySegmentName="seg_0" name="PROMOTION">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>MYBOOKS</sourceObjSchema>
+<sourceObjName>PROMOTION</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram only PKS</ownerDesignName>
+<schemaObject>970671E4-54E0-D176-C8A8-CC8A5F2BC0E9</schemaObject>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="GIFT" id="7D1A244D-135C-AB5E-841C-E2226F596C8C">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>PROMOTION</sourceObjSchema>
+<sourceObjName>GIFT</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram only PKS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="MINRETAIL" id="9D4FC858-4615-571D-745E-C0C94254DCE6">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>PROMOTION</sourceObjSchema>
+<sourceObjName>MINRETAIL</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram only PKS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="MAXRETAIL" id="287C6203-4EAF-470A-F98F-08454CFE92A4">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>PROMOTION</sourceObjSchema>
+<sourceObjName>MAXRETAIL</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram only PKS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

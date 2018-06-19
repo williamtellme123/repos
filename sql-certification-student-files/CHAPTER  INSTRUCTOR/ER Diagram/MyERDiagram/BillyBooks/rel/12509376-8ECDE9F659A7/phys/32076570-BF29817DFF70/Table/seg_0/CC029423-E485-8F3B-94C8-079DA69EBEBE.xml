@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDERITEMS" id="CC029423-E485-8F3B-94C8-079DA69EBEBE" directorySegmentName="seg_0">
+<createdBy>Consulting</createdBy>
+<createdTime>2016-02-13 16:59:21 UTC</createdTime>
+<ownerDesignName>BillyBooks</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>39A66771-E62F-482D-3B26-A346D40925A7</segment>
+<tableSpace>104CE61E-2021-46C0-72F2-0DE2C01A476E</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ORDER#" id="7418782E-7030-0580-F189-5DBE929EFD68">
+<createdBy>Consulting</createdBy>
+<createdTime>2016-02-13 16:59:22 UTC</createdTime>
+<ownerDesignName>BillyBooks</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ITEM#" id="AC097F4A-BDF8-5E75-8D7F-D1C84493B7E4">
+<createdBy>Consulting</createdBy>
+<createdTime>2016-02-13 16:59:22 UTC</createdTime>
+<ownerDesignName>BillyBooks</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ISBN" id="B4BC5530-9999-9157-E6BC-C717AAD2BD77">
+<createdBy>Consulting</createdBy>
+<createdTime>2016-02-13 16:59:22 UTC</createdTime>
+<ownerDesignName>BillyBooks</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="QUANTITY" id="D9261538-0ABA-1B6B-FB38-8BAE3D184215">
+<createdBy>Consulting</createdBy>
+<createdTime>2016-02-13 16:59:22 UTC</createdTime>
+<ownerDesignName>BillyBooks</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008892" id="24043BED-88BD-1538-FACB-E455883F226A">
+<createdBy>Consulting</createdBy>
+<createdTime>2016-02-13 16:59:23 UTC</createdTime>
+<ownerDesignName>BillyBooks</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008891" id="AB76305E-E0A9-230D-B262-2500EF581DC4">
+<createdBy>Consulting</createdBy>
+<createdTime>2016-02-13 16:59:23 UTC</createdTime>
+<ownerDesignName>BillyBooks</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

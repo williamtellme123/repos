@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="PUBLIC" id="PUBLIC" directorySegmentName="seg_0">
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:53:32 UTC</createdTime>
+<ownerDesignName>ER Diagram only PKS</ownerDesignName>
+<nullInstance>true</nullInstance>
+<storableNullInstance>true</storableNullInstance>
+</UserOraclev10g>

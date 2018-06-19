@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="970671E4-54E0-D176-C8A8-CC8A5F2BC0E9" name="MYBOOKS" seqName="seg_0"/>
+   <object objectType="Table" objectID="2F3A54FA-7FD7-3477-9CCE-802785018B8C" name="AUTHOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="26B44689-03E2-85BC-CBF9-D49BCB1BB362" name="BOOKAUTHOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="D2E04E55-6293-0D25-8FF0-6F37A2DF90B2" name="BOOKS" seqName="seg_0"/>
+   <object objectType="Table" objectID="30B9D8CB-A21E-0E34-8CA0-B7914961D5EC" name="CUSTOMERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="D1EC933E-6D85-6FF9-125B-E75AE4F6B531" name="ORDERITEMS" seqName="seg_0"/>
+   <object objectType="Table" objectID="1D1CEECD-1916-F4FE-4688-6DD1D9E7065A" name="ORDERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="FE197360-0C27-ECC5-CD1E-9EECA97B529F" name="PROMOTION" seqName="seg_0"/>
+   <object objectType="Table" objectID="C5122DA3-75BB-F0D4-4009-C0BED23E62CE" name="PUBLISHER" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C4A5A895-FB3C-CF8A-5104-294184CDD365" name="AUTH_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EEC3585B-1FF2-FC02-33C7-16A280F91571" name="BK_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FD448CD7-44F4-A8EC-435E-6A62F7F34C55" name="BOOK_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A7F3F143-4C2E-396F-482D-88E1A09CE711" name="CUST_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8D62A41F-65F5-03B3-D454-85B289F9D3E2" name="ORD_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E6A0E0BE-1FC5-362B-E864-951957DC0E5A" name="PUB_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

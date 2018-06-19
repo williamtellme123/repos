@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="26B44689-03E2-85BC-CBF9-D49BCB1BB362" directorySegmentName="seg_0" name="BOOKAUTHOR">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>MYBOOKS</sourceObjSchema>
+<sourceObjName>BOOKAUTHOR</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<schemaObject>970671E4-54E0-D176-C8A8-CC8A5F2BC0E9</schemaObject>
+<pkName>BOOKAUTHOR_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ISBN" id="F0F5D75A-6B83-3F74-7EBE-9D1A221844C8">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>BOOKAUTHOR</sourceObjSchema>
+<sourceObjName>ISBN</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<delegate>6655A704-6BA8-7B64-AF61-A8C46FA1B4C8</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD448CD7-44F4-A8EC-435E-6A62F7F34C55" referredColumn="6655A704-6BA8-7B64-AF61-A8C46FA1B4C8"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="AUTHORID" id="BE85C05F-4BE1-7D28-545E-05A207265CDD">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>BOOKAUTHOR</sourceObjSchema>
+<sourceObjName>AUTHORID</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<delegate>17B12197-13DC-FDBF-99CF-6752E00488CB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4A5A895-FB3C-CF8A-5104-294184CDD365" referredColumn="17B12197-13DC-FDBF-99CF-6752E00488CB"/>
+</associations>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="890D09A2-A474-9460-D487-E5B160152982" name="BOOKAUTHOR_PK">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>MYBOOKS</sourceObjSchema>
+<sourceObjName>SYS_C0010897</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 17:00:32 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<importedID>099EFAAD-8B80-5C97-2F2D-3C54E3A7CB6D</importedID>
+<schemaObject>970671E4-54E0-D176-C8A8-CC8A5F2BC0E9</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F0F5D75A-6B83-3F74-7EBE-9D1A221844C8"/>
+<colUsage columnID="BE85C05F-4BE1-7D28-545E-05A207265CDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="2816695A-3D3F-8441-0835-A92749F356CA" name="AUTH_FK">
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 17:21:54 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="BE85C05F-4BE1-7D28-545E-05A207265CDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="7A7C90A4-D114-AAEB-CCD4-5A3D29302B4E" name="BOOK_FK">
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 17:21:54 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="F0F5D75A-6B83-3F74-7EBE-9D1A221844C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

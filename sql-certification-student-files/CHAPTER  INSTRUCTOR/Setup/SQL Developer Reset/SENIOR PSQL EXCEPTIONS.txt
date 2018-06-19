@@ -1,0 +1,103 @@
+        RAISE NOTICE 'Refreshing materialized view %s ...', quote_ident(mviews.mv_name);
+        EXECUTE 'TRUNCATE TABLE ' || quote_ident(mviews.mv_name);
+        EXECUTE 'INSERT INTO '
+                   || quote_ident(mviews.mv_name) || ' '
+                   || mviews.mv_query;
+    END LOOP;
+
+    RAISE NOTICE 'Done refreshing materialized views.';
+
+
+
+39.6.6. Trapping Errors
+
+By default, any error occurring in a PL/pgSQL function aborts execution of the function, and indeed of the surrounding transaction as well. You can trap errors and recover from them by using a BEGIN block with an EXCEPTION clause. The syntax is an extension of the normal syntax for a BEGIN block:
+[ <<label>> ]
+[ DECLARE
+    declarations ]
+BEGIN
+    statements
+EXCEPTION
+    WHEN condition [ OR condition ... ] THEN
+        handler_statements
+    [ WHEN condition [ OR condition ... ] THEN
+          handler_statements
+      ... ]
+END;
+
+
+If no error occurs, this form of block simply executes all the statements, and then control passes to the next statement after END. But if an error occurs within the statements, further processing of the statements is abandoned, and control passes to the EXCEPTION list. The list is searched for the first condition matching the error that occurred. If a match is found, the corresponding handler_statements are executed, and then control passes to the next statement after END. If no match is found, the error propagates out as though the EXCEPTION clause were not there at all: the error can be caught by an enclosing block with EXCEPTION, or if there is none it aborts processing of the function.
+
+The condition names can be any of those shown in Appendix A. A category name matches any error within its category. The special condition name OTHERS matches every error type except QUERY_CANCELED. (It is possible, but often unwise, to trap QUERY_CANCELED by name.) Condition names are not case-sensitive. Also, an error condition can be specified by SQLSTATE code; for example these are equivalent:
+WHEN division_by_zero THEN ...
+WHEN SQLSTATE '22012' THEN ...
+
+
+If a new error occurs within the selected handler_statements, it cannot be caught by this EXCEPTION clause, but is propagated out. A surrounding EXCEPTION clause could catch it.
+
+When an error is caught by an EXCEPTION clause, the local variables of the PL/pgSQL function remain as they were when the error occurred, but all changes to persistent database state within the block are rolled back. As an example, consider this fragment:
+INSERT INTO mytab(firstname, lastname) VALUES('Tom', 'Jones');
+BEGIN
+    UPDATE mytab SET firstname = 'Joe' WHERE lastname = 'Jones';
+    x := x + 1;
+    y := x / 0;
+EXCEPTION
+    WHEN division_by_zero THEN
+        RAISE NOTICE 'caught division_by_zero';
+        RETURN x;
+END;
+
+
+When control reaches the assignment to y, it will fail with a division_by_zero error. This will be caught by the EXCEPTION clause. The value returned in the RETURN statement will be the incremented value of x, but the effects of the UPDATE command will have been rolled back. The INSERT command preceding the block is not rolled back, however, so the end result is that the database contains Tom Jones not Joe Jones.
+
+
+
+Tip: A block containing an EXCEPTION clause is significantly more expensive to enter and exit than a block without one. Therefore, don't use EXCEPTION without need.
+
+Within an exception handler, the SQLSTATE variable contains the error code that corresponds to the exception that was raised (refer to Table A-1 for a list of possible error codes). The SQLERRM variable contains the error message associated with the exception. These variables are undefined outside exception handlers.
+
+ xample 39-2. Exceptions with UPDATE/INSERT
+
+This example uses exception handling to perform either UPDATE or INSERT, as appropriate:
+CREATE TABLE db (a INT PRIMARY KEY, b TEXT);
+
+CREATE FUNCTION merge_db(key INT, data TEXT) RETURNS VOID AS
+$$
+BEGIN
+    LOOP
+        -- first try to update the key
+        UPDATE db SET b = data WHERE a = key;
+        IF found THEN
+            RETURN;
+        END IF;
+        -- not there, so try to insert the key
+        -- if someone else inserts the same key concurrently,
+        -- we could get a unique-key failure
+        BEGIN
+            INSERT INTO db(a,b) VALUES (key, data);
+            RETURN;
+        EXCEPTION WHEN unique_violation THEN
+            -- Do nothing, and loop to try the UPDATE again.
+        END;
+    END LOOP;
+END;
+$$
+LANGUAGE plpgsql;
+
+SELECT merge_db(1, 'david');
+SELECT merge_db(1, 'dennis');
+
+This example assumes the unique_violation error is caused by the INSERT, and not by an INSERT trigger function on the table.
+ --- ---------------------------
+ IF NEW.noces< new.first_column THEN 
+        RAISE EXCEPTION 'cannot have a negative salary'; 
+    END IF; 
+-- -------------------------------------
+$$
+BEGIN 
+  IF NEW.noces< new.first_column THEN 
+    RAISE EXCEPTION 'cannot have a negative salary'; 
+  END IF; 
+  return new; 
+END;
+$$

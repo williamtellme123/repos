@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="1D1CEECD-1916-F4FE-4688-6DD1D9E7065A" directorySegmentName="seg_0" name="ORDERS">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>MYBOOKS</sourceObjSchema>
+<sourceObjName>ORDERS</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<schemaObject>970671E4-54E0-D176-C8A8-CC8A5F2BC0E9</schemaObject>
+<pkName>ORDERS_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ORDER#" id="30EAD17D-CBD2-318C-CC3E-1F633ED4668F">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ORDER#</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="CUSTOMER#" id="682B971B-F434-7402-5314-A1A6A005092F">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>CUSTOMER#</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<delegate>B3120059-485D-968E-CCB0-8CDBA9034B8D</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7F3F143-4C2E-396F-482D-88E1A09CE711" referredColumn="B3120059-485D-968E-CCB0-8CDBA9034B8D"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ORDERDATE" id="3018A9DE-45DE-FCC9-202E-0C2F28F7B032">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ORDERDATE</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SHIPDATE" id="FFA4C164-2D68-84EE-7FF6-D77D8E499781">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SHIPDATE</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SHIPSTREET" id="2AEC3689-90F8-ABD8-2992-10AB265C4B4B">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SHIPSTREET</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SHIPCITY" id="495A127B-E710-2FF1-27CC-D8A7A938001A">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SHIPCITY</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SHIPSTATE" id="8B29CD9C-769F-F95D-B92D-D76B4E4DA44C">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SHIPSTATE</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SHIPZIP" id="66F25EB6-8886-B3DA-1FB0-B3AA1C64CE69">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SHIPZIP</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="8189E7B6-B05A-1498-54DE-049051234B68" name="ORDERS_PK">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>MYBOOKS</sourceObjSchema>
+<sourceObjName>SYS_C0010890</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<schemaObject>970671E4-54E0-D176-C8A8-CC8A5F2BC0E9</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="30EAD17D-CBD2-318C-CC3E-1F633ED4668F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="1B42AF3C-BB88-07AE-6C0D-138AC7BCF881" name="CUST_FK">
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 17:21:54 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="682B971B-F434-7402-5314-A1A6A005092F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

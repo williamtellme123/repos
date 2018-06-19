@@ -1,0 +1,18 @@
+--IMPORT
+--EXPORT
+--External file
+--	Excel SQL
+--`	Txt
+--	CSV
+--	WebServices
+--BulkCollect
+--List directory of files
+--Merge
+--EDCSSP
+--Embed Java into database
+-- Hierarchical presentation of folders and file
+--Call from a Stored Procedure data pump
+--Backup restore
+--Handling exceptions
+--Regexpr
+--History tables for KM Tracker trigger

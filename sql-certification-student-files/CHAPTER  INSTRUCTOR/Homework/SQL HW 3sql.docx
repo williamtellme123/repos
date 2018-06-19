@@ -1,0 +1,68 @@
+-----------------Jenn's SQL HW 3--------------------------------------------
+
+create table music_artist
+        (artist_id      number primary key,
+        artist_name    varchar2(128),
+        lives_in_city   varchar2(75),
+        born_in_city    varchar2 (75) );
+               
+select * from music_artist;
+
+create table music_song
+          (song_id               number primary key,
+          artists_id              number,
+          song_title            varchar2 (75),
+          song_writer            varchar2 (75),
+          length_seconds    number,
+         CONSTRAINT song_id_fk FOREIGN KEY (artists_id) REFERENCES music_artist (artist_id));
+
+
+select * from music_song;
+
+
+create table music_album
+      (album_id     number primary key,
+      album_name    varchar2 (35),
+      label         varchar2 (25),
+      year_released varchar2 (4) );
+      
+select * from music_album;
+      
+create table music_track
+      (track_id               number primary key,
+       aid                number,
+       sid                 number,
+       song_sequence_on_album  number,
+       CONSTRAINT album_id_fk FOREIGN KEY (aid) REFERENCES music_album (album_id),
+       CONSTRAINT music_id_fk FOREIGN KEY (sid) REFERENCES music_song (song_id));
+ drop table music_track;     
+select * from music_track;
+
+commit;
+
+--drop table music_track;
+--drop table music_song;
+--drop table music_artist;
+--drop table music_album;
+Select * from music_song;
+
+select user, sysdate, artist_name
+from music_artist;
+
+select user, sysdate, artist_name, song_title
+  from music_artist, music_song
+  where music_artist.artist_id = music_song.artists_id
+  order by song_title;
+  
+select user, sysdate, album_name, song_title
+  from music_album, music_song, music_track
+  where music_album.album_id = music_track.aid 
+      and music_song.song_id = music_track.sid
+  order by album_name;
+  
+  select user, sysdate, artist_name, album_name, song_title
+    from music_album, music_song, music_artist, music_track
+    where music_artist.artist_id = music_song.artists_id
+    and music_song.song_id = music_track.sid
+    and music_track.aid = music_album.album_id
+      and artist_name = 'Britney Spears';

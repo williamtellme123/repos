@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="DB1B64A6-8DD8-29A4-320B-4CCA3C59461E" name="MUSIC" seqName="seg_0"/>
+   <object objectType="Table" objectID="BD581C4E-8699-27DA-0770-D30BCE4E970E" name="ALBUMS" seqName="seg_0"/>
+   <object objectType="Table" objectID="7933CA88-779A-08AE-C169-3BA6F52BB4C1" name="ARTISTS" seqName="seg_0"/>
+   <object objectType="Table" objectID="D37594B2-AED0-92D9-957A-FE47E35BD402" name="BANDS" seqName="seg_0"/>
+   <object objectType="Table" objectID="6F4EC9A5-DCCD-BD88-1D45-9D2234A211DA" name="SONGS" seqName="seg_0"/>
+   <object objectType="Table" objectID="EAD029AF-0117-4CE3-97C3-1E62646E28E8" name="TRACKS" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="97979114-7C80-853A-BD4D-BB872931EB89" name="SYS_C0011607" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5B1BBFF7-2907-02E8-A59B-E99AF42C1095" name="SYS_C0011609" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BCEF2572-0E94-DB36-8169-2C5EA1B1E1DF" name="SYS_C0011616" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8CA2E688-3701-40CA-6D00-07BFCA018930" name="SYS_C0011617" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

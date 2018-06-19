@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BOOKAUTHOR" id="1E1CFE33-0434-E7F6-EC77-FBF0012E284D" directorySegmentName="seg_0">
+<createdBy>Consulting</createdBy>
+<createdTime>2016-02-13 16:59:21 UTC</createdTime>
+<ownerDesignName>BillyBooks</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>39A66771-E62F-482D-3B26-A346D40925A7</segment>
+<tableSpace>104CE61E-2021-46C0-72F2-0DE2C01A476E</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="AUTHORID" id="A251DFB7-224E-E8B6-8BB5-44C8555F18D6">
+<createdBy>Consulting</createdBy>
+<createdTime>2016-02-13 16:59:22 UTC</createdTime>
+<ownerDesignName>BillyBooks</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ISBN" id="A823DCBA-0F13-53C9-C16A-03BE7FC1802E">
+<createdBy>Consulting</createdBy>
+<createdTime>2016-02-13 16:59:22 UTC</createdTime>
+<ownerDesignName>BillyBooks</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008896" id="76D08FB1-2DA8-7FEE-6448-1441C7FA3BA9">
+<createdBy>Consulting</createdBy>
+<createdTime>2016-02-13 17:05:08 UTC</createdTime>
+<ownerDesignName>BillyBooks</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008893" id="C7E291A8-70B8-33B2-9DA9-A12685677E92">
+<createdBy>Consulting</createdBy>
+<createdTime>2016-02-13 16:59:23 UTC</createdTime>
+<ownerDesignName>BillyBooks</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BOOKAUTHOR_PK" id="1F6CA0F8-37E3-5A63-3765-BC3FD4A169CB">
+<createdBy>Consulting</createdBy>
+<createdTime>2016-02-13 16:59:23 UTC</createdTime>
+<ownerDesignName>BillyBooks</ownerDesignName>
+<tableSpace>104CE61E-2021-46C0-72F2-0DE2C01A476E</tableSpace>
+<indexSegment>61AD9ECD-C066-DB8C-21BE-B4AC3A8BD700</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BOOKAUTHOR" id="26B44689-03E2-85BC-CBF9-D49BCB1BB362" directorySegmentName="seg_0">
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram only PKS</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A61E9DBE-2727-88D3-E97F-7028ED8B9E8E</segment>
+<tableSpace>D30BE4C5-5F70-D166-CEC9-35AA8AB73291</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="AUTHORID" id="BE85C05F-4BE1-7D28-545E-05A207265CDD">
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram only PKS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ISBN" id="F0F5D75A-6B83-3F74-7EBE-9D1A221844C8">
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram only PKS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

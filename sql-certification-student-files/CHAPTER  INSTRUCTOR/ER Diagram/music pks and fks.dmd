@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="music pks and fks" id="4A5315F1-2707-F321-A555-E490516B2CE8" version="3.5">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 13:21:23 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4A5315F1-2707-F321-A555-E490516B2CE8</designId>
+</OSDM_Design>

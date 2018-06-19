@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ARTISTS" id="7933CA88-779A-08AE-C169-3BA6F52BB4C1" directorySegmentName="seg_0">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4C576B14-8F98-5070-CD1C-1D1A1E9F254D</segment>
+<tableSpace>FA20E29A-A291-A11B-3EBF-1B1D9F452CFA</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="RESIDENCE" id="15F90231-30BF-E2D9-58E9-85332C9A585F">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="BIRTH_CITY" id="1ACBD6B6-739B-F64F-A1CA-08DC37ED5557">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ARTIST_NAME" id="3685E1B0-3479-E159-78E2-1701CA4E367E">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="BID" id="BB0C67F0-387A-04C8-5093-34974A332392">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ARTIST_ID" id="C367A766-1291-5033-5D69-9EF19835CCD9">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="BIRTH_YEAR" id="FD0EBFF3-D977-C505-AC2A-DE43D28912F2">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0011607" id="25D54D31-782F-2030-D3CE-AB60138CED61">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ARTISTS_PK" id="0D8DB5D3-0382-C5F7-2309-FC0C68031D17">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<tableSpace>FA20E29A-A291-A11B-3EBF-1B1D9F452CFA</tableSpace>
+<indexSegment>33E60BDC-017D-3638-3697-3A67BFADA179</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="MYBOOKS" id="970671E4-54E0-D176-C8A8-CC8A5F2BC0E9" directorySegmentName="seg_0">
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:00 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<importedID>AD9AEB4F-9F16-1307-3328-4E6586532040</importedID>
+</SchemaObject>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="2F3A54FA-7FD7-3477-9CCE-802785018B8C" directorySegmentName="seg_0" name="AUTHOR">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>MYBOOKS</sourceObjSchema>
+<sourceObjName>AUTHOR</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:00 UTC</createdTime>
+<ownerDesignName>ER Diagram only PKS</ownerDesignName>
+<schemaObject>970671E4-54E0-D176-C8A8-CC8A5F2BC0E9</schemaObject>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="AUTHORID" id="17B12197-13DC-FDBF-99CF-6752E00488CB">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>AUTHOR</sourceObjSchema>
+<sourceObjName>AUTHORID</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram only PKS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="LNAME" id="BE51EEF3-6B1E-FEF4-F738-49204074EE1C">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>AUTHOR</sourceObjSchema>
+<sourceObjName>LNAME</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram only PKS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="FNAME" id="FBFC0D07-AC25-B9E3-32B1-97A044A168CB">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>AUTHOR</sourceObjSchema>
+<sourceObjName>FNAME</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 16:54:01 UTC</createdTime>
+<ownerDesignName>ER Diagram only PKS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

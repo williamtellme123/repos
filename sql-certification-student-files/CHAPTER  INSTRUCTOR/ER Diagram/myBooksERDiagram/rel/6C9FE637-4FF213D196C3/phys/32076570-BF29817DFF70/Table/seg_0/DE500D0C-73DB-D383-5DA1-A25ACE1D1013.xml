@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDERS" id="DE500D0C-73DB-D383-5DA1-A25ACE1D1013" directorySegmentName="seg_0">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>64FCCA9A-89BE-E615-A959-F53AEB106B41</segment>
+<tableSpace>AD4D6810-8FD4-4C04-E60B-33CA5B368ACE</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CUSTOMER#" id="05C17AC6-255F-91EA-A066-AFA2C3DCA329">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SHIPSTATE" id="2DAD6FCC-04D5-5ECF-F37B-5735C395B10D">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SHIPCITY" id="85DD0935-DCF3-978B-84B5-6AD29D479174">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SHIPZIP" id="9E2C2663-3888-45EC-5CE0-DD7D74E10CA0">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SHIPDATE" id="B722424D-D03A-2A2F-2AD8-EC6B21CBA583">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ORDER#" id="B75E8080-705D-0013-147B-3659D15FDC44">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SHIPSTREET" id="E3AE9B09-AF1F-FC3F-47CA-82ECCD9FF55E">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ORDERDATE" id="FAB15FBD-6EE5-43CA-7820-4F958899DC49">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="OC_FK" id="BC07F745-72F9-9E0D-777C-092B43622E7C">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:50:02 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDERS_PK" id="5A54D274-58D6-F8CF-03AC-F64C8E1095FB">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:50:02 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+<tableSpace>AD4D6810-8FD4-4C04-E60B-33CA5B368ACE</tableSpace>
+<indexSegment>F99280E7-8301-F3B8-E31C-295C9142C74D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

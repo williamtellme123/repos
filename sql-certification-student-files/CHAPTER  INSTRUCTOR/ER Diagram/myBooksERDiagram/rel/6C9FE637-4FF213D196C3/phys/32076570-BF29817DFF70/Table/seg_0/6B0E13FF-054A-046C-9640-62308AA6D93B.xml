@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BOOKS" id="6B0E13FF-054A-046C-9640-62308AA6D93B" directorySegmentName="seg_0">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>64FCCA9A-89BE-E615-A959-F53AEB106B41</segment>
+<tableSpace>AD4D6810-8FD4-4C04-E60B-33CA5B368ACE</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CATEGORY" id="09642CC0-46E3-C92B-34DC-C9B451F46AB2">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="TMP_RET" id="0F990564-0F96-534A-E2D8-8D9800740E68">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PUBID" id="163FE3C7-6398-39AC-9E5B-4FD50360927D">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ISBN" id="51B87049-4D22-5CD0-0B80-C82FE52B0468">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="COST" id="977AE3BD-52A9-3143-F5DE-F51537E95D9B">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="RETAIL" id="A24824AC-CC2A-BCAD-9030-4FCEB5096BAD">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="TITLE" id="CB782852-015C-BF31-EAAC-F1BE020957C4">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="BINDING" id="EF122028-5787-9216-25A3-7E800E4B87F8">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:50:02 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PUBDATE" id="FB2DDCE0-ED48-8177-5210-37B2E4BD8329">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:43 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0012181" id="67594489-8E5A-D571-1288-7C03C38CFD6E">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:50:02 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BOOKS_PK" id="D9D148D4-0304-0796-FC94-C75895BB453D">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:50:02 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+<tableSpace>AD4D6810-8FD4-4C04-E60B-33CA5B368ACE</tableSpace>
+<indexSegment>F99280E7-8301-F3B8-E31C-295C9142C74D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="BOOKS_TITLE_UN" id="FC03B6B1-D642-5B59-600B-CE4019DD7D93">
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:50:02 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+<tableSpace>AD4D6810-8FD4-4C04-E60B-33CA5B368ACE</tableSpace>
+<indexSegment>F99280E7-8301-F3B8-E31C-295C9142C74D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

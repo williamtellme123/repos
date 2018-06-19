@@ -1,0 +1,58 @@
+
+The oracle question:
+  There are many sql databases out there. Postgres, Vertica, MS SQL Server, etc......
+  Sometimes people believe you must have used their type of database to do the job.
+  You can say that you studied ANSI SQL using Oracle. ANIS is the standard across platforms
+
+https://docs.oracle.com/cd/B28359_01/server.111/b28314/tdpdw_sql.htm
+  SQL for Reporting and Analysis
+  Use of SQL Analytic Capabilities to Answer Business Queries
+
+https://books.google.com/books?id=k2cONi-RlPYC&pg=PA263&lpg=PA263&dq=common+sql+reporting+problems+and+solutions&source=bl&ots=Vl7ZscGZAy&sig=ZTBFWCgOscLlhDH0iMB7XP8k5fk&hl=en&sa=X&sqi=2&ved=0ahUKEwjX2c3_17HKAhWDQyYKHbVRCRoQ6AEIVDAI#v=onepage&q=common%20sql%20reporting%20problems%20and%20solutions&f=false
+  common sql reporting problems and solutions
+
+Learning SQL (test yourself)
+  http://www.sql-ex.com/learn_exercises.php
+
+Analytic Functions
+  http://www.orafaq.com/node/55
+
+Crytsal reports
+  https://www.youtube.com/watch?v=a33sh-U3Ruk
+  http://ptgmedia.pearsoncmg.com/images/0789734176/downloads/AppendixA.pdf
+Review our work from Chapter 11 reading from an external file
+
+
+How can if all of the widgets from the old table have been moved over to the new table.
+  Is the same same value in two different tables?
+    Intersection
+    Minus
+    left join using null
+
+What kind of joins are there
+Joins
+  Old school
+    Inner
+      where Equi-join
+      where Non-equi-join
+    Outer (left, right)
+      where Left
+      where Right
+  New School
+    Inner
+      join on
+      join using
+    Outer (left, right, full)
+      join on
+
+Functions
+  Scalar functions (chapter 6)
+  Aggreagte functions (chapter 7)
+Others
+  With
+  Rollup, cube
+  
+ETL
+
+External data
+Foreign data  

@@ -1,0 +1,248 @@
+Excel
+
+Questionnaire
+
+Who are we:
+  Name:
+  Born in:
+  What are you really good at. Something you take pride in:
+    Oil Painting
+    Carburetors
+    Baking
+    Wood Working
+    Gardening
+    Party Organizer
+    Musician
+    Actor
+
+How many want to do Project Management?
+    Have you done it before?
+    In what field?
+
+How many know approximately the salary range for PM in the field they mentioned?
+
+
+Construction
+    Civil Projects
+      Bridges, Roads, Dams
+    Technical Projects
+      Hardware based : Dell's new server line
+      Silicon based : Chips, Wafers
+      Software
+
+
+Lists Vs Tables
+Spreadhsheets cs Data Bases
+
+  Lists:
+    Why do you thinks were first used?
+    A missed opportunity:
+      Your family is starving
+      You are sad so you go for a walk
+      A deer walks by
+      Ugh I didn't bring my spear
+
+    Recollections
+      Songs
+
+    Collections
+    Inventory
+    Accounting
+
+  Software Spreadsheets
+
+    HOW TO CHART POWER VIEW
+    Google: excel 2013 powerview
+
+    Create a Power View sheet in Excel 2013 - Excel
+      Start Power View the First Time
+      Turn on the Power View add-in from Excel Options
+
+      Copy and Paste from World Population PPT URL
+
+https://support.office.com/en-us/article/Create-a-Power-View-sheet-in-Excel-2013-b23d768d-7586-47fe-97bd-89b80967a405
+
+
+http://windows.microsoft.com/en-us/windows/using-odbc-data-source-administrator#1TC=windows-7
+
+https://support.office.com/en-us/article/Create-a-Power-View-sheet-in-Excel-2013-b23d768d-7586-47fe-97bd-89b80967a405
+
+      Data Base
+      Data
+        Get External Data
+        From Data Connection Wizard
+        Source : Other/Advanced
+        Oracle Provider for OLE DB
+          Not installed
+          Google:   http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html
+          64-bit ODAC 11.2 Release 6 (11.2.0.4.0) Xcopy for Windows x64
+           	ODAC112040Xcopy_64bit.zip
+
+            Download Login
+            ORACLE_COM
+            wrogers@austin.rr.com
+            P)P12e45
+          Search Tools Past Month
+          Oracle | .NET Developer Center
+          About 1,590 results (0.37 seconds)
+
+          Search Results
+          ODAC OLE DB provider "OraOLEDB.Oracle" for linked ...
+
+
+
+
+
+
+
+
+https://support.office.com/en-us/article/Create-a-Power-View-sheet-in-Excel-2013-b23d768d-7586-47fe-97bd-89b80967a405#__turn_on_the
+
+
+Google
+excel 2013 data visualization
+
+https://encrypted.google.com/search?q=excel+2013+data+visualization&biw=1785&bih=884&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjY5rbJ4qrMAhWGkYMKHQ2xDA8Q7AkIVg&dpr=0.8#imgrc=STWNkFPLWhTMeM%3A
+
+
+
+Exercise
+Download Olympic data
+Create Powerview Graph
+
+
+
+
+https://apandre.wordpress.com/2012/08/12/powerview-in-excel-2013/
+See if you can create a graph like the civil war graph
+
+
+Florence nightengaole coxcomb graph
+Radar
+Polar
+
+
+Many kinds of DV
+https://apandre.wordpress.com/2012/08/12/powerview-in-excel-2013/
+
+
+Motion Charts
+
+
+
+Pivot Tables
+
+
+Website
+SAFE WEB DOWNLOADS
+
+1. Download a hash file checker
+    What is file Verification
+    "https://www.microsoft.com/en-us/download/details.aspx?id=11533"
+
+  a. Integrity verification
+
+  b. File Formats
+      The .md5 click on md5sum
+      Paragraph 1
+        functions as a compact digital fingerprint of a file
+      Examples
+        595f44fec1e92a71d3e9e77456ba80d1  filetohashA.txt
+
+  c. Download Microsoft File Checksum Integrity Verifier
+     https://www.microsoft.com/en-us/download/details.aspx?id=11533
+     install c:\temp
+     create command prompt on desktop
+
+2. Download Apache Tomcat
+    https://tomcat.apache.org/
+
+    Download Menu
+    Which version Choose 3.1
+    Version 8.0.33
+    32-bit Windows zip
+    https://tomcat.apache.org/
+
+    Open notepad
+    Copy MD% value
+    99469b119c3265a9e4149e0f771deea9 *apache-tomcat-8.0.33-windows-x86.zip
+    99469b119c3265a9e4149e0f771deea9 apache-tomcat-8.0.33-windows-x86.zip
+
+    Use command prompt>whoami
+
+    Explorer Cut
+    c:\documents and settings\userFromWhoAMI\Downloads\Apache-tomcat-8.0.33-windows-x86.zip
+
+    Paste c:\temp\fciv
+    command
+    cd c:\temp\fciv
+    fciv -z apach<TAB>
+
+    Edit > Mark
+    Edit > Copy
+    Paste into Notepad
+
+    Verify MD5 Verification
+    Good
+
+    Unzip
+    Right-Click File>Extract ALL
+
+    Rename folder tomcat
+    Copy all into tomcat
+
+    Google
+    how to install apache tomcat 8.0.33 server in windows 8
+
+    Set shows environment variables
+
+    JAVA_HOME = C:\ProgramFile\Java\jdk 1.8.0_31
+
+
+    Control Panel > System > Advanced system Settings > Environment Variables
+    New CATALINA_HOME C:\temp\fciv\tomcat
+
+
+    Sign Out Sign in
+    Check CATALINA_HOME
+
+
+    Google
+    tomcat status windows 8.1
+    Past Month
+
+    tomcat status windows 8.1
+    https://tomcat.apache.org/tomcat-7.0-doc/windows-service-howto.html
+
+
+    https://developers.google.com/chart/interactive/docs/gallery/motionchart#overview
+    Installation - Apache Tomcat
+
+
+
+
+
+    MOTION CHART
+    https://developers.google.com/chart/interactive/docs/gallery/motionchart#overview
+
+https://apandre.wordpress.com/pandre/dv-by-pandre/motion-chart-demo/
+https://apandre.wordpress.com/pandre/dv-by-pandre/motion-chart-demo/
+
+https://encrypted.google.com/search?q=excel+2013+data+visualization&biw=1785&bih=884&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjY5rbJ4qrMAhWGkYMKHQ2xDA8Q7AkIVg&dpr=0.8#imgrc=STWNkFPLWhTMeM%3A
+
+    https://tomcat.apache.org/tomcat-8.0-doc/setup.html
+  a. https://tomcat.apache.org/tomcat-8.0-doc/setup.html
+  b. Docs Home
+  c. Windows
+
+
+
+https://apandre.wordpress.com/pandre/dv-by-pandre/motion-chart-demo/
+
+https://apandre.wordpress.com/pandre/dv-by-pandre/motion-chart-demo/
+https://apandre.wordpress.com/pandre/dv-by-pandre/motion-chart-demo/
+
+
+
+
+https://apandre.wordpress.com/pandre/dv-by-pandre/motion-chart-demo/

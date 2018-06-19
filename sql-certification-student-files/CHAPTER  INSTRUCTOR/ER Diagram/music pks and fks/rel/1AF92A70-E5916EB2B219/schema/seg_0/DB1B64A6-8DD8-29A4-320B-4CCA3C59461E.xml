@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="MUSIC" id="DB1B64A6-8DD8-29A4-320B-4CCA3C59461E" directorySegmentName="seg_0">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</SchemaObject>

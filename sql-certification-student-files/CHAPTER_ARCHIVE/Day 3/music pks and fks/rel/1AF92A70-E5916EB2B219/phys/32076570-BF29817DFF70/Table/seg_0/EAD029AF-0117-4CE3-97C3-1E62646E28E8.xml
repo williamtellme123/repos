@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TRACKS" id="EAD029AF-0117-4CE3-97C3-1E62646E28E8" directorySegmentName="seg_0">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4C576B14-8F98-5070-CD1C-1D1A1E9F254D</segment>
+<tableSpace>FA20E29A-A291-A11B-3EBF-1B1D9F452CFA</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="AID" id="0154F350-6D3C-A5BF-BECA-1F1182F3101D">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SID" id="07E0C68E-12D2-BC3A-0061-F7FDCF1414E5">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="LENGTH_SECONDS" id="1039BAF3-4D59-7C6C-7C04-2918D7C512CE">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SEQUENCE_NUMBER" id="744AF4C2-9210-A8B7-6C81-9E2A58368882">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="TRACK_ID" id="9FD738BE-8519-EF2C-74D0-774227CFC273">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SIDE" id="AF3E6E49-A7DA-4441-9AAD-22C55595CF5E">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0011617" id="6FE7B5B2-1E5D-451B-98A1-AABD882E2674">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0011616" id="7A74E677-33D7-CCF1-ECFA-CED0BA167B67">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRACKS_PK" id="BC24E1E0-D960-66EA-ABF8-F50274D76F1E">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<tableSpace>FA20E29A-A291-A11B-3EBF-1B1D9F452CFA</tableSpace>
+<indexSegment>33E60BDC-017D-3638-3697-3A67BFADA179</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

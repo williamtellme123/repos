@@ -1,0 +1,15 @@
+Welcome all of you.
+I am excited to teach this class.
+
+I myself have difficulty learning new technologies. That is why I am so
+passionate about helping others learn SQL.
+
+If you are eager to get started at home I am including here a file called ORACLE CLASS SETUP.
+You can use this along with the files on your USB key to install the same thing we have in class.
+
+Homework 1. Please do Homework 1. People who complete it by Thursday will be called
+on in class to read their answers. The rest of the students will be called on next Monday.
+
+Have fun. Send me questions.
+
+Billy

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="970671E4-54E0-D176-C8A8-CC8A5F2BC0E9" name="MYBOOKS" seqName="seg_0"/>
+   <object objectType="Table" objectID="2F3A54FA-7FD7-3477-9CCE-802785018B8C" name="AUTHOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="26B44689-03E2-85BC-CBF9-D49BCB1BB362" name="BOOKAUTHOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="D2E04E55-6293-0D25-8FF0-6F37A2DF90B2" name="BOOKS" seqName="seg_0"/>
+   <object objectType="Table" objectID="30B9D8CB-A21E-0E34-8CA0-B7914961D5EC" name="CUSTOMERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="D1EC933E-6D85-6FF9-125B-E75AE4F6B531" name="ORDERITEMS" seqName="seg_0"/>
+   <object objectType="Table" objectID="1D1CEECD-1916-F4FE-4688-6DD1D9E7065A" name="ORDERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="FE197360-0C27-ECC5-CD1E-9EECA97B529F" name="PROMOTION" seqName="seg_0"/>
+   <object objectType="Table" objectID="C5122DA3-75BB-F0D4-4009-C0BED23E62CE" name="PUBLISHER" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="EAD029AF-0117-4CE3-97C3-1E62646E28E8" directorySegmentName="seg_0" name="TRACKS">
+<sourceConnName>music</sourceConnName>
+<sourceObjSchema>MUSIC</sourceObjSchema>
+<sourceObjName>TRACKS</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<schemaObject>DB1B64A6-8DD8-29A4-320B-4CCA3C59461E</schemaObject>
+<pkName>TRACKS_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="TRACK_ID" id="9FD738BE-8519-EF2C-74D0-774227CFC273">
+<sourceConnName>music</sourceConnName>
+<sourceObjSchema>TRACKS</sourceObjSchema>
+<sourceObjName>TRACK_ID</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="AID" id="0154F350-6D3C-A5BF-BECA-1F1182F3101D">
+<sourceConnName>music</sourceConnName>
+<sourceObjSchema>TRACKS</sourceObjSchema>
+<sourceObjName>AID</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<delegate>879314DD-315D-BAAB-121E-B4914F264FA2</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCEF2572-0E94-DB36-8169-2C5EA1B1E1DF" referredColumn="879314DD-315D-BAAB-121E-B4914F264FA2"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SID" id="07E0C68E-12D2-BC3A-0061-F7FDCF1414E5">
+<sourceConnName>music</sourceConnName>
+<sourceObjSchema>TRACKS</sourceObjSchema>
+<sourceObjName>SID</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<delegate>FF88E43E-0D12-E2D1-6607-4FCB66633A44</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CA2E688-3701-40CA-6D00-07BFCA018930" referredColumn="FF88E43E-0D12-E2D1-6607-4FCB66633A44"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SIDE" id="AF3E6E49-A7DA-4441-9AAD-22C55595CF5E">
+<sourceConnName>music</sourceConnName>
+<sourceObjSchema>TRACKS</sourceObjSchema>
+<sourceObjName>SIDE</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEQUENCE_NUMBER" id="744AF4C2-9210-A8B7-6C81-9E2A58368882">
+<sourceConnName>music</sourceConnName>
+<sourceObjSchema>TRACKS</sourceObjSchema>
+<sourceObjName>SEQUENCE_NUMBER</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="LENGTH_SECONDS" id="1039BAF3-4D59-7C6C-7C04-2918D7C512CE">
+<sourceConnName>music</sourceConnName>
+<sourceObjSchema>TRACKS</sourceObjSchema>
+<sourceObjName>LENGTH_SECONDS</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>22</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="BC24E1E0-D960-66EA-ABF8-F50274D76F1E" name="TRACKS_PK">
+<sourceConnName>music</sourceConnName>
+<sourceObjSchema>MUSIC</sourceObjSchema>
+<sourceObjName>SYS_C0011615</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<schemaObject>DB1B64A6-8DD8-29A4-320B-4CCA3C59461E</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="9FD738BE-8519-EF2C-74D0-774227CFC273"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="7A74E677-33D7-CCF1-ECFA-CED0BA167B67" name="SYS_C0011616">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="0154F350-6D3C-A5BF-BECA-1F1182F3101D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="6FE7B5B2-1E5D-451B-98A1-AABD882E2674" name="SYS_C0011617">
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="07E0C68E-12D2-BC3A-0061-F7FDCF1414E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

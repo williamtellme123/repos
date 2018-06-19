@@ -1,0 +1,4 @@
+
+insert into artist values (1,'Cher','Los Angeles','El Centro');
+2,Tom Jones,"Los Angeles, California","Treforest, Wales"
+3,Van Morrison,"Dalkey, Ireland","Belfast, United Kingdom"

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MYBOOKS" id="612B5BE6-F40A-F60A-6313-28C3F46C99B9" directorySegmentName="seg_0">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjName>MYBOOKS</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:20:42 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+<schemaObject>486018AA-5176-EDA1-BBEA-3FEF3E2E7F1F</schemaObject>
+</UserOraclev10g>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="8CA2E688-3701-40CA-6D00-07BFCA018930" directorySegmentName="seg_0" name="SYS_C0011617">
+<sourceConnName>music</sourceConnName>
+<sourceObjSchema>MUSIC</sourceObjSchema>
+<sourceObjName>SYS_C0011617</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2015-12-15 15:50:24 UTC</createdTime>
+<ownerDesignName>music pks and fks</ownerDesignName>
+<containerWithKeyObject>EAD029AF-0117-4CE3-97C3-1E62646E28E8</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>6FE7B5B2-1E5D-451B-98A1-AABD882E2674</localFKIndex>
+<keyObject>28A07A9D-DA33-DBE1-B81F-699F07976977</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

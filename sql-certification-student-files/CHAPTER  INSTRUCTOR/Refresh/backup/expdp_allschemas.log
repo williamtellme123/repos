@@ -1,0 +1,106 @@
+;;; 
+Export: Release 11.2.0.2.0 - Production on Tue May 19 12:04:26 2015
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - Production
+Starting "SYSTEM"."SYS_EXPORT_SCHEMA_01":  system/******** schemas=a, books, cruises,HR,music,texas directory=dpump_dir1 dumpfile=allschemas.dmp logfile=expdp_allschemas.log 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 9.5 MB
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/TABLESPACE_QUOTA
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "BOOKS"."INVOICES_CLEANED"                  1.045 MB   39585 rows
+. . exported "BOOKS"."INVOICES_RAW"                      1.665 MB   39585 rows
+. . exported "BOOKS"."INVOICES_REVISED"                  1.280 MB   39585 rows
+. . exported "BOOKS"."DEMO_PRODUCT_INFO"                 24.87 KB      10 rows
+. . exported "BOOKS"."AUTHOR"                            6.109 KB      14 rows
+. . exported "BOOKS"."BOOKAUTHOR"                        5.796 KB      20 rows
+. . exported "BOOKS"."BOOKS"                             8.437 KB      14 rows
+. . exported "BOOKS"."CUSTOMERS"                         8.953 KB      20 rows
+. . exported "BOOKS"."DEMO_CUSTOMERS"                    10.11 KB       7 rows
+. . exported "BOOKS"."DEMO_ORDERS"                       6.906 KB      10 rows
+. . exported "BOOKS"."DEMO_ORDER_ITEMS"                  7.679 KB      49 rows
+. . exported "BOOKS"."DEMO_STATES"                       6.242 KB      51 rows
+. . exported "BOOKS"."DEMO_USERS"                        7.929 KB       2 rows
+. . exported "BOOKS"."DEPT"                              5.929 KB       4 rows
+. . exported "BOOKS"."EMP"                               8.562 KB      14 rows
+. . exported "BOOKS"."ORDERITEMS"                        7.117 KB      32 rows
+. . exported "BOOKS"."ORDERS"                            9.140 KB      21 rows
+. . exported "BOOKS"."PROMOTION"                         5.992 KB       4 rows
+. . exported "BOOKS"."PUBLISHER"                         6.492 KB       5 rows
+. . exported "CRUISES"."ADDRESSES"                       9.265 KB      12 rows
+. . exported "CRUISES"."BOOK_CONTENTS"                   5.992 KB       6 rows
+. . exported "CRUISES"."BRANCH_OFFICE_ACCOUNTS"          6.343 KB       4 rows
+. . exported "CRUISES"."CONTACT_EMAILS"                  6.804 KB       3 rows
+. . exported "CRUISES"."CRUISE_CUSTOMERS"                5.953 KB       6 rows
+. . exported "CRUISES"."CRUISE_TYPES"                    5.953 KB       5 rows
+. . exported "CRUISES"."DECKS"                           6.125 KB      13 rows
+. . exported "CRUISES"."DISTRIBUTORS"                      6.5 KB       8 rows
+. . exported "CRUISES"."EMPLOYEES"                       8.078 KB       7 rows
+. . exported "CRUISES"."EMPLOYEE_CHART"                  6.062 KB       9 rows
+. . exported "CRUISES"."FURNISHINGS"                     6.281 KB       3 rows
+. . exported "CRUISES"."GRADING"                         6.375 KB       5 rows
+. . exported "CRUISES"."INVOICES"                        7.789 KB       7 rows
+. . exported "CRUISES"."ONLINE_SUBSCRIBERS"              7.226 KB       3 rows
+. . exported "CRUISES"."ONTARIO_ORDERS"                  5.937 KB       3 rows
+. . exported "CRUISES"."ORDER_ADDRESSES"                 6.148 KB      11 rows
+. . exported "CRUISES"."PAY_HISTORY"                     6.804 KB       6 rows
+. . exported "CRUISES"."PORTS"                           7.421 KB      13 rows
+. . exported "CRUISES"."POSITIONS"                       7.367 KB       9 rows
+. . exported "CRUISES"."PROJECTS"                        7.429 KB       8 rows
+. . exported "CRUISES"."PROVISIONS"                      7.101 KB      12 rows
+. . exported "CRUISES"."SCORES"                          5.851 KB       3 rows
+. . exported "CRUISES"."SHIPS"                           6.898 KB       8 rows
+. . exported "CRUISES"."SHIP_CABINS"                     9.687 KB      29 rows
+. . exported "CRUISES"."SHIP_CABIN_GRID"                 6.320 KB       5 rows
+. . exported "CRUISES"."STORE_INVENTORY"                 6.367 KB       6 rows
+. . exported "CRUISES"."VENDORS"                         6.312 KB       2 rows
+. . exported "CRUISES"."WORK_HISTORY"                    7.164 KB       3 rows
+. . exported "CRUISES"."WO_INV"                          6.351 KB       3 rows
+. . exported "CRUISES"."WWA_INVOICES"                    6.296 KB       2 rows
+. . exported "HR"."COUNTRIES"                            6.367 KB      25 rows
+. . exported "HR"."DEPARTMENTS"                          7.007 KB      27 rows
+. . exported "HR"."EMPLOYEES"                            16.80 KB     107 rows
+. . exported "HR"."JOBS"                                 6.992 KB      19 rows
+. . exported "HR"."JOB_HISTORY"                          7.054 KB      10 rows
+. . exported "HR"."LOCATIONS"                            8.273 KB      23 rows
+. . exported "HR"."PROJECTS"                             6.843 KB       4 rows
+. . exported "HR"."REGIONS"                              5.476 KB       4 rows
+. . exported "HR"."TASKS"                                8.109 KB      16 rows
+. . exported "A"."ADDRESSES"                                 0 KB       0 rows
+. . exported "A"."CALCULATION_DICTIONARY"                    0 KB       0 rows
+. . exported "A"."CARNEGIE_CLASS"                            0 KB       0 rows
+. . exported "A"."GROUPS"                                    0 KB       0 rows
+. . exported "A"."SCHOOLS"                                   0 KB       0 rows
+. . exported "CRUISES"."CRUISES"                             0 KB       0 rows
+. . exported "CRUISES"."CRUISE_ORDERS"                       0 KB       0 rows
+. . exported "CRUISES"."ERRORS"                              0 KB       0 rows
+. . exported "CRUISES"."PORT_INVENTORY"                      0 KB       0 rows
+. . exported "CRUISES"."SALARY_CHART"                        0 KB       0 rows
+. . exported "CRUISES"."SHIP_CABIN_STATISTICS"               0 KB       0 rows
+. . exported "CRUISES"."SHIP_INVENTORY"                      0 KB       0 rows
+. . exported "TEXAS"."POPULATION"                            0 KB       0 rows
+Master table "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SYSTEM.SYS_EXPORT_SCHEMA_01 is:
+  C:\ORACLECLASS\BACKUP\ALLSCHEMAS.DMP
+Job "SYSTEM"."SYS_EXPORT_SCHEMA_01" successfully completed at 12:05:06

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="AD4D6810-8FD4-4C04-E60B-33CA5B368ACE" name="SYSTEM" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="612B5BE6-F40A-F60A-6313-28C3F46C99B9" name="MYBOOKS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="1D130C5D-3F39-164F-DB75-287EFBA258EC" name="ORDERITEMS" seqName="seg_0"/>
+   <object objectType="Table" objectID="2BE87A86-41CC-D000-BF51-1F26FF3A008C" name="PUBLISHER" seqName="seg_0"/>
+   <object objectType="Table" objectID="2BECFFC0-0A64-9D0A-6E23-C14550A5B90E" name="CUSTOMERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="6B0E13FF-054A-046C-9640-62308AA6D93B" name="BOOKS" seqName="seg_0"/>
+   <object objectType="Table" objectID="7B9999B5-7FD4-50AB-B3D8-DFA5F1373AA9" name="AUTHOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="88FF8382-FE2F-1BF0-4058-40A269C8A2A9" name="BOOKAUTHOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="892FE103-4573-E577-595E-4AAB278EBEA8" name="PROMOTION" seqName="seg_0"/>
+   <object objectType="Table" objectID="DE500D0C-73DB-D383-5DA1-A25ACE1D1013" name="ORDERS" seqName="seg_0"/>
+   <object objectType="Segment" objectID="64FCCA9A-89BE-E615-A959-F53AEB106B41" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="F99280E7-8301-F3B8-E31C-295C9142C74D" name="Storage9" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

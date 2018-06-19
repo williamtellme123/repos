@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="104CE61E-2021-46C0-72F2-0DE2C01A476E" name="SYSTEM" seqName="seg_0"/>
+   <object objectType="User" objectID="FCEB1B76-F2CF-1D31-B6C2-1171BD914586" name="BILLYBOOKS" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="084A3330-99C4-EC76-0D1E-9E866194D589" name="BOOKS" seqName="seg_0"/>
+   <object objectType="Table" objectID="1E1CFE33-0434-E7F6-EC77-FBF0012E284D" name="BOOKAUTHOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="283A9E62-4EA9-2D7D-FCE6-3C707BDA60F5" name="CUSTOMERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="4D544DF3-62E9-35DC-2D2C-48ED924CD074" name="AUTHOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="90C95E45-008D-FB88-C986-16EC579C61B9" name="PROMOTION" seqName="seg_0"/>
+   <object objectType="Table" objectID="A8F9A474-D516-EE96-1B1C-241E5B10E0DE" name="ORDERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="CC029423-E485-8F3B-94C8-079DA69EBEBE" name="ORDERITEMS" seqName="seg_0"/>
+   <object objectType="Table" objectID="F65C9048-AE38-3CC3-CBDC-88D325EE400F" name="PUBLISHER" seqName="seg_0"/>
+   <object objectType="Segment" objectID="39A66771-E62F-482D-3B26-A346D40925A7" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="0ABD5B51-0587-134B-8FBE-71A4CCB24F22" name="Storage11" seqName="seg_0"/>
+   <object objectType="Segment" objectID="61AD9ECD-C066-DB8C-21BE-B4AC3A8BD700" name="Storage9" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

@@ -1,0 +1,20 @@
+drop table army;
+create table army
+(id   integer primary key,
+name varchar2(75),
+co  integer);
+Insert into army values (12,'General Roberts',null);
+Insert into army values (1,'Colonel Markinson',12);
+Insert into army values (14,'Major Miller',1);
+Insert into army values (29,'Colonel Stamper',12);
+Insert into army values (26,'Major Mainard',29);
+Insert into army values (13,'Captain Imbens',26);
+Insert into army values (16,'Lieutenant Brown',13);
+Insert into army values (38,'Sargent Provasi',16);
+Insert into army values (23,'Colonel Worrad',12);
+Insert into army values (34,'Major Einhorn',23);
+Insert into army values (7,'Captain Viano',34);
+Insert into army values (10,'Lieutenant Mack',7);
+Insert into army values (17,'Sargent Feeney',10);
+Insert into army values (8,'Private Houng',17);
+Insert into army values (3

@@ -1,0 +1,6 @@
+Change apex admin password
+sqlplus>connect sys as sysdba
+tiger
+
+SQL> @C:\oraclexe\app\oracle\product\11.2.0\server\apex\apxchpwd
+pop1234

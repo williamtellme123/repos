@@ -1,0 +1,3 @@
+
+Databases for R
+http://blog.revolutionanalytics.com/2011/12/list-of-public-databases-from-the-washington-post.html

@@ -1,0 +1,584 @@
+-- =============================================================================
+-- Chapter 17
+/*
+
+  REGULAR EXPRESSIONS are used throughout the IT industry
+  by almost everyone.
+  
+  They are comprised of 
+    FUNCTIONS: String functions each with a list of parameters
+    METACHARACTERS: operators/character functions with specific behavior
+    CHARACTER CLASSES: key word used instead of a long list of values
+
+  USING METACHARACTERS
+  
+  REGULAR EXPRESSION FUNCTIONS
+      regexp_substr (s1, pattern1, p1, n1, m1)
+      regexp_instr (s1, pattern1, p1, n1, opt1, m1)
+      regexp_replace (s1, pattern1, rep1, p1, o1, m1)
+      regexp_like (s1, pattern1, m1)
+      regexp_count(s1,pattern1)
+  
+  MATCH PARAMETERS (SEE M1 ABOVE)
+  
+      Value  Description
+      ----------------------------------------------------------------------------
+      ëcí     Case-sensitive matching.
+      ----------------------------------------------------------------------------
+      ëií     Case-insensitive matching.
+      ----------------------------------------------------------------------------
+      ëní     Enables ë.í (period) character (regexpr operator Table 17.1 Line 7
+             to match newline character. Otherwise, ë.í matches any character not treating 
+             newline character as a character.
+      ----------------------------------------------------------------------------
+      ëmí     Treat the source character string as multiple lines. Any
+             occurrences of the anchor characters (^ and $) are assumed to be
+             the start and end of lines within the string. Without it, the source
+             character string is assumed to be one line of text.
+      ----------------------------------------------------------------------------
+      ëxí     Ignores whitespace characters.
+      ----------------------------------------------------------------------------
+
+  REPLACING PATTERNS
+      
+  REGULAR EXPRESSIONS AND CHECK CONSTRAINTS
+*/
+-- =============================================================================
+-- CHAPTER 17 STUDENTS SETUP
+-- -----------------------------------------------------------------------------
+-- 1. SETUP
+--    a. Open the CHAPTER_17_STUDENTS_SETUP.sql
+--    b. Open the connection to your schema
+--    c. Follow instructions in file
+-- ------------------------------------------------------------------------------------------------------------
+-- 2. SIMPLE Examples to find parts of an address
+-- ------------------------------------------------------------------------------------------------------------
+-- a. Find pattern (one lowercase letter_ = true
+select regexp_substr('123 Maple Avenue, Austin, TX 78729 (512) 311-4545','[a-z]',1,2) address from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- b. Find pattern (one digit) = true
+select regexp_substr('123 Maple Avenue, Austin, TX 78729 (512) 311-4545','[0-9]',1,1) address from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- c. Find pattern (one lowercase or one uppercase letter) = true 
+select regexp_substr('123 Maple Avenue, Austin, TX 78729 (512) 311-4545','[a-zA-Z]',1,1) address from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- d. Find pattern (one lowercase or one uppercase letter) = true {3 contiguous trues)     
+select regexp_substr('123 Maple Avenue, Austin, TX 78729 (512) 311-4545','[a-zA-Z]{3}',1,1) address from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- e. Find pattern one(lowercase or uppercase or left or right parentesis) = true
+select regexp_substr('123 Maple Avenue, Austin, TX 78729 (512) 311-4545','[0-9()]',1,1) address from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- f. Find pattern one(lowercase or uppercase or left or right parentesis) = true at least 4 times in a row
+select regexp_substr('123 Maple Avenue, Austin, TX 78729 (512) 311-4545','[0-9()]{4,}',1,1) address from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- g. Find pattern one(lowercase or uppercase or left or right parentesis) = true at least 4 times in a row and not more than 14 times in a row
+select regexp_substr('123 Maple Avenue, Austin, TX 78729 (512) 311-4545','[0-9()]{4,14}',1,1) address from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- h. Find pattern one(lowercase or uppercase or left or right parentesis) = true at least 4 times in a row and not more than 14 times in a row
+select regexp_substr('123 Maple Avenue, Austin, TX 78729 (512) 311-4545','[0-9) -]{4,14}',1,1) address from dual;
+
+
+
+-- ------------------------------------------------------------------------------------------------------------
+-- 3. SIMPLE Examples to find confirm an email address is valid
+-- ------------------------------------------------------------------------------------------------------------
+-- a. Lets say we have the following rules
+--    i. an email must come in three basic parts
+--    ii.  Part One may have upper/lower letters, numbers. 
+--    iii. Part One may also have but only one at time: periods and underscores 
+--    iv.  The separator between Parts One and Two is an at (@) sign
+--    v.   Part Two may only upper/lower letters/numbers
+--    v.   Part three may only have the following values
+--         com, net, org, edu, gov, mil, bib
+-- ------------------------------------------------------------------------------------------------------------
+-- b. Lets work on Part One
+--      noah@cinema.org
+--      mrs_rockets@literature.com
+--      mr.campbell@sunshine.edu
+--      noah123@cinema.org
+--      mrs_rockets123_12@literature.com
+--      mr.campbell_abc.123@sunshine.edu
+-- ------------------------------------------------------------------------------------------------------------
+--  c. Part one setup
+select regexp_substr('noah@cinema.org','[a-z]',1,1) from dual;
+select regexp_substr('mrs_rockets@literature.com','[a-z]',1,1) from dual;,
+select regexp_substr('mr.campbell@sunshine.edu','[a-z]',1,1) from dual;
+select regexp_substr('noah123@cinema.org','[a-z]',1,1) from dual;
+select regexp_substr('mrs_rockets123_44@literature.com','[a-z]',1,1) from dual;
+select regexp_substr('mr.campbell_abc.123@sunshine.edu','[a-z]',1,1) from dual;
+
+
+
+-- ============================================================================================================
+-- 4. Part One Using Ranges: Exercises to find confirm an email address is valid (copy and paste from 2.c above
+-- ------------------------------------------------------------------------------------------------------------
+-- a. Add something to match Part One as true using ranges
+select regexp_substr('noah@cinema.org','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- b. Add something to match Part One as true using ranges
+select regexp_substr('mrs_rockets@literature.com','',1,1) from dual;,
+-- ------------------------------------------------------------------------------------------------------------
+-- c. Add something to match Part One as true using ranges
+select regexp_substr('mr.campbell@sunshine.edu','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- d. Add something to match Part One as true using ranges
+select regexp_substr('noah123@cinema.org','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- e. Add something to match Part One as true using ranges
+select regexp_substr('mrs_rockets123_44@literature.com','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- f. Add something to match Part One as true using ranges
+select regexp_substr('mr.campbell_abc.123@sunshine.edu','',1,1) from dual;
+
+
+
+-- ============================================================================================================
+-- 5. Part One Using Character Classes: Exercises to find confirm an email address is valid (copy from 3)
+-- ------------------------------------------------------------------------------------------------------------
+-- a. Add something to match Part One as true using character classes 
+select regexp_substr('noah@cinema.org','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- b. Add something to match Part One as true using character classes
+select regexp_substr('mrs_rockets@literature.com','',1,1) from dual;,
+-- ------------------------------------------------------------------------------------------------------------
+-- c. Add something to match Part One as true using character classes
+select regexp_substr('mr.campbell@sunshine.edu','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- d. Add something to match Part One as true using character classes
+select regexp_substr('noah123@cinema.org','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- e. Add something to match Part One as true using character classes
+select regexp_substr('mrs_rockets123_44@literature.com','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- f. Add something to match Part One as true using character classes
+select regexp_substr('mr.campbell_abc.123@sunshine.edu','',1,1) from dual;
+
+
+
+-- ============================================================================================================
+-- 6. Exercises to find the separator of email is valid (copy from 3)
+-- ------------------------------------------------------------------------------------------------------------
+-- a. Add something to match separator as true
+select regexp_substr('noah@cinema.org','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- b. Add something to match separator as true
+select regexp_substr('mrs_rockets@literature.com','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- c. Add something to match separator as true
+select regexp_substr('mr.campbell@sunshine.edu','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- d. Add something to match separator as true
+select regexp_substr('noah123@cinema.org','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- e. Add something to match separator as true
+select regexp_substr('mrs_rockets123_44@literature.com','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- f. Add something to match separator as true
+select regexp_substr('mr.campbell_abc.123@sunshine.edu','',1,1) from dual;
+
+
+
+-- ============================================================================================================
+-- 7. Exercises to find Part Two is valid using ranges (copy from 3)
+-- ------------------------------------------------------------------------------------------------------------
+-- a. Add something to match Part Two as true using ranges
+select regexp_substr('noah@cinema.org','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- b. Add something to match Part Two as true using ranges
+select regexp_substr('mrs_rockets@literature.com','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- c. Add something to match Part Two as true using ranges
+select regexp_substr('mr.campbell@sunshine.edu','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- d. Add something to match Part Two as true using ranges
+select regexp_substr('noah123@cinema.org','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- e. Add something to match Part Two as true using ranges
+select regexp_substr('mrs_rockets123_44@literature.com','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- f. Add something to match Part Two as true using ranges
+select regexp_substr('mr.campbell_abc.123@sunshine.edu','',1,1) from dual;
+
+
+
+-- ============================================================================================================
+-- 8. Exercises to find Part Two is valid using character classes (copy from 4)
+-- ------------------------------------------------------------------------------------------------------------
+-- a. Add something to match Part Two as true using character classes
+select regexp_substr('noah@cinema.org','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- b. Add something to match Part Two as true using character classes
+select regexp_substr('mrs_rockets@literature.com','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- c. Add something to match Part Two as true using character classes
+select regexp_substr('mr.campbell@sunshine.edu','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- d. Add something to match Part Two as true using character classes
+select regexp_substr('noah123@cinema.org','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- e. Add something to match Part Two as true using character classes
+select regexp_substr('mrs_rockets123_44@literature.com','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- f. Add something to match Part Two as true using character classes
+select regexp_substr('mr.campbell_abc.123@sunshine.edu','',1,1) from dual;
+
+
+
+-- ============================================================================================================
+-- 9. Exercises to find Part Three is valid using character classes (copy from 7)
+-- ------------------------------------------------------------------------------------------------------------
+-- a. Add something to match Part Three as true using character classes
+select regexp_substr('noah@cinema.org','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- b. Add something to match Part Three as true using character classes
+select regexp_substr('mrs_rockets@literature.com','',1,1) from dual;,
+-- ------------------------------------------------------------------------------------------------------------
+-- c. Add something to match Part Three as true using character classes
+select regexp_substr('mr.campbell@sunshine.edu','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- d. Add something to match Part Three as true using character classes
+select regexp_substr('noah123@cinema.org','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- e. Add something to match Part Three as true using character classes
+select regexp_substr('mrs_rockets123_44@literature.com','',1,1) from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- f. Add something to match Part Three as true using character classes
+select regexp_substr('mr.campbell_abc.123@sunshine.edu','',1,1) from dual;
+
+
+-- ============================================================================================================
+-- 10. Some simple examples of escaping a meta character "." the period
+-- ------------------------------------------------------------------------------------------------------------
+-- a. escaping a metacharacter
+select regexp_substr('A.B*c','[.]') from dual;
+-- ------------------------------------------------------------------------------------------------------------
+select regexp_substr('A.B^c','(.)') from dual;
+-- ------------------------------------------------------------------------------------------------------------
+select regexp_substr('A.B^c','\.') from dual;
+-- ------------------------------------------------------------------------------------------------------------
+
+-- ============================================================================================================
+-- 11. REGEX_INSTR
+-- ------------------------------------------------------------------------------------------------------------
+-- a. return the location of "l" + 4 letters
+-- ------------------------------------------------
+select regexp_instr('But, soft! What light through yonder window breaks?' ,
+                    'o[[:alpha:]]{1,2}', 1, 3) AS result,
+       regexp_substr('But, soft! What light through yonder window breaks?' ,
+                    'o[[:alpha:]]{1,2}', 1, 3) AS result
+from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- b. return the location of the second "soft"
+select regexp_instr('But, soft! What light through yonder window softly breaks?' , 's[[:alpha:]]{3}', 1, 2) AS result
+from dual;
+select regexp_instr('But, soft! What light through yonder window softly breaks?' , 's[[:punct:]]') AS result
+from dual;
+select regexp_instr('But, soft! What light through yonder window softly breaks?' , '[[:alpha:]]s') AS result
+from dual;
+select regexp_instr('But, soft! What light through yonder window softly breaks?' ,'[[:alpha:]]s{1,2}') AS result
+from dual;
+select regexp_instr('But, soft! What light through yonder window softly breaks?' ,'o',1,3,1,'i') AS result
+from dual;
+-- ------------------------------------------------------------------------------------------------------------
+-- c. start at position 10 then return location of the second occurance of "o"
+select 
+regexp_substr ('But, soft! What light through yonder window breaks?' ,'o{1,}', 10, 2),
+regexp_instr ('But, soft! What light through yonder window breaks?' ,'o', 10, 2) AS result
+from dual;
+
+-- ------------------------------------------------------------------------------------------------------------
+-- d. replace the word "light" with "sound"
+select regexp_replace('But, soft! What light through' ,'l[[:alpha:]]{4}', 'sound') AS result
+from dual;
+
+-- ============================================================================================================
+-- 12. The company wants to rename some products in DIRECTORIES AND FILES
+-- ------------------------------------------------
+-- a. replace Telepresence with TelePresence
+--    i. return location of "Tele"
+select file_id, f8,
+  regexp_instr(f8, 'Tele[[:alpha:]]+',1,1,0,'i') place
+from files
+where upper(f8) LIKE '%TELE%';
+-- ------------------------------------------------------------------------------------------------------------
+--    ii. replace
+select *
+from files;
+-- replace Telepresence with TelePresence
+select REGEXP_SUBSTR(F8, 'Tele[[:alpha:]]+',1,1,'i'),
+  REGEXP_replace(F8, 'Tele[[:alpha:]]+','TelePresencePro'),
+  f8
+from FILES
+where UPPER(F8) LIKE '%TELE%';
+-- ------------------------------------------------------------------------------------------------------------
+-- b. Replace "UCS" with "UCS-"
+--    i. return location of "UCS"
+select file_id,
+  f8,
+  regexp_instr(f8, 'UC[[:alpha:]]*',1,1,0,'i')
+from files
+where upper(f8) LIKE '%UCS%';
+-- ------------------------------------------------------------------------------------------------------------
+--    ii. Replace "UCS" with "UCS-"
+select regexp_substr(f8, 'UC[[:alpha:]]+',1,1,'i'),
+  regexp_replace(f8, 'UCS[[:alpha:] ]','UCS-'),
+  f8
+from files
+where upper(f8) LIKE '%UCS%';-- ------------------------------------------------------------------------------------------------------------
+
+-- ============================================================================================================
+-- 13. WORKING WITH DATES
+-- ------------------------------------------------------------------------------------------------------------
+-- A. Find records that have invoice dates between 2010 and 2011
+select invoice_id,invoice_date,  regexp_substr(TO_CHAR(invoice_date,'YYYY'),'^201[0-1]$')
+from invoices_revised
+where regexp_like (TO_CHAR(INVOICE_DATE,'YYYY'),'^201[0-1]$');
+-- ------------------------------------------------------------------------------------------------------------
+
+select regexp_substr(TO_CHAR(invoice_date,'YYYY'),'^2[0-9]{2}1$') ,to_char(sum(invoice_amt),'$9,999,999,999')
+from invoices_revised
+where regexp_like (TO_CHAR(INVOICE_DATE,'YYYY'),'^2[0-9]{2}1$')
+ group by regexp_substr(TO_CHAR(invoice_date,'YYYY'),'^2[0-9]{2}1$');
+-- ------------------------------------------------------------------------------------------------------------
+select count(invoice_id),
+  -- invoice_date,
+  TO_CHAR(invoice_date,'YYYY'),
+  regexp_substr(TO_CHAR(invoice_date,'YYYY'),'^201[0-1]$')
+from invoices_revised
+where regexp_like (TO_CHAR(INVOICE_DATE,'YYYY'),'^201[0-1]$')
+group by TO_CHAR(invoice_date,'YYYY'),
+  regexp_substr(TO_CHAR(invoice_date,'YYYY'),'^201[0-1]$');
+
+-- ------------------------------------------------------------------------------------------------------------
+select invoice_id,
+  invoice_date,
+  TO_CHAR(invoice_date,'YYYY'),
+  regexp_substr (TO_CHAR(INVOICE_DATE,'YYYY'), '^20[0-1]|(09)$')
+from invoices_revised
+where regexp_like (TO_CHAR(INVOICE_DATE,'YYYY'), '^20[0-1]|(09)$');
+-- ------------------------------------------------------------------------------------------------------------
+select invoice_id,
+  invoice_date,
+  TO_CHAR(invoice_date,'YYYY'),
+  regexp_substr (TO_CHAR(INVOICE_DATE,'YYYY'), '^20([0-1]+|09)$')
+from invoices_revised
+where regexp_like (TO_CHAR(INVOICE_DATE,'YYYY'), '^20([0-1]+|09)$');
+-- ------------------------------------------------------------------------------------------------------------
+select invoice_id,
+  invoice_date,
+  TO_CHAR(invoice_date,'YYYY')
+from invoices_revised
+where regexp_like (TO_CHAR(INVOICE_DATE,'YYYY'), '^20(10)|(11)|(09)$');
+-- ------------------------------------------------------------------------------------------------------------
+select invoice_id,
+  invoice_date,
+  TO_CHAR(invoice_date,'YYYY')
+from invoices_revised
+where regexp_like (TO_CHAR(INVOICE_DATE,'YYYY'), '^20(1[0-1])|(09)$');
+-- ------------------------------------------------------------------------------------------------------------
+select invoice_id,
+  invoice_date,
+  TO_CHAR(invoice_date,'YYYY')
+from invoices_revised
+where regexp_like (TO_CHAR(invoice_date,'YYYY'), '^20(1[0-1])|(09)$')
+AND invoice_id = 1120;
+-- ------------------------------------------------------------------------------------------------------------
+update invoices_revised
+set invoice_date = '08-NOV-09'
+where invoice_id = 1120;
+commit;
+                                                                                                                                                                        ˜©=˛Æã˘·îÁ ö™√‚C?Àh·v=øÇ…Ö§ß%[xpÜ£{€µ_ºP—£<Õ1•H∂0ïàŸOºRÆBd—…“JE€4b$ßëq_◊òû‡6L”ıR◊7`Æè®…ˇ≥√0ÃûO¡Ø,ÂEn7îLi‰b°®/„SΩê®e™‘–µ∏˘÷˝  ˇˇ PK     ! kyñÉ   ä      theme/theme/themeManager.xmlÃM
+√ @·}°wêŸ7cª(Eb≤ÀÆªˆ CúA«†“ü€◊Â„É7Œﬂ’õKY,úäeÕ.à∑|,ß®⁄H≈,l·«ÊÈx…¥çﬂI»sQ}#’êÖ≠µ› ÷µ+’!Ô,›^π$j=ãGWË”˜)‚EÎ+&
+8˝  ˇˇ PK     ! ™R%ﬂ∆  ã     theme/theme/theme1.xmlÏY]ã€F}/Ù?Ω;˛í¸±ƒlŸŒ∂ŸMBÏ§‰qlè≠…é4F3ﬁç	Åí<
+•iÈC}ÎCiH†/ÈØŸ6•M!°wF∂<cèªõ%Ö•dã4:˜Œô{ØŒIóØ‹è®sÑNX‹pãó
+ÆÉ„!ëx“po˜ªπöÎpÅ‚¢,∆wéπ{e˜√.£‚;`Û‘pC!¶;˘<¬0‚óÿ«pmÃí	8M&˘QÇé¡oDÛ•B°íèâ]'F∏Ω1ì!v˙“•ªªtﬁ°p.Ü4ÈI◊ÿ∞Pÿ—aQ"¯ú4qém∏0œà˜Ò}·:qnA˝π˘›Ày¥≥0¢bã≠f◊UªÖ¡Ë∞§ÊL&ÉlRœÛΩJ3ÛØ Tl‚:’N•S…¸) a•)›ßﬂ™∑⁄˛´Å“CãÔvµ].xÕyÉs”ó?Ø@©oﬂÌEØ@)ﬁﬂ¿{^µx^ÅR|e_-4€^’¿+PHI|∏Å.¯ïr∞\m3∫gÖ◊}Ø[--úØPPYu…)∆,€j-B˜X“ÄR$HÏà˘è—™8@î‚ÏìIÖ7E1„0\(∫Ö2¸ó?O©à†å4k…òç!…«·√ÑLE√˝º∫‰ÕÀﬂº|Óú<zqÚËóì«èO˝ú:2¨ˆP<—≠^ˇ≈ﬂO?u˛z˛›Î'_ŸÒ\«ˇ˛”gø˝˙•+]Ö‡’◊œ˛xÒÏ’7üˇ˘√ºô†ÅÔìsÁ:>vn±¶B`2«É‰Ì,˙!"∫E3ûp#9ã≈GÑ˙˙Qd¡µ∞¡;	Håxuvœ ‹ìô è◊¬» 0F[,±F·öúKsOÏì'3w°#€‹äç¸vfS–VbsÑÿ†yì¢X†	é±p‰5và±euw	1‚z@Ü	„l,úªƒi!bIüåjZÌëÚ2∑Ñ|±9∏„¥µ≠∫çèL$‹àZ»˜15¬xÕäl.˚(¢z¿˜ëm${Ûd®„:\@¶'ò2ß3¬ú€ln$∞^-È◊@^Ïi?†Û»D&Ç⁄|Ó#∆tdõ!ä¶6lèƒ°é˝àBâ"Á&6¯3Ôyy@Ò÷tﬂ!ÿH˜ÈjpîUß¥*yeñXry3£~{s:FXIø°ÁâO˜5Y˜ˇ[Y!}ıÌSÀ™.™†7bΩ£ˆ÷d|n]ºñå»≈◊Ó6ö≈71‹.õÏΩtøón˜/›€ÓÁw/ÿ+ç˘ñ[≈t´Æ6Ó—÷}˚òP⁄sä˜π⁄∫sËL£.J;ıÃä≥Á∏iáÚNÜ	‹$A ∆Iò¯Ñà∞¢)ÏÔãÆt2·◊ÓLámø∂˙ñx:ãÿ(}\-Â£i*â’x¡œ∆·QC§ËJuıñπWl'ÍQyI@⁄æ	m2ìDŸB¢∫îARÊ4	µ≤w¬¢naQìÓó©⁄`‘≤¨¿÷…ÅW√ı=0#x¢Bèdû“T/≥´í˘.3Ω-òF¿>bY´L◊%◊≠Àì´KKÌô6HhÂfíPëQ=åáhÑ’)GœB„ms]_•‘†'C°ÊÉ“Z—®÷˛ç≈ysvÎ⁄@c])hÏ7‹JŸáí¢i√√c?FS®.∑ºàN‡›ŸP$Èeô&\¥”Ä+—I’ "'%Q√ïÀœ“@c•!ä[±Çpa…’AV.9H∫ôd<„°–”Æç»Hßß†©VXØ*ÛÛÉ•%õA∫{·Ëÿ–YrAâ˘’¢‡àpx˚SL£9":3≤U˝≠5¶ÖÏÍÔU•„àNC¥Ë(∫òßp%Âuñ≈@;[¨™Öd—Ÿ`ı†›4Î)á≠]˜t#9M4W=”PŸ5Ì*fÃ∞lk±<_ì◊X-Cö¶w¯T∫◊%∑æ‘∫µ}B÷% ‡Y¸,]˜A£∂öÃ†&o ∞‘Ï≈®Ÿ;ñ<Ö⁄YöÑ¶˙ï•€µ∏e=¬:û´ÛÉ›z’¬–xπØTëVﬂ=ÙOlpƒ£/ÅgTpïJ¯ê ÿı‘û$ï∏EÓã≈≠GŒ,!˜A¡ozA…rÖöﬂ…yeØê´˘ÕrÆÈ˚Âb«/⁄≠“Ch,"åä~˙Õ•Ø¢Ë|ÒÂEço|}âño€.YîgÍÎJ^W__ä•Ì__¢Û†RÍ÷ÀıV%W/7ª9Ø›™ÂÍA•ïkWÇjª€¸ZΩ˚–uéÿkñØ“©Â*≈ »yïÇ§_´Á™^©‘Ù™ÕZ«k>\lc`Â©|,b·Uºvˇ  ˇˇ PK     ! —êü∂     '   theme/theme/_rels/themeManager.xml.relsÑèM
+¬0Ñ˜Çwoo”∫ë&›à–≠‘Ñ‰56?$QÏÌÆ,.áaæôiªóù…c2ﬁ1h™:Èïqö¡m∏Ïé@RNâŸ;d∞`Çéo7ÌgëK(M&$R(.1òr'Jìú–äT˘ÄÆ8£èV‰"£¶A»ª–H˜u}†Òõ|≈$Ωb{’ ñPöˇ≥˝8âg/]˛QAsŸÖ(¢∆Ã‡#õ™L [∫∫ƒﬂ   ˇˇ PK-      ! Èﬁøˇ                      [Content_Types].xmlPK-      ! •÷ßÁ¿   6               0  _rels/.relsPK-      ! kyñÉ   ä                  theme/theme/themeManager.xmlPK-      ! ™R%ﬂ∆  ã               ÷  theme/theme/theme1.xmlPK-      ! —êü∂     '             –	  theme/theme/_rels/themeManager.xml.relsPK      ]  À
+    <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<a:clrMap xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" bg1="lt1" tx1="dk1" bg2="lt2" tx2="dk2" accent1="accent1" accent2="accent2" accent3="accent3" accent4="accent4" accent5="accent5" accent6="accent6" hlink="hlink" folHlink="folHlink"/>    Ã    <    ˇˇˇˇ             	                                 ˇ  §	  ˛	  Ë  õ  æ  Ã  
+                        –  ﬁ    8  U  |  @  "  @  _    6  Ã                                         4   L   M   m   ê   ¨   Æ   Ø   ±   —   ‰            %  9  U  W  X  Z  z  â  •  ß  ®  ™     Ÿ  ı  ˜  ¯  ˙  Ã  ˇXîˇ%¥ˇï¿ïÃXîˇ%¥ˇï¿ïÃXîˇ%¥ˇï¿ïÃXîˇ%¥ˇï¿ïÃXîˇ%¥ˇï¿ïÃïå  8                         @ Ò   ˇˇ    ˇ ÄÄÄ ˜    í             0    (    	                    
+          B    
+        S    ø   À    ˇ   	   ?          ˇˇ    _ T o c 4 4 3 0 5 7 3 8 2  _ T o c 4 4 3 0 5 7 3 8 3  _ T o c 4 4 3 0 5 7 3 8 4  _ T o c 4 4 3 0 5 7 3 8 5  _ T o c 4 4 3 0 5 7 3 8 6     "     Ñ  —  Õ                  !   3     é  €  Õ      I  L  ß  ≤  ¥  ∫  ¸      )  +  1  Ó  ˘  =  H  M  T  æ  ¿  ¡  √  ƒ  ∆  «  …  Õ                                 4   ˚  ˛  ˛  Ù  Ù    .  J  S  ë  π  ∑  ∑  À  Ã  .  .  A	  A	  Ä	  Ä	  –	  –	  ·	  Î	  Ï	  Ô	  ˆ	  ˜	  °  ¢  Õ                                   
+ 8pyºˆ~ˇˇˇˇˇˇˇˇˇ ,fÍ'–§≤ ˇˇˇˇˇˇˇˇ "S®-ºB88ˇˇˇˇˇˇˇˇˇ 4mE<ºˆ~ˇˇˇˇˇˇˇˇˇ ?#Gºˆ~ˇˇˇˇˇˇˇˇˇ sOG$áƒ€ˇˇˇˇˇˇˇˇˇ Ç*Œn2˝÷Lˇˇˇˇˇˇˇˇˇ t›tÑ∞b¬ˇˇˇˇˇˇˇˇˇ `˙xºB88ˇˇˇˇˇˇˇˇˇ ˘E∆~2˝÷Lˇˇˇˇˇˇˇˇˇ              h      
+  Ñ8Ñò˛^Ñ8`Ñò˛áh    àH     .    ê         h      
+  ÑÑò˛^Ñ`Ñò˛áh    àH    .    í         h      
+  Ñÿ	ÑLˇ^Ñÿ	`ÑLˇáh    àH    .     ê         h      
+  Ñ®Ñò˛^Ñ®`Ñò˛áh    àH    .    ê         h      
+  ÑxÑò˛^Ñx`Ñò˛áh    àH    .    í         h      
+  ÑHÑLˇ^ÑH`ÑLˇáh    àH    .     ê         h      
+  ÑÑò˛^Ñ`Ñò˛áh    àH    .    ê         h      
+  ÑËÑò˛^ÑË`Ñò˛áh    àH    .    í         h      
+  Ñ∏ÑLˇ^Ñ∏`ÑLˇáh    àH    .              h      
+  Ñ–Ñò˛^Ñ–`Ñò˛áh    àH     .    ê         h      
+  Ñ†Ñò˛^Ñ†`Ñò˛áh    àH    .    í         h      
+  ÑpÑLˇ^Ñp`ÑLˇáh    àH    .     ê         h      
+  Ñ@Ñò˛^Ñ@`Ñò˛áh    àH    .    ê         h      
+  ÑÑò˛^Ñ`Ñò˛áh    àH    .    í         h      
+  Ñ‡ÑLˇ^Ñ‡`ÑLˇáh    àH    .     ê         h      
+  Ñ∞Ñò˛^Ñ∞`Ñò˛áh    àH    .    ê         h      
+  ÑÄÑò˛^ÑÄ`Ñò˛áh    àH    .    í         h      
+  ÑPÑLˇ^ÑP`ÑLˇáh    àH    .                        Ñ–Ñò˛^Ñ–`Ñò˛o(    .    Ä                 
+  Ñ†Ñò˛^Ñ†`Ñò˛áh    àH    .    Ç                 
+  ÑpÑLˇ^Ñp`ÑLˇáh    àH    .     Ä                 
+  Ñ@Ñò˛^Ñ@`Ñò˛áh    àH    .    Ä                 
+  ÑÑò˛^Ñ`Ñò˛áh    àH    .    Ç                 
+  Ñ‡ÑLˇ^Ñ‡`ÑLˇáh    àH    .     Ä                 
+  Ñ∞Ñò˛^Ñ∞`Ñò˛áh    àH    .    Ä                 
+  ÑÄÑò˛^ÑÄ`Ñò˛áh    àH    .    Ç                 
+  ÑPÑLˇ^ÑP`ÑLˇáh    àH    .              h      
+  Ñ8Ñò˛^Ñ8`Ñò˛áh    àH     .    ê         h      
+  ÑÑò˛^Ñ`Ñò˛áh    àH    .    í         h      
+  Ñÿ	ÑLˇ^Ñÿ	`ÑLˇáh    àH    .     ê         h      
+  Ñ®Ñò˛^Ñ®`Ñò˛áh    àH    .    ê         h      
+  ÑxÑò˛^Ñx`Ñò˛áh    àH    .    í         h      
+  ÑHÑLˇ^ÑH`ÑLˇáh    àH    .     ê         h      
+  ÑÑò˛^Ñ`Ñò˛áh    àH    .    ê         h      
+  ÑËÑò˛^ÑË`Ñò˛áh    àH    .    í         h      
+  Ñ∏ÑLˇ^Ñ∏`ÑLˇáh    àH    .              h      
+  Ñ–Ñò˛^Ñ–`Ñò˛áh    àH     .    ê         h      
+  Ñ†Ñò˛^Ñ†`Ñò˛áh    àH    .    í         h      
+  ÑpÑLˇ^Ñp`ÑLˇáh    àH    .     ê         h      
+  Ñ@Ñò˛^Ñ@`Ñò˛áh    àH    .    ê         h      
+  ÑÑò˛^Ñ`Ñò˛áh    àH    .    í         h      
+  Ñ‡ÑLˇ^Ñ‡`ÑLˇáh    àH    .     ê         h      
+  Ñ∞Ñò˛^Ñ∞`Ñò˛áh    àH    .    ê         h      
+  ÑÄÑò˛^ÑÄ`Ñò˛áh    àH    .    í         h      
+  ÑPÑLˇ^ÑP`ÑLˇáh    àH    .              h      
+  Ñ–Ñò˛^Ñ–`Ñò˛áh    àH     .    ê         h      
+  Ñ†Ñò˛^Ñ†`Ñò˛áh    àH    .    í         h      
+  ÑpÑLˇ^Ñp`ÑLˇáh    àH    .     ê         h      
+  Ñ@Ñò˛^Ñ@`Ñò˛áh    àH    .    ê         h      
+  ÑÑò˛^Ñ`Ñò˛áh    àH    .    í         h      
+  Ñ‡ÑLˇ^Ñ‡`ÑLˇáh    àH    .     ê         h      
+  Ñ∞Ñò˛^Ñ∞`Ñò˛áh    àH    .    ê         h      
+  ÑÄÑò˛^ÑÄ`Ñò˛áh    àH    .    í         h      
+  ÑPÑLˇ^ÑP`ÑLˇáh    àH    .             h      
+  Ñ†Ñò˛^Ñ†`Ñò˛áh    àH     .    ê         h      
+  ÑpÑò˛^Ñp`Ñò˛áh    àH    .    í         h      
+  Ñ@ÑLˇ^Ñ@`ÑLˇáh    àH    .     ê         h      
+  ÑÑò˛^Ñ`Ñò˛áh    àH    .    ê         h      
+  Ñ‡Ñò˛^Ñ‡`Ñò˛áh    àH    .    í         h      
+  Ñ∞ÑLˇ^Ñ∞`ÑLˇáh    àH    .     ê         h      
+  ÑÄÑò˛^ÑÄ`Ñò˛áh    àH    .    ê         h      
+  ÑPÑò˛^ÑP`Ñò˛áh    àH    .    í         h      
+  Ñ ÑLˇ^Ñ `ÑLˇáh    àH    .                       
+  Ñ–Ñò˛^Ñ–`Ñò˛áh    àH     .                      
+  Ñ†Ñò˛^Ñ†`Ñò˛áh    àH    .    Ç                 
+  ÑpÑLˇ^Ñp`ÑLˇáh    àH    .     Ä                 
+  Ñ@Ñò˛^Ñ@`Ñò˛áh    àH    .    Ä                 
+  ÑÑò˛^Ñ`Ñò˛áh    àH    .    Ç                 
+  Ñ‡ÑLˇ^Ñ‡`ÑLˇáh-- Open the connection to your schema
+-- Press Ctrl-A (to select all the code)
+-- press ctrl-enter (to run all the code)
+drop table park;
+create table park (
+    park_name varchar2 (40),
+    park_phone varchar2 (50),
+	  country varchar2(20),
+    description varchar2(2000) 
+);
+--find country codes at: http://www.bcpl.net/~jspath/isocodes.html
+--http://www.internat.environ.se/index.php3?main=/documents/nature/engpark/eparkdoc/efarneb.htm
+begin
+insert into park values (
+	'F‰rnebofj‰rden', NULL, 'SE',
+	'A river archipelago some 200 miles north of Stockholm, F‰rnebofj‰rden
+is home to over 100 species of birds. All seven species of Swedish
+woodpeckers are found in the the park. Other species of note include the Ural Owl,
+Osprey, Black Grouse, apercaillie, Hazel Grouse, Crane, Black-throated diver,
+and Golden Plover. The park consists of 10,100 hectares (24,957 acres) on
+the lower part of the Dal‰lven river. Phone +46 8 698 10 00 for more
+information.');
+
+INSERT INTO park VALUES (
+    'Mackinac Island State Park', '(231) 436-4100','US',
+    'Michigan''s first state park encompasses approximately 1800 acres
+of Mackinac Island. The centerpiece is Fort Mackinac, built in 1780 by
+the British to protect the Great Lakes Fur Trade. For information by
+phone, dial 800-44-PARKS or 517-373-1214.');
+
+INSERT INTO park VALUES (
+    'Fort Wilkins State Park', '(906) 289-4215','US',
+    'Located almost at the very tip of the Keewenaw Penninsula,
+Fort Wilkens is a restored army fort built during the copper rush.
+Camping is available. For the modern campground, phone (800) 447-2757. For
+group-camping, phone 906.289.4215. For information on canoe, canoe, kayak, and
+other boat rentals, call the concession office at (906) 289-4210.');
+
+INSERT INTO park VALUES ('Not a % _ park', NULL, NULL,NULL);
+
+INSERT INTO park VALUES (
+    'Laughing Whitefish Falls Scenic Site','(906) 863-9747','US',
+    'This scenic site is centered around an impressive waterfall.
+A rustic, picnic area with waterpump is available.');
+
+INSERT INTO park VALUES (
+    'Muskallonge Lake State Park', '(906) 658-3338','US',
+    'A 217-acre park located on the site of an old lumber town, Deer Park.
+Shower and toilet facilities are available, as are campsites with
+electricity.');
+
+INSERT INTO park VALUES ('Porcupine Mountains State Park',
+    '(906) 885-5275','US',
+    'Michigan''s largest state park consists of some 60,000 acres
+of mostly virgin timber. Over 90 miles of trails are available
+to backpackers and hikers. Downhill skiing is available in winter.
+Rustic cabins are available. To reserve a cabin, call (906) 885-5275. To
+contact the park office, phone (906) 885-5275.');
+
+INSERT INTO park VALUES ('Tahquamenon Falls State Park',
+    NULL, 'US', 'One of the largest waterfalls east of the Mississippi is found
+within this park''s 40,000+ acres. Upper Tahquamenon Falls is some 50 feet
+high, 200 feet across, and supports a flow that has been known to reach
+50,000 gallons/second. The park phone is 906.492.3415.');
+
+INSERT INTO park VALUES ('Skaftafell National Park',
+   NULL,'IS',
+   'Iceland''s second-largest national park, Skaftafel encompasses
+three glaciers: Skeiar·rjˆkull, Mors·rjˆkull and Skaftafellsjˆkull
+Skaftafellsjˆkull.');
+
+INSERT INTO park VALUES ('Gashaka-Gumti National Park', NULL, 'NG',
+   'Gashaka-Gumti National Park is Nigeria''s largest national park,
+encompassing some 6000 square-kilometers. Chapal Waddi, Nigeria''s
+highest mountain at 2409 meters, is located within the park park.');
+
+INSERT INTO park VALUES ('Jasper National Park',NULL,'CA',
+   'Jasper Jasper is a 10,878 square-kilometer national park in the
+Canadian Rocky Mountains. It''s home to the Columbia Icefields and
+the Miette Hot Springs. The park supports an extensive backcountry
+trail system used by backpackers and horseback riders.');
+
+INSERT INTO park VALUES ('San Pedro Martir National Park', NULL, 'MX',
+   'San Pedro Martir National Park comprises some 630 square-'
+   || 'kilometers of Mexico''s Baja California peninsula.'
+   || 'The park is notable for its stands of Jeffrey and'
+   || 'and Perry Pine. Also to be found in the park is an'
+   || 'astronomical observatory near the top of the 3000+'
+   || 'meter high Picacho del Diablo (Devil''s Peak).');
+
+INSERT INTO park VALUES ('Pukaskwa National Park', '(807) 229-0801','CA',
+   'Pukaskwa National Park is on the north shore of Lake Superior,'
+   || 'and is "twinned" with the Pictured Rocks National'
+   || 'Lakeshore almost directly south in Michigan. For'
+   || 'for information on Pukaskwa, phone 807-229-0801.');
+
+insert into park values('The PARK', '800ThepARK','US', 'Wild and Scary');
+insert into park values('The PARK East', '800 222 6789','US', 'Better than the Original');
+insert into park values('The PARK West', '27 73 222 6789','JAPAN', 'Better than the US Parks');
+insert into park values('Wunder Mountain', '+46 8 698 10 00', 'Germany', 'Great Brauts');
+insert into park values('Easter Island','800.222.6789','US','OK');
+insert into park values('Rides R US','(800) 222 6789','US','OK');
+insert into park values('Magic Chocolate','+1 (800) 222 6789','US','OK');
+
+commit;
+end;
+/
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ˛ˇ                      ’Õ’ú.ìó +,˘ÆD   ’Õ’ú.ìó +,˘Æ,  Ë         h      p      |      Ñ      å      î      ú      §      ¨      ¥      º      …      ‰                           π                                                        Title        ‹                8      @            _PID_HLINKS    ‰  A   î        1                                     _ T o c 4 4 3 0 5 7 3 8 6      1                                     _ T o c 4 4 3 0 5 7 3 8 5      1                                     _ T o c 4 4 3 0 5 7 3 8 4      1                                     _ T o c 4 4 3 0 5 7 3 8 3      1                                     _ T o c 4 4 3 0 5 7 3 8 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   	   
+                                                               ˛ˇˇˇ    !   "   #   $   %   &   ˛ˇˇˇ(   )   *   +   ,   -   .   /   0   1   2   3   4   5   6   7   8   9   :   ;   <   =   >   ?   @   A   B   C   D   E   ˛ˇˇˇG   H   I   J   K   L   M   ˛ˇˇˇO   P   Q   R   S   T   U   ˛ˇˇˇ˝ˇˇˇX   Y   ˛ˇˇˇ˛ˇˇˇ\   ˛ˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇR o o t   E n t r y                                              ˇˇˇˇˇˇˇˇ   	     ¿      F            0&_¢ i—[          D a t a                                                         
+ ˇˇˇˇˇˇˇˇˇˇˇˇ                                              1 T a b l e                                                          ˇˇˇˇˇˇˇˇ                                    '   Ê=      W o r d D o c u m e n t                                          
+      ˇˇˇˇ                                        .<       S u m m a r y I n f o r m a t i o n                           ( ˇˇˇˇˇˇˇˇˇˇˇˇ                                    F           D o c u m e n t S u m m a r y I n f o r m a t i o n           8    ˇˇˇˇˇˇˇˇ                                    N          M s o D a t a S t o r e                                           ˇˇˇˇˇˇˇˇ                       Äx]¢ i—¿^¢ i—            I S » G ¡ ÿ ∆ … T ‘ G J ‘ … ⁄ G 3 2 ﬁ X B – = =                 2 ˇˇˇˇˇˇˇˇ                       Äx]¢ i—¿^¢ i—            I t e m                                                         
+ ˇˇˇˇ	   ˇˇˇˇ                                        ¸       P r o p e r t i e s                                               ˇˇˇˇˇˇˇˇˇˇˇˇ                                       U       C o m p O b j                                                        ˇˇˇˇ                                    
+   r                                                                           ˇˇˇˇˇˇˇˇˇˇˇˇ                                                         ˛ˇˇˇ            	   ˛ˇˇˇ   ˛ˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ<b:Sources SelectedStyle="\APASixthEditionOfficeOnline.xsl" StyleName="APA" Version="6" xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography"></b:Sources>    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ds:datastoreItem ds:itemID="{87062A21-A989-414F-89D2-9E8675CF9707}" xmlns:ds="http://schemas.openxmlformats.org/officeDocument/2006/customXml"><ds:schemaRefs><ds:schemaRef ds:uri="http://schemas.openxmlformats.org/officeDocument/2006/bibliography"/></ds:schemaRefs></ds:datastoreItem>                                            ˛ˇ
+  ˇˇˇˇ	     ¿      F    Microsoft Word 97-2003 Document 
+   MSWordDoc    Word.Document.8 Ù9≤q                                                                                                                                                                                                                                                                                          

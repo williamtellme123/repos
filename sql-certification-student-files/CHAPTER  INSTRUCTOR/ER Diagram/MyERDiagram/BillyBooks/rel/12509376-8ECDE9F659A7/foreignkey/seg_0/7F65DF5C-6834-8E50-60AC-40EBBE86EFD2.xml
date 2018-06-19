@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="7F65DF5C-6834-8E50-60AC-40EBBE86EFD2" directorySegmentName="seg_0" name="SYS_C008890">
+<sourceConnName>billybooks</sourceConnName>
+<sourceObjSchema>BILLYBOOKS</sourceObjSchema>
+<sourceObjName>SYS_C008890</sourceObjName>
+<createdBy>Consulting</createdBy>
+<createdTime>2016-02-13 16:59:23 UTC</createdTime>
+<ownerDesignName>BillyBooks</ownerDesignName>
+<containerWithKeyObject>A8F9A474-D516-EE96-1B1C-241E5B10E0DE</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>5C7DE7F0-24AD-80FE-A07F-F28FC7EF4489</localFKIndex>
+<keyObject>8D64B805-35B9-4421-C817-CA703D140AF8</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

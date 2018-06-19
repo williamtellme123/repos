@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="17E9DCE0-0A9D-4837-9793-5A98BF878415" directorySegmentName="seg_0" name="OY_O_FK">
+<sourceConnName>mybooks</sourceConnName>
+<sourceObjSchema>MYBOOKS</sourceObjSchema>
+<sourceObjName>OY_O_FK</sourceObjName>
+<createdBy>Billy</createdBy>
+<createdTime>2016-02-12 23:50:02 UTC</createdTime>
+<ownerDesignName>myBooksERDiagram</ownerDesignName>
+<importedID>8D52C692-A050-5128-1213-E315685B46F0</importedID>
+<containerWithKeyObject>1D130C5D-3F39-164F-DB75-287EFBA258EC</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>91A6C33F-B9CC-16DD-0310-ABAE923DDA8A</localFKIndex>
+<keyObject>5A54D274-58D6-F8CF-03AC-F64C8E1095FB</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

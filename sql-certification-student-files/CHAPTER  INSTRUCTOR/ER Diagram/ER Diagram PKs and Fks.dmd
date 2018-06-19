@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER Diagram PKs and Fks" id="44C01B78-8452-4D9A-DF46-FE9C76E57D38" version="3.5">
+<createdBy>Billy</createdBy>
+<createdTime>2015-06-11 13:10:50 UTC</createdTime>
+<ownerDesignName>ER Diagram PKs and Fks</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>44C01B78-8452-4D9A-DF46-FE9C76E57D38</designId>
+</OSDM_Design>
