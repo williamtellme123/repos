@@ -1,0 +1,9 @@
+{"namespace": "avroone.aone",
+  "type": "record",
+  "name": "Book",
+  "fields": [
+    {"name": "name" ,     "type" : "string"},
+    {"name": "id",        "type":  ["int", "null"]},
+    {"name": "category",  "type":  ["string", "null"]}
+  ]
+}

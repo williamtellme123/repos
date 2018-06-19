@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- defaults for constructor otherwise 0 and null -->
+  <bean id = "person"
+      class="Person">
+
+      <constructor-arg name="id" value="777" type="int"> </constructor-arg>
+      <constructor-arg name="name" value="Mary"></constructor-arg>
+      <property name="taxId" value="123"></property>
+      <property name="address" ref="address"></property>
+  </bean>
+
+   <bean id = "address"
+          class="Address">
+        <constructor-arg name = "street" value ="123 Main"></constructor-arg>
+        <constructor-arg name = "zip" value ="89898"></constructor-arg>
+   </bean>
+
+
+
+</beans>

@@ -1,0 +1,7 @@
+-- drop table if exists `employee`;
+-- CREATE TABLE `employee` (
+--   `ID` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+--   `NAME` VARCHAR(100) NOT NULL,
+--   `AGE` INT(3),
+--   PRIMARY KEY (`ID`)
+-- ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;

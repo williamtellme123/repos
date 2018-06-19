@@ -1,0 +1,32 @@
+
+
+
+ {
+    "namespace": "",
+    "type": "record",
+    "name": "Tweet",
+    "fields": [
+        {
+            "name": "tweetid",
+            "type": "int"
+        },
+        {
+            "name": "user",
+            "type": "string"
+        },
+        {
+            "name": "text",
+            "type": "string"
+        },
+        {
+            "name": "Hashtags",
+            "type": {
+                "items": {
+                    "name": "tag",
+                    "type": "string"
+                },
+                "type": "array"
+            }
+        }
+    ]
+}

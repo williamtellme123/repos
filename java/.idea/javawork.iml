@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/camelinaction/chapter7/jpa/src/test/resources/META-INF/spring/camel-context.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/war-servlet/src/main/webapp/WEB-INF/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/war-servlet/src/main/webapp/WEB-INF/camel-cxf.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter9/xa/src/test/resources/spring-context.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/splitter/src/test/resources/META-INF/spring/splitter-aggregate.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/osgi/src/main/resources/META-INF/spring/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter9/riderautoparts-order/src/test/resources/META-INF/spring/camel-cxf.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/routingslip/src/test/resources/META-INF/spring/routingslip-header.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/routingslip/src/test/resources/META-INF/spring/routingslip-simple.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/routingslip/src/test/resources/META-INF/spring/routingslip-bean.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/routingslip/src/test/resources/META-INF/spring/routingslip.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/appendixC/producer/src/main/resources/META-INF/spring/producerTemplateInOnly.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter7/cxf/code_first/src/main/resources/META-INF/spring/camel-route.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/appendixC/producer/src/main/resources/META-INF/spring/producerTemplateInOut.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/appendixC/producer/src/main/resources/META-INF/spring/producerTemplateDefinedInSpring.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/splitter/src/test/resources/META-INF/spring/splitter-abc.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/splitter/src/test/resources/META-INF/spring/splitter-aggregate-exception.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter10/eip/src/main/resources/META-INF/spring/wiretap.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter10/eip/src/main/resources/META-INF/spring/route.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter10/eip/src/main/resources/META-INF/spring/route-parallel.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter9/multiple-routes/src/test/resources/spring-context.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter3/transform/src/test/resources/camelinaction/SpringOrderToCsvProcessorTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter12/logging/src/test/resources/camelinaction/LogEIPSpringTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/startup/src/test/resources/META-INF/spring/camel-route-java.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/startup/src/test/resources/META-INF/spring/SpringManualRouteWithOnCompletionTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/startup/src/test/resources/META-INF/spring/camel-route-xml.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/startup/src/test/resources/META-INF/spring/camel-cxf.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/appendixC/consumer/src/main/resources/META-INF/spring/consumerTemplate.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter11/order-router/src/main/resources/META-INF/spring/camel-context.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter14/starterkit/src/main/resources/META-INF/spring/camel-client.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter14/starterkit/src/main/resources/META-INF/spring/camel-server.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter14/starterkit/src/test/resources/META-INF/spring/camel-mocked.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter14/starterkit/src/test/resources/META-INF/spring/camel-mocked-seda.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter7/jms/src/main/resources/META-INF/spring/camel-context.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter9/riderautoparts-order/src/main/resources/META-INF/spring/camel-cxf.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter3/order/src/test/resources/camelinaction/reverse.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter3/order/src/test/resources/camelinaction/order-csv.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter2/spring/src/main/resources/META-INF/spring/camel-context.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter3/order/src/test/resources/camelinaction/order-jaxb.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter2/spring/src/main/resources/beans.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter4/bean/src/test/resources/camelinaction/xmlOrder.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter4/bean/src/test/resources/camelinaction/InvokeWithProcessor.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter4/bean/src/test/resources/camelinaction/xmlOrderNamespace.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter7/cxf/contract_first/src/main/resources/META-INF/spring/camel-route.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter7/ftp/src/main/resources/META-INF/spring/camelContext.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/shutdown/src/test/resources/META-INF/spring/camel-route-xml.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/war/src/main/webapp/WEB-INF/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/war/src/main/webapp/WEB-INF/camel-cxf.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter11/order-router-full/src/main/resources/META-INF/spring/activemq.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter11/order-router-full/src/main/resources/META-INF/spring/camel-cxf.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter11/order-router-full/src/main/resources/META-INF/spring/camel-context.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/loadbalancer/src/test/resources/META-INF/spring/loadbalancer.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/loadbalancer/src/test/resources/META-INF/spring/failover-inheriterrorhandler-loadbalancer.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/loadbalancer/src/test/resources/META-INF/spring/sticky-loadbalancer.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter12/tracer/src/test/resources/camelinaction/TracerSpringTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter9/riderautoparts-partner/src/test/resources/camelinaction/RiderAutoPartsPartnerTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/loadbalancer/src/test/resources/META-INF/spring/failover-roundrobin-loadbalancer.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/loadbalancer/src/test/resources/META-INF/spring/custom-loadbalancer.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/loadbalancer/src/test/resources/META-INF/spring/failover-loadbalancer.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/shutdown/src/test/resources/META-INF/spring/camel-cxf.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter14/starterkit/src/main/resources/META-INF/spring/activemq-broker.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/shutdown/src/test/resources/META-INF/spring/camel-route-defer-java.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/shutdown/src/test/resources/META-INF/spring/camel-route-java.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/appendixC/producer/src/main/resources/META-INF/spring/activemq.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/aggregator/src/test/resources/META-INF/spring/aggregate-abc-recover.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter9/uow/src/test/resources/META-INF/spring/filerollback.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/splitter/src/test/resources/META-INF/spring/splitter-stop.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/war-jboss/src/main/webapp/WEB-INF/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/war-jboss/src/main/webapp/WEB-INF/camel-cxf.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/aggregator/src/test/resources/META-INF/spring/aggregate-abc-close.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/aggregator/src/test/resources/META-INF/spring/aggregate-abc-eager.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/aggregator/src/test/resources/META-INF/spring/aggregate-abc.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/aggregator/src/test/resources/META-INF/spring/aggregate-abc-invalid.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/aggregator/src/test/resources/META-INF/spring/aggregate-abc-group.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/aggregator/src/test/resources/META-INF/spring/aggregate-abc-hawtdb.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/standalone/src/main/resources/META-INF/spring/camel-cxf.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/standalone/src/main/resources/META-INF/spring/camel-context.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/aggregator/src/test/resources/META-INF/spring/aggregate-xml.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter10/pools/src/test/resources/META-INF/spring/ThreadPoolTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter10/pools/src/test/resources/META-INF/spring/InlinedThreadPoolTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter6/notify/src/test/resources/META-INF/spring/camel-context.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter5/errorhandler/src/test/resources/camelinaction/RouteScopeTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter5/errorhandler/src/test/resources/camelinaction/HandleFaultTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter10/bigfile/src/test/resources/META-INF/spring/BigFileFixedThreadPoolTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter10/bigfile/src/test/resources/META-INF/spring/BigFileSedaTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter10/bigfile/src/test/resources/META-INF/spring/BigFileParallelTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter10/bigfile/src/test/resources/META-INF/spring/BigFileCachedThreadPoolTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/loadbalancer/src/test/resources/META-INF/spring/topic-loadbalancer.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter13/routepolicy/src/test/resources/camel-fliproute.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/appendixE/src/main/resources/sample.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter11/scala-router/src/main/resources/META-INF/spring/camel-context.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter10/pools/src/test/resources/META-INF/spring/CustomThreadPoolProfileTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter9/riderautoparts-order/src/main/resources/META-INF/spring/camel-tx.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter9/riderautoparts-order/src/main/resources/META-INF/spring/camel-route.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter9/riderautoparts-partner/src/test/resources/camelinaction/RiderAutoPartsPartnerTXTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter6/error/src/main/resources/camelinaction/usecase.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/loadbalancer/src/test/resources/META-INF/spring/random-loadbalancer.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/appendixC/consumer/src/main/resources/META-INF/spring/activemq.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter6/firsttest/src/test/resources/camelinaction/rider-camel-test.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter6/firsttest/src/test/resources/camelinaction/rider-spring-prod.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter6/firsttest/src/test/resources/camelinaction/rider-camel-prod.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter6/firsttest/src/test/resources/camelinaction/firststep.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter6/firsttest/src/test/resources/camelinaction/rider-spring-test.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter7/cxf/contract_first/src/main/resources/META-INF/spring/camel-cxf.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter14/pojo-messaging/src/main/resources/META-INF/spring/camel-context.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter3/transform/src/test/resources/camelinaction/SpringTransformScriptTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter11/interceptor/src/main/resources/META-INF/spring/camel-context.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter14/pojo-messaging/src/main/resources/META-INF/spring/activemq-broker.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/dynamicrouter/src/test/resources/META-INF/spring/dynamicrouter.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/dynamicrouter/src/test/resources/META-INF/spring/dynamicrouter-annotation.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter7/cxf/code_first/src/main/resources/META-INF/spring/camel-cxf.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter8/splitter/src/test/resources/META-INF/spring/splitter-bean.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter10/synchronicity/src/test/resources/META-INF/spring/earlyreply-context.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter3/transform/src/test/resources/camelinaction/SpringTransformMethodTest.xml</file>
+          <file>file://$MODULE_DIR$/camelinaction/chapter3/transform/src/test/resources/camelinaction/SpringOrderToCsvBeanTest.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/camelinaction/chapter13/war-servlet/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/camelinaction/chapter13/war-servlet/src/main/webapp" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/camelinaction/chapter13/war-jboss/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/camelinaction/chapter13/war-jboss/src/main/webapp" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+    <facet type="web" name="Web3">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/camelinaction/chapter13/war/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/camelinaction/chapter13/war/src/main/webapp" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="" />
+        <datasource-mapping />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/camelinaction/chapter7/jpa/src/test/resources/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/avroharvard" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

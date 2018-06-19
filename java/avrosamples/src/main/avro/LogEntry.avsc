@@ -1,0 +1,10 @@
+{
+  "namespace": "me.jeffli.avrosamples.model",
+  "type": "record",
+  "name": "LogEntry",
+  "fields": [
+    {"name": "name", "type": "string"},
+    {"name": "resource",  "type": ["string", "null"]},
+    {"name": "ip", "type": ["string", "null"]}
+  ]
+}

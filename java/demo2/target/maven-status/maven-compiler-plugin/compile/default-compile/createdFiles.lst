@@ -1,0 +1,5 @@
+demo/DemoApplication.class
+demo/service/GreetingService.class
+demo/model/Greeting.class
+demo/service/GreetingServiceBean.class
+demo/web/api/GreetingController.class

@@ -1,0 +1,16 @@
+resources/CommentResource.class
+resources/ProfileResource.class
+model/Comment.class
+resources/InjectDemoResource.class
+services/ProfileService.class
+model/Link.class
+model/Profile.class
+mymessenger/App.class
+resources/MessageResource.class
+model/ErrorMessage.class
+services/CommentService.class
+mymessenger/MyResource.class
+database/DatabaseClass.class
+services/MessageService.class
+beans/MessageFilterBean.class
+model/Message.class

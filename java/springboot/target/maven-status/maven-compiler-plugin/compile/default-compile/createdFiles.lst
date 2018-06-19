@@ -1,0 +1,11 @@
+org/example/ws/model/Circle.class
+org/example/ws/service/GreetingServiceBean.class
+org/example/ws/dao/JdbcTemplateDaoImpl.class
+org/example/ws/dao/JdbcDaoImpl.class
+org/example/ws/service/GreetingService.class
+org/example/ws/web/api/GreetingController.class
+org/example/ws/service/GreetingServiceBeanOriginal.class
+org/example/ws/Application.class
+org/example/ws/service/GreetingServiceOriginal.class
+org/example/ws/model/Greeting_Original.class
+org/example/ws/model/Greeting.class

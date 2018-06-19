@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="00216c14-512a-4ee0-8d2a-70bcaeba317e" name="ec2-52-89-185-181.us-west-2.compute.amazonaws.com" url="http://ec2-52-89-185-181.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-52-89-185-181.us-west-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/.ssh/braws.pem" accessType="SFTP" username="ubuntu" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

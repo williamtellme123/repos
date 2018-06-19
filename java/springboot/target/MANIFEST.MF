@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: Web Services Project Skeleton
+Implementation-Version: 1.2.0
+Built-By: billy
+Implementation-Vendor-Id: com.leanstacks
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_45
+Main-Class: ${start-class}
+
