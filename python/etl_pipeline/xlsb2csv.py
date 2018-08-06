@@ -29,8 +29,8 @@ def main(xlsb_file, csv_file):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Converts xlsb file to csv")
-    parser.add_argument("xlsb", default="local.xlsb", type=str, help="provide the xlsb_filename.xlsb")
-    parser.add_argument("csv", default="local.csv", type=str, help="provide the csv_filename.csv")
+    parser.add_argument("xlsb", type=str, help="provide the xlsb_filename.xlsb")
+    parser.add_argument("--csv", default="local.csv", type=str, help="provide the csv_filename.csv")
     args = vars(parser.parse_args())
     main(xlsb_file=args["xlsb"], csv_file=args["csv"])
 
