@@ -10,13 +10,10 @@ import argparse
 #
 # Converts XLSB file to csv file
 #   8/3/18 Added error handling, call parameters
-# python3 xlsb2csv.py new_file.csv old_file.xlbs
+# python3 xlsb2csv.py old_file.xlbs new_file.csv
 
 def main(xlsb_file, csv_file):
-# def main():
 
-    # csv_file = 'junk3.csv'
-    # xlsb_file = 'cisco2.xlsb'
     regex = re.compile('[%s]' % re.escape(string.punctuation))
     print("starting with")
     with open(csv_file, 'w') as csv_file:                            # open new(empty) csv
