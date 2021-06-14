@@ -154,7 +154,7 @@
   </dependencies>
 
   <properties>
-    <spring.version>4.1.6.RELEASE</spring.version>
+    <spring.version>4.3.21.RELEASE</spring.version>
     <camel.version>2.15.2</camel.version>
     <slf4j.version></slf4j.version>
     <activemq.version>5.7.0</activemq.version>
